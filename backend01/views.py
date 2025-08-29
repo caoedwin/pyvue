@@ -1,116 +1,116 @@
 from django.shortcuts import render
-
-from django.views.decorators.http import require_http_methods
-from django.http import HttpResponse,JsonResponse
-import json
-from .models import Books
-# Create your views here.
+from django.http import HttpResponse, JsonResponse
 from rest_framework import viewsets
-from rest_framework.permissions import BasePermission
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
+from django.contrib.auth import logout
+from rest_framework_simplejwt.tokens import RefreshToken
 from .models import Books, UserInfo
-from .serializer import BooksSerializer
-
-# 自定义权限
-class MyPermission(BasePermission):
-    message = 'VIP用户才能访问'
-
-    def has_permission(self, request, view):
-        """
-        自定义权限只有VIP用户才能访问
-        """
-        # 因为在进行权限判断之前已经做了认证判断，所以这里可以直接拿到request.user
-        # print(request.user)
-        # if request.user and request.user.type == 2:  # 如果是VIP用户
-        #     return True
-        # else:
-        #     return False
-        current_user = request.session.get('user_name')
-        onlineuser = request.session.get('account')
-        roles = []
-        onlineuser = request.session.get('account')
-        # print(UserInfo.objects.get(account=onlineuser))
-        for i in UserInfo.objects.get(account=onlineuser).role.all():
-            roles.append(i.name)
-        # print(roles)
-        if onlineuser and 'admin' in roles:# 如果DQA用户
-            return True
-        else:
-            return False
-
-
+from .serializer import BooksSerializer, UserInfoSerializer
 from rest_framework.renderers import JSONRenderer
-class CustomJsonRender(JSONRenderer):
-    """ 自定义返回数据 Json格式
-    {
-        "code": 0,
-        "msg": "success",
-        "data": { ... }
-    }
-    """
+from django_filters import rest_framework as df_filters
+from rest_framework.pagination import PageNumberPagination
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import filters
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
+from rest_framework_simplejwt.authentication import JWTAuthentication
 
+class LoginView(APIView):
+    authentication_classes = []
+    permission_classes = []#这本身就是为了获取token，所以不能还需要token菜呢个获取
+
+    def get(self, request):
+        return Response({
+            'message': '请使用POST方法登录',
+            'example_request': {
+                'account': 'your_username',
+                'password': 'your_password'
+            }
+        }, status=status.HTTP_405_METHOD_NOT_ALLOWED)
+
+    def post(self, request):
+        account = request.data.get('account')
+        password = request.data.get('password')
+        # print(account,password)
+
+        try:
+            user = UserInfo.objects.get(account=account)
+            if user.check_password(password) and user.is_active:
+                refresh = RefreshToken.for_user(user)
+                serializer = UserInfoSerializer(user)
+                request.session['is_login_pyvue'] = True
+                request.session['user_id_pyvue'] = user.id
+                request.session['user_name_pyvue'] = user.username
+                request.session['CNname_pyvue'] = user.CNname
+                request.session['account_pyvue'] = account
+                request.session['access_pyvue'] = str(refresh.access_token)
+                # request.session['Skin'] = "/static/src/blue.jpg"
+                request.session.set_expiry(5 * 12 * 60 * 60)
+                online_user = request.session.get('account_pyvue', '')
+                print(online_user,"online_userlogin")
+                return Response({
+                    'access': str(refresh.access_token),
+                    'refresh': str(refresh),
+                    'user': serializer.data
+                })
+        except UserInfo.DoesNotExist:
+            pass
+
+        return Response({'error': '账号或密码错误'}, status=status.HTTP_401_UNAUTHORIZED)
+
+
+class LogoutView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        logout(request)
+        return Response({'message': 'Logout successful'})
+
+
+class UserInfoView(APIView):
+    authentication_classes = [JWTAuthentication]  # 添加这行
+    permission_classes = [IsAuthenticated]  # 添加这行
+
+    def get(self, request):
+        user = request.user
+        serializer = UserInfoSerializer(user)
+        # print(user,serializer,'userinfo')
+        return Response(serializer.data)
+
+class CustomJsonRender(JSONRenderer):
     def render(self, data, accepted_media_type=None, renderer_context=None):
         if renderer_context:
-            # print(renderer_context)
-            # print(renderer_context['request'])
-            print(renderer_context['request'].method)
-            if renderer_context['request'].method == "GET":
-                print(renderer_context['request'].GET)
-            if renderer_context['request'].method == "POST":
-                print(renderer_context['request'].POST)
-                #print(renderer_context['request'].body)#会报错“django.http.request.RawPostDataException: You cannot access body after reading from request's data stream”显然，一旦你使用django-rest-framework，你必须使用request.data
-                print(renderer_context['request'].data)#根据获得的参数就可以通过数据处理再json数据res中返回前端定制的数据
             response = renderer_context['response']
-            # print(response)
-            code = 0 if int(response.status_code / 100) == 2 else response.status_code
+            code = 0 if response.status_code < 400 else response.status_code
             msg = 'success'
-            if isinstance(data, dict):
-                msg = data.pop('msg', msg)
-                code = data.pop('code', code)
-                data = data.pop('data', data)
-            if code != 0 and data:
-                msg = data.pop('detail', 'failed')
-            response.status_code = 200
             res = {
                 'code': code,
                 'msg': msg,
                 'data': data,
             }
-            # print(res)
             return super().render(res, accepted_media_type, renderer_context)
-        else:
-            return super().render(data, accepted_media_type, renderer_context)
+        return super().render(data, accepted_media_type, renderer_context)
 
 
-from django_filters import rest_framework as df_filters
-from .models import *
 class bookFilter(df_filters.FilterSet):
-    """
-    过滤器
-    """
     name = df_filters.CharFilter(field_name='name', lookup_expr='icontains')
     author = df_filters.CharFilter(field_name='author')
-    # add_time = django_filters.CharFilter(name='add_time')
 
     class Meta:
         model = Books
-        fields = ['name', 'author', ]
+        fields = ['name', 'author']
 
-from rest_framework.pagination import PageNumberPagination
-from rest_framework.pagination import Response
+
 class MyFormatResultsSetPagination(PageNumberPagination):
-
     page_size_query_param = "page_size"
     page_query_param = 'page'
     page_size = 10
     max_page_size = 1000
 
-    """
-    自定义分页方法
-    """
     def get_paginated_response(self, data):
-        """
-        设置返回内容格式
-        """
         return Response({
             'results': data,
             'pagination': self.page.paginator.count,
@@ -118,15 +118,12 @@ class MyFormatResultsSetPagination(PageNumberPagination):
             'page': self.page.start_index() // self.page.paginator.per_page + 1
         })
 
-from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import filters
-from django_filters import rest_framework
+
 class BooksViewSet(viewsets.ModelViewSet):
     queryset = Books.objects.all().order_by('-author')
     serializer_class = BooksSerializer
     renderer_classes = (CustomJsonRender,)
-    # permission_classes = [MyPermission, ]#可以参考DDIS里面的CQM和PersonalInfo接口，和DMS里面的app01里面的ImportPersonalInfo登录获取token后获取数据
     pagination_class = MyFormatResultsSetPagination
-    filter_backends = (rest_framework.DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter,)
+    filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
     filter_class = bookFilter
-    search_fields = ['name', 'author', ]
+    search_fields = ['name', 'author']

@@ -11,6 +11,97 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import time, datetime
+from datetime import timedelta
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
+    'ROTATE_REFRESH_TOKENS': True,
+    'BLACKLIST_AFTER_ROTATION': True,
+    'UPDATE_LAST_LOGIN': True,
+    'AUTH_HEADER_TYPES': ('Bearer',),
+}
+
+cur_path = os.path.dirname(os.path.realpath(__file__))  # log_path是存放日志的路径
+log_path = os.path.join(os.path.dirname(cur_path), 'logs')
+if not os.path.exists(log_path): os.mkdir(log_path)  # 如果不存在这个logs文件夹，就自动创建一个
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters': {
+        # 日志格式
+        'standard': {
+            'format': '[%(asctime)s] [%(filename)s:%(lineno)d] [%(module)s:%(funcName)s] '
+                      '[%(levelname)s]- %(message)s'},
+        'simple': {  # 简单格式
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    # 过滤
+    'filters': {
+    },
+    # 定义具体处理日志的方式
+    'handlers': {
+        # 默认记录所有日志
+        'default': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(log_path, 'all-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'maxBytes': 1024 * 1024 * 5,  # 文件大小
+            'backupCount': 5,  # 备份数
+            'formatter': 'standard',  # 输出格式
+            'encoding': 'utf-8',  # 设置默认编码，否则打印出来汉字乱码
+        },
+        # 输出错误日志
+        'error': {
+            'level': 'ERROR',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(log_path, 'error-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'maxBytes': 1024 * 1024 * 5,  # 文件大小
+            'backupCount': 5,  # 备份数
+            'formatter': 'standard',  # 输出格式
+            'encoding': 'utf-8',  # 设置默认编码
+        },
+        # 控制台输出
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'standard'
+        },
+        # 输出info日志
+        'info': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(log_path, 'info-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'maxBytes': 1024 * 1024 * 5,
+            'backupCount': 5,
+            'formatter': 'standard',
+            'encoding': 'utf-8',  # 设置默认编码
+        },
+    },
+    # 配置用哪几种 handlers 来处理日志
+    'loggers': {
+        # 类型 为 django 处理所有类型的日志， 默认调用
+        'django': {
+            'handlers': ['default', 'console', 'error'],
+            'level': 'INFO',
+            'propagate': False
+        },
+        # log 调用时需要当作参数传入
+        'log': {
+            'handlers': ['error', 'info', 'console', 'default'],
+            'level': 'INFO',
+            'propagate': True
+        },
+    }
+}
+import logging
+
+logger = logging.getLogger('Django')
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,10 +113,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'pz7yf-!epy^k^_*!a+o&mj5j0r_5f^uv4f=$o+z4la43x*8%fw'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition
@@ -41,33 +132,70 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'corsheaders',# Django跨域解决
+    # 'backend01',
+    'IntelligentCabinet',
 
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware', # 需注意与其他中间件顺序，这里放在最前面即可# Django跨域解决
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware', # 需注意与其他中间件顺序，这里放在最前面即可# Django跨域解决
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'middleware.checkper.RbacMiddleware',
+    'middleware.UserIP.LogMiddle',  #自定义中间键获取IP内容
 ]
 
+
+
+
+# 允许的方法
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+
+# 允许的头部
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
+# 允许所有来源（开发环境）
+CORS_ALLOW_ALL_ORIGINS = False
+
+# 生产环境配置
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8080",
+    "http://127.0.0.1:8080",
+]
 
 # 支持跨域配置开始
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
-
 ROOT_URLCONF = 'pyvue.urls'
 
-print(BASE_DIR)
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # 'DIRS': [],
-        'DIRS': [os.path.join(BASE_DIR, 'Templates/dist')],  # demo add
+        'DIRS': [os.path.join(BASE_DIR, 'Templates', 'dist')],  # demo add
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -141,17 +269,55 @@ DATETIME_FORMAT = 'Y-m-d H:i:s'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
+# Session setting
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
+#从Django 1.6开始session里面的数据都是用JSON来serialize。JSON的session只能接受简单的数据结构比如str, list, dict。 有两个选择，可以先把cart的数据放在一个dict里面再存到 session或者可以换一个SessionSerializer。Django还提供一个用pickle来serialize的选择可以存任何一个数据结构。
+#不加的话当用数据库存储session会报无法序列化的错误
+
+SESSION_SAVE_EVERY_REQUEST=True
+SESSION_COOKIE_AGE = 5 * 12 * 60 * 60#setting中设置session的cookie失效时间12h
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'#'django.contrib.sessions.backends.cache'#设置session存储方式为缓存
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
+
+# SESSION_COOKIE_SAMESITE = 'None'  # 允许跨站携带Cookie# 禁用 SameSite 属性（需配合 Secure）
+# SESSION_COOKIE_SECURE = True      # 仅HTTPS传输（生产环境）
+# SESSION_COOKIE_HTTPONLY = True    # 防止XSS攻击
+# SESSION_COOKIE_DOMAIN = '.yourdomain.com'  # 跨子域名共享Cookie
+# Session 设置
+
+SESSION_COOKIE_SAMESITE = 'Lax'  # 对于本地开发，Lax 通常足够
+SESSION_COOKIE_SECURE = False    # 本地开发不使用 HTTPS
+SESSION_COOKIE_HTTPONLY = True   # 防止 XSS 攻击
+# 不要设置 SESSION_COOKIE_DOMAIN，这样 Cookie 将仅对当前域有效
+CSRF_TRUSTED_ORIGINS = CORS_ALLOWED_ORIGINS  # 防止CSRF错误
+
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'Templates/dist/static'),
+    os.path.join(BASE_DIR, '/Templates/dist/static'),
 ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # 生产环境收集静态文件
 
-#注意： 当你通过类属性或装饰器设置新的权限类时，settings.py 文件中的默认设置会被忽略。
+# 媒体文件配置（如果需要）
+MEDIA_URL = '/media_pyvue/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media_pyvue')
+# 添加自定义用户模型
+AUTH_USER_MODEL = 'backend01.UserInfo'
+
+# 使用自定义认证后端
+AUTHENTICATION_BACKENDS = [
+    'backend01.backends.CustomUserBackend',  # 替换为您的实际路径
+    'django.contrib.auth.backends.ModelBackend',  # 可选，保留默认后端
+]
+# DRF 配置
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': (
-        # 'rest_framework.permissions.IsAuthenticatedOrReadOnly',
-        #'rest_framework.permissions.IsAuthenticated',#如果未指定，则此设置默认为允许无限制访问'rest_framework.permissions.AllowAny',
-    )
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+
 }
 

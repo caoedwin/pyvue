@@ -1,0 +1,255 @@
+[2025-08-27 07:52:01,300] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-27 07:52:01,320] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-27 07:52:01,324] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-27 07:52:01,325] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-27 07:52:01,335] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2025-08-27 07:52:01,336] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2307
+[2025-08-27 07:52:11,560] [log.py:228] [log:log_response] [WARNING]- Not Found: /login
+[2025-08-27 07:52:11,561] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /login HTTP/1.1" 404 2289
+[2025-08-27 07:52:25,229] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-27 07:52:25,343] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-27 08:09:33,221] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-27 08:10:04,056] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-08-27 08:10:04,056] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2418
+[2025-08-27 08:10:14,724] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-27 08:29:13,490] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-27 08:49:01,885] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-08-27 08:49:01,886] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2418
+[2025-08-27 08:49:11,595] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-27 08:52:58,652] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-08-27 08:52:58,653] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2418
+[2025-08-27 08:53:17,009] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-27 08:53:54,789] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-27 10:38:34,745] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2025-08-27 10:38:34,826] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1818
+[2025-08-27 10:38:36,838] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-08-27 10:38:36,913] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6835
+[2025-08-27 10:38:46,853] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /admin/IntelligentCabinet/cabinet/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'pyvue.intelligentcabinet_cabinet' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 604, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 1675, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 742, in get_changelist_instance
+    sortable_by,
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\views\main.py", line 81, in __init__
+    self.get_results(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\views\main.py", line 209, in get_results
+    result_count = paginator.count
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\paginator.py", line 87, in count
+    return self.object_list.count()
+  File "C:\Python372\mecheck\lib\site-packages\django\db\models\query.py", line 383, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\models\sql\query.py", line 498, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "C:\Python372\mecheck\lib\site-packages\django\db\models\sql\query.py", line 483, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\models\sql\compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python372\mecheck\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Python372\mecheck\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'pyvue.intelligentcabinet_cabinet' doesn't exist")
+[2025-08-27 10:38:46,884] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 500 248925
+[2025-08-27 10:42:48,677] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6835
+[2025-08-27 10:42:49,748] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6835
+[2025-08-27 10:42:51,594] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 3908
+[2025-08-27 10:42:51,622] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:42:53,170] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6835
+[2025-08-27 10:42:54,235] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 3552
+[2025-08-27 10:42:54,258] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:42:55,684] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6835
+[2025-08-27 10:43:02,227] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-27 10:43:02,248] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:43:08,147] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/3/change/ HTTP/1.1" 200 5443
+[2025-08-27 10:43:08,184] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:43:10,094] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-27 10:43:16,909] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/add/ HTTP/1.1" 200 5186
+[2025-08-27 10:43:16,932] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:43:30,176] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/backend01/menu/add/ HTTP/1.1" 302 0
+[2025-08-27 10:43:30,265] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6566
+[2025-08-27 10:43:30,315] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:43:35,340] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/add/ HTTP/1.1" 200 5229
+[2025-08-27 10:43:35,364] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:44:01,410] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/backend01/menu/add/ HTTP/1.1" 302 0
+[2025-08-27 10:44:01,512] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6913
+[2025-08-27 10:44:01,556] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:44:05,274] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/ HTTP/1.1" 200 4245
+[2025-08-27 10:44:07,095] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7459
+[2025-08-27 10:44:09,432] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 6606
+[2025-08-27 10:44:09,454] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:44:29,922] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/add/ HTTP/1.1" 200 5812
+[2025-08-27 10:44:29,946] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:44:31,789] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 6606
+[2025-08-27 10:44:32,615] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/1/change/ HTTP/1.1" 200 6115
+[2025-08-27 10:44:32,664] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:44:55,272] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 6606
+[2025-08-27 10:45:02,243] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/1/change/ HTTP/1.1" 200 6115
+[2025-08-27 10:45:02,274] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:45:07,253] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 6606
+[2025-08-27 10:45:08,926] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/add/ HTTP/1.1" 200 5812
+[2025-08-27 10:45:08,964] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:46:30,614] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/backend01/permission/add/ HTTP/1.1" 302 0
+[2025-08-27 10:46:30,722] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7449
+[2025-08-27 10:46:30,754] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:46:33,182] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7794
+[2025-08-27 10:46:34,658] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/ HTTP/1.1" 200 5714
+[2025-08-27 10:46:34,699] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:46:36,614] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/1/change/ HTTP/1.1" 200 5588
+[2025-08-27 10:46:36,662] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:46:46,738] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/backend01/role/1/change/ HTTP/1.1" 302 0
+[2025-08-27 10:46:46,868] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/ HTTP/1.1" 200 5931
+[2025-08-27 10:46:46,917] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:46:48,826] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/1/change/ HTTP/1.1" 200 5597
+[2025-08-27 10:46:50,389] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/ HTTP/1.1" 200 5747
+[2025-08-27 10:46:53,183] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-27 10:46:54,225] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/ HTTP/1.1" 200 8575
+[2025-08-27 10:46:54,253] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:46:56,359] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/1/change/ HTTP/1.1" 200 18035
+[2025-08-27 10:46:56,398] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:47:00,085] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/ HTTP/1.1" 200 8575
+[2025-08-27 10:47:01,332] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-27 10:47:13,396] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-27 10:47:13,719] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1359
+[2025-08-27 10:52:07,737] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 10:52:07,760] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:52:10,108] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/2/change/ HTTP/1.1" 200 5542
+[2025-08-27 10:52:10,157] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:52:13,272] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 10:52:16,879] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/5/change/ HTTP/1.1" 200 5542
+[2025-08-27 10:52:16,908] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:52:18,740] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 10:52:20,004] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-27 10:52:21,442] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7218
+[2025-08-27 10:52:21,461] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:52:25,508] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/1/change/ HTTP/1.1" 200 6115
+[2025-08-27 10:52:25,530] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:52:40,136] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7218
+[2025-08-27 10:52:41,849] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/3/change/ HTTP/1.1" 200 6134
+[2025-08-27 10:52:41,874] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 10:59:02,465] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1359
+[2025-08-27 11:08:27,979] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1359
+[2025-08-27 11:09:45,498] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1359
+[2025-08-27 11:12:06,865] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7218
+[2025-08-27 11:13:17,587] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1359
+[2025-08-27 11:18:47,314] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-27 11:18:50,803] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/auth/group/ HTTP/1.1" 200 3509
+[2025-08-27 11:18:50,828] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 11:18:53,369] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-27 11:18:57,692] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/ HTTP/1.1" 200 8575
+[2025-08-27 11:18:57,714] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 11:19:00,255] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-27 12:07:53,704] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1359
+[2025-08-27 12:09:48,802] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 12:09:48,821] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 12:09:52,589] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/3/change/ HTTP/1.1" 200 5542
+[2025-08-27 12:09:52,606] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 12:10:52,382] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 12:10:54,545] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-27 12:11:03,994] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-27 12:11:06,313] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 12:11:06,345] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 12:11:09,897] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/3/change/ HTTP/1.1" 200 6986
+[2025-08-27 12:11:09,917] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 12:11:19,073] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 12:11:23,476] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/ HTTP/1.1" 200 4245
+[2025-08-27 12:11:24,889] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7218
+[2025-08-27 12:11:24,909] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 12:11:26,494] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/ HTTP/1.1" 200 4245
+[2025-08-27 12:11:28,458] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 12:11:28,481] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 12:11:31,234] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/5/change/ HTTP/1.1" 200 6968
+[2025-08-27 12:11:31,252] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-27 12:11:59,192] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-27 12:31:48,285] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1396
+[2025-08-27 12:33:20,284] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1396
+[2025-08-27 13:39:24,862] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-27 13:39:24,873] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-27 13:39:24,876] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-27 13:39:24,876] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-27 13:44:05,112] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-27 13:44:05,129] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-27 13:44:05,130] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-27 13:44:05,130] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-27 13:48:59,861] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-27 13:48:59,874] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-27 13:48:59,878] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-27 13:48:59,878] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-27 15:17:05,163] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-27 15:17:05,312] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1396
+[2025-08-27 15:42:49,282] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1396
+[2025-08-27 15:49:00,298] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1396
+[2025-08-27 15:52:54,366] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1396
+[2025-08-27 16:04:52,846] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1396
+[2025-08-28 07:59:51,194] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-28 07:59:51,295] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1396

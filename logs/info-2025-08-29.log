@@ -1,0 +1,87 @@
+[2025-08-29 08:03:31,720] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:03:31: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:04:18,467] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:04:18: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:04:56,924] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:04:56: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:07:55,115] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:07:55: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:08:32,255] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:08:32: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:10:17,353] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:10:17: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:17:28,972] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:20:23,526] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:20:23: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:21:32,588] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:21:39,765] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:47:02,135] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:47:02: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 10:31:04,325] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:31:04: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 10:32:20,147] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:32:20: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:42:26,919] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:42:26: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:43:09,106] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:43:09: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:55:52,197] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:55:52: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:59:32,204] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:59:32: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 11:01:52,788] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 11:01:52: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 11:03:03,882] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 11:03:03: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 11:12:11,634] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 11:12:11: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 11:18:49,350] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 11:18:49: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:05:49,145] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:05:49: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:05:50,898] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:05:50: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:05:56,657] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:05:56: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:06:26,923] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:06:26: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:07:20,720] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:07:20: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:08:32,865] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:08:32: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:09:05,353] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:09:05: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:37:12,677] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:37:12: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:38:11,294] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:38:11: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:39:30,590] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:39:30: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:48:02,414] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:48:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:51:02,209] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:51:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:51:28,219] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:51:28: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:52:16,063] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:52:16: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:53:26,678] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:53:26: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:54:11,941] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:54:11: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:54:21,639] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:54:55,928] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:55:06,790] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:55:08,856] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:56:53,931] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:56:53: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:57:24,671] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:57:24: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:57:35,225] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:57:35: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:57:47,656] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:57:47: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:58:06,315] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:58:06: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:59:09,767] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:09: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:59:21,936] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:21: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:59:28,835] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:59:32,461] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:32: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:59:41,596] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:41: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:00:10,279] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:00:10: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:00:16,407] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:00:16: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:03:57,896] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:03:57: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:04:02,657] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:04:02: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:04:38,589] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:04:38: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:04:43,395] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:04:43: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:05:30,071] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:05:30: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:06:10,335] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:06:10: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:09:41,087] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:09:41: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:09:50,761] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:09:50: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:13:22,723] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:13:22: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:13:27,355] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:13:27: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:15:42,815] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:15:42: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:15:47,708] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:15:47: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:28:50,069] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:28:50: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:29:02,161] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:29:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:31:50,911] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:31:57,312] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:31:59,090] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:33:26,425] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:33:26: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:33:42,173] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:33:42: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:46:29,055] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:46:29: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:48:27,433] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:48:27: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:48:56,818] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:48:56: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:51:58,210] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:51:58: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 14:55:28,689] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 14:55:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 15:31:28,031] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:31:28: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-08-29 15:34:42,742] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:34:42: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-08-29 15:39:32,954] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:39:32: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-08-29 15:45:05,784] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 15:45:59,953] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:45:59: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-08-29 15:46:34,659] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 15:51:42,584] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:51:42: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/reserve/'>
+[2025-08-29 15:59:11,053] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 16:01:16,643] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:01:16: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
+[2025-08-29 16:03:02,568] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:03:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>

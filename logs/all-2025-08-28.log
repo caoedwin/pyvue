@@ -1,0 +1,294 @@
+[2025-08-28 09:08:35,340] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-08-28 09:08:40,696] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8083
+[2025-08-28 09:08:42,142] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7218
+[2025-08-28 09:08:42,166] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:08:46,623] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/3/change/ HTTP/1.1" 200 6134
+[2025-08-28 09:08:46,647] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:08:52,442] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7218
+[2025-08-28 09:09:32,893] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7218
+[2025-08-28 09:09:32,919] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:09:34,799] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/3/change/ HTTP/1.1" 200 6637
+[2025-08-28 09:09:34,820] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:09:45,298] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/backend01/permission/3/change/ HTTP/1.1" 302 0
+[2025-08-28 09:09:45,382] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7451
+[2025-08-28 09:09:45,407] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:09:59,918] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1477
+[2025-08-28 09:11:16,932] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1477
+[2025-08-28 09:12:56,231] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/3/change/ HTTP/1.1" 200 6682
+[2025-08-28 09:12:56,248] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:13:01,178] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/backend01/permission/3/change/ HTTP/1.1" 302 0
+[2025-08-28 09:13:01,279] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7451
+[2025-08-28 09:13:01,304] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:13:07,707] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1476
+[2025-08-28 09:14:56,221] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/3/change/ HTTP/1.1" 200 6681
+[2025-08-28 09:14:56,237] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:15:04,718] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/backend01/permission/3/change/ HTTP/1.1" 302 0
+[2025-08-28 09:15:04,830] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7451
+[2025-08-28 09:15:04,866] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:15:13,769] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:15:44,843] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:15:46,733] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/cabinet/init-data/ HTTP/1.1" 200 0
+[2025-08-28 09:15:46,740] [log.py:228] [log:log_response] [WARNING]- Not Found: /api/cabinet/init-data/
+[2025-08-28 09:15:46,740] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/cabinet/init-data/ HTTP/1.1" 404 4348
+[2025-08-28 09:17:52,181] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/ HTTP/1.1" 200 0
+[2025-08-28 09:17:52,188] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /IntelligentCabinet/init-data/
+[2025-08-28 09:17:52,188] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/init-data/ HTTP/1.1" 405 41
+[2025-08-28 09:18:02,355] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:18:04,468] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /IntelligentCabinet/init-data/
+[2025-08-28 09:18:04,468] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/init-data/ HTTP/1.1" 405 41
+[2025-08-28 09:19:23,458] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 09:27:02,069] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:27:03,715] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 09:32:10,181] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:32:16,143] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 09:34:13,850] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2025-08-28 09:34:13,908] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1818
+[2025-08-28 09:34:15,530] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-08-28 09:34:15,576] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9097
+[2025-08-28 09:34:19,015] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/ HTTP/1.1" 200 5747
+[2025-08-28 09:34:19,046] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-28 09:34:40,578] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:34:43,617] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 09:35:19,573] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:35:29,670] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 09:37:01,332] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:37:06,193] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 09:41:50,434] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:41:53,797] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 09:48:50,409] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:50:56,606] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:50:58,149] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 09:51:52,108] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 09:51:53,808] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:04:35,300] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/ HTTP/1.1" 200 0
+[2025-08-28 10:04:35,639] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:11:50,821] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:11:58,256] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-28 10:11:58,622] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\sessions\middleware.py", line 72, in process_response
+    samesite=settings.SESSION_COOKIE_SAMESITE,
+  File "C:\Python372\mecheck\lib\site-packages\django\http\response.py", line 201, in set_cookie
+    raise ValueError('samesite must be "lax" or "strict".')
+ValueError: samesite must be "lax" or "strict".
+[2025-08-28 10:11:58,629] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 71905
+[2025-08-28 10:12:03,399] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\sessions\middleware.py", line 72, in process_response
+    samesite=settings.SESSION_COOKIE_SAMESITE,
+  File "C:\Python372\mecheck\lib\site-packages\django\http\response.py", line 201, in set_cookie
+    raise ValueError('samesite must be "lax" or "strict".')
+ValueError: samesite must be "lax" or "strict".
+[2025-08-28 10:12:03,402] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 71905
+[2025-08-28 10:15:27,352] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 10:15:30,580] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:17:57,305] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:21:39,013] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:21:48,800] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 10:21:51,946] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:40:06,258] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 10:40:11,875] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:46:38,058] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:46:56,699] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:51:23,610] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:54:02,776] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 10:54:04,599] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:54:10,887] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:54:28,938] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 10:54:36,257] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 10:54:38,012] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 11:11:46,038] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 11:11:47,519] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 11:15:27,279] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 11:15:29,531] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 13:28:50,974] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-28 13:28:51,403] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 13:28:53,827] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/ HTTP/1.1" 200 0
+[2025-08-28 13:28:53,856] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 13:50:36,800] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 13:50:50,210] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 226, in get
+    print(f"Session Exists: {request.session.exists()}")
+TypeError: exists() missing 1 required positional argument: 'session_key'
+[2025-08-28 13:50:50,216] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 500 19766
+[2025-08-28 13:54:43,795] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 13:54:47,639] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:06:48,424] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:06:48: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:06:48,431] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:07:21,197] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:07:21: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:07:21,202] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:20:59,196] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:20:59: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:20:59,207] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:21:01,254] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:25:20,681] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:25:20: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:25:20,686] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:25:22,007] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:28:38,073] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:28:38: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:28:38,081] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:28:40,286] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:30:28,430] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:30:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:30:28,433] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:30:30,819] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:36:07,384] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:36:07: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:36:07,389] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:36:10,308] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-28 14:36:10,308] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 403 58
+[2025-08-28 14:41:07,558] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:41:07: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:41:07,561] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:41:11,842] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-28 14:41:11,842] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 403 58
+[2025-08-28 14:41:55,901] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:41:55: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:41:55,905] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:41:57,254] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:42:38,628] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:42:38: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:42:38,634] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:42:40,777] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:43:18,227] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:43:18: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:43:18,231] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:43:20,196] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:44:10,304] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:44:10: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:44:10,312] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:44:12,370] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:46:28,334] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:46:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:46:28,339] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:46:31,232] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:47:36,479] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:47:36: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:47:36,486] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:47:39,322] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:50:12,453] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:50:12: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:50:12,463] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:50:14,311] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:52:08,120] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:52:08: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:52:08,123] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:52:09,466] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:57:49,000] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:57:48: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:57:49,009] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:57:51,364] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 212, in get
+    print(f"Session user: {online_user}", dict(request))
+TypeError: 'Request' object is not iterable
+[2025-08-28 14:57:51,371] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 500 19824
+[2025-08-28 14:58:31,049] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:58:31: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:58:31,055] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:58:33,414] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 14:59:00,078] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 14:59:00: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 14:59:00,083] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 14:59:01,304] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 15:15:30,268] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 15:15:30: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 15:15:30,278] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 15:15:32,294] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 15:22:36,854] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 15:22:39,237] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-28 15:22:39,239] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 403 10021
+[2025-08-28 15:22:39,318] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2025-08-28 15:22:39,319] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2426
+[2025-08-28 15:22:48,156] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-28 15:22:48,157] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 403 10021
+[2025-08-28 15:23:37,334] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 15:23:37: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 15:23:37,345] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 15:31:35,064] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/ HTTP/1.1" 200 0
+[2025-08-28 15:31:35,385] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 15:37:13,385] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 15:38:20,700] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-08-28 15:38:20,713] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 121
+[2025-08-28 15:38:48,536] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-28 15:38:48,827] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 15:38:48: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 15:38:48,836] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 15:38:51,381] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 121
+[2025-08-28 15:49:13,125] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 121
+[2025-08-28 15:49:27,169] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 200 121
+[2025-08-28 15:49:51,803] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 15:49:51: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 15:49:51,813] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 15:49:55,687] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /IntelligentCabinet/init-data/
+[2025-08-28 15:49:55,688] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 405 40
+[2025-08-28 15:52:13,610] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 121
+[2025-08-28 15:52:20,471] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 15:52:20: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 15:52:20,477] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 15:52:22,445] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 121
+[2025-08-28 15:58:34,139] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-08-28 15:58:34,171] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 121
+[2025-08-28 15:58:59,399] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-28 15:58:59,768] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 15:58:59: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 15:58:59,775] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 15:59:01,321] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-28 16:05:39,174] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-28 16:07:47,694] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-28 16:07:57,344] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 16:07:57: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-28 16:07:57,351] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-28 16:07:59,679] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-28 16:11:32,768] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-28 16:11:42,559] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/ HTTP/1.1" 200 0
+[2025-08-28 16:11:42,574] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 16:11:42: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-28 16:11:42,580] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-28 16:11:42,581] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-28 16:15:40,707] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-28 16:15:49,974] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 16:15:49: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-28 16:15:49,983] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-28 16:15:49,985] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-28 16:16:45,538] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-28 16:16:53,433] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 16:16:53: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-28 16:16:53,442] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-28 16:16:53,443] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-28 16:18:13,468] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-28 16:18:17,399] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-28 16:18:17: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-28 16:18:17,410] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-28 16:18:17,410] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-29 08:01:27,788] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-08-29 08:01:27,845] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 08:01:27,845] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 08:01:52,264] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 08:01:52,264] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 08:02:05,732] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-29 08:02:05,852] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:02:05: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 08:02:05,856] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1472
+[2025-08-29 08:02:21,110] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 125
+[2025-08-29 08:02:41,193] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/ HTTP/1.1" 200 0
+[2025-08-29 08:02:41,238] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:02:41: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:02:41,244] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 08:02:41,245] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75

@@ -1,0 +1,79 @@
+[2025-08-19 12:54:03,603] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\backend01\views.py", line 47, in post
+    'user': serializer.data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 1905, in to_representation
+    return method(value)
+  File "C:\djangoproject\pyvue\backend01\serializer.py", line 48, in get_menu_tree
+    menu_tree = obj.get_menu_tree(use_cache=True)
+TypeError: get_menu_tree() got an unexpected keyword argument 'use_cache'
+[2025-08-19 12:54:03,606] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 20003
+[2025-08-20 08:22:26,540] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /admin/backend01/userinfo/1/change/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 703, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Python372\mecheck\lib\site-packages\django\forms\models.py", line 551, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\django\forms\models.py", line 256, in __new__
+    apply_limit_choices_to=False,
+  File "C:\Python372\mecheck\lib\site-packages\django\forms\models.py", line 149, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for UserInfo model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 604, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 1640, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 1525, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 1554, in _changeform_view
+    ModelForm = self.get_form(request, obj, change=not add)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\auth\admin.py", line 79, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 707, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for UserInfo model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+[2025-08-20 08:22:26,543] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /admin/backend01/userinfo/1/change/ HTTP/1.1" 500 156484

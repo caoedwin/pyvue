@@ -1,0 +1,405 @@
+[2025-08-29 08:17:28,970] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 29, in post
+    cabinet = serializer.save()
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\serializer.py", line 88, in create
+    creator=self.context['request'].session.get('account_pyvue', '')
+KeyError: 'request'
+[2025-08-29 08:17:28,972] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:17:28,973] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 20359
+[2025-08-29 08:21:32,588] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:21:39,765] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:21:54,144] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 500 59
+[2025-08-29 08:34:10,678] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 1139, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'Cabinet' was declared on serializer CabinetGridSerializer, but has not been included in the 'fields' option.
+[2025-08-29 08:34:10,680] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21519
+[2025-08-29 08:41:56,854] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 1139, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'Cabinet' was declared on serializer CabinetGridSerializer, but has not been included in the 'fields' option.
+[2025-08-29 08:41:56,862] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21519
+[2025-08-29 08:46:20,695] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CabinetGrid' object has no attribute 'Cabinet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `Cabinet` on serializer `CabinetGridSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CabinetGrid` instance.
+Original exception text was: 'CabinetGrid' object has no attribute 'Cabinet'.
+[2025-08-29 08:46:20,697] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21678
+[2025-08-29 08:46:55,037] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CabinetGrid' object has no attribute 'Cabinet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `Cabinet` on serializer `CabinetGridSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CabinetGrid` instance.
+Original exception text was: 'CabinetGrid' object has no attribute 'Cabinet'.
+[2025-08-29 08:46:55,041] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21678
+[2025-08-29 08:47:09,110] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CabinetGrid' object has no attribute 'Cabinet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `Cabinet` on serializer `CabinetGridSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CabinetGrid` instance.
+Original exception text was: 'CabinetGrid' object has no attribute 'Cabinet'.
+[2025-08-29 08:47:09,114] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21678
+[2025-08-29 10:59:32,205] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 10:59:32,206] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 11:01:52,789] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 11:01:52,790] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 11:03:03,882] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 11:03:03,883] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 11:12:11,635] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 11:12:11,636] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 11:18:49,351] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 11:18:49,351] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 173
+[2025-08-29 12:05:56,658] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 12:05:56,659] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 173
+[2025-08-29 12:54:21,639] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:54:55,928] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:55:06,790] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:55:08,856] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:29:02,162] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 13:29:02,163] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 13:31:50,911] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:31:57,312] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:31:59,090] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 14:41:50,616] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 158, in patch
+    serializer = CabinetGridUpdateSerializer(grid, data=request.data.gridinfo, partial=True)
+AttributeError: 'dict' object has no attribute 'gridinfo'
+[2025-08-29 14:41:50,618] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20679
+[2025-08-29 14:47:34,977] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 154, in patch
+    print('grid', pk, request.data.gridinfo)
+AttributeError: 'dict' object has no attribute 'gridinfo'
+[2025-08-29 14:47:34,979] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20631
+[2025-08-29 14:48:01,137] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 158, in patch
+    serializer = CabinetGridUpdateSerializer(grid, data=request.data.gridinfo, partial=True)
+AttributeError: 'dict' object has no attribute 'gridinfo'
+[2025-08-29 14:48:01,139] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20679
+[2025-08-29 14:55:43,040] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 158, in patch
+    serializer = CabinetGridUpdateSerializer(grid, data=request.data.gridinfo, partial=True)
+AttributeError: 'dict' object has no attribute 'gridinfo'
+[2025-08-29 14:55:43,050] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20679
+[2025-08-29 15:45:05,782] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/182/reserve/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 217, in post
+    grid = self.get_grid(gridinfo['gridId'])
+KeyError: 'gridId'
+[2025-08-29 15:45:05,784] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 15:45:05,785] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 500 20562
+[2025-08-29 15:46:34,659] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 15:59:11,053] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)

@@ -1,0 +1,146 @@
+[2025-08-22 08:38:18,185] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 08:38:26,009] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/userinfo/ HTTP/1.1" 200 0
+[2025-08-22 08:38:26,015] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/userinfo/
+[2025-08-22 08:38:26,016] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/userinfo/ HTTP/1.1" 405 41
+[2025-08-22 08:39:39,791] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 08:39:45,532] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/userinfo/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'AnonymousUser' object has no attribute 'account'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\backend01\views.py", line 71, in get
+    return Response(serializer.data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `account` on serializer `UserInfoSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `AnonymousUser` instance.
+Original exception text was: 'AnonymousUser' object has no attribute 'account'.
+[2025-08-22 08:39:45,543] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /api/userinfo/ HTTP/1.1" 500 21010
+[2025-08-22 08:40:47,226] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 08:41:01,896] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/userinfo/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'AnonymousUser' object has no attribute 'account'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\backend01\views.py", line 72, in get
+    return Response(serializer.data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `account` on serializer `UserInfoSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `AnonymousUser` instance.
+Original exception text was: 'AnonymousUser' object has no attribute 'account'.
+[2025-08-22 08:41:01,899] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /api/userinfo/ HTTP/1.1" 500 21010
+[2025-08-22 09:02:45,973] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 09:04:55,374] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 09:25:47,671] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 09:28:37,602] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 09:30:51,208] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 09:47:02,267] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 09:48:25,854] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:00:52,480] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-22 10:00:52,636] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:03:20,404] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:04:28,662] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:07:12,939] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:09:25,821] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:12:23,981] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:19:32,749] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:25:40,617] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:32:42,346] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:34:10,122] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:38:27,388] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:39:07,180] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 10:40:07,794] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 12:48:48,547] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-22 12:48:48,573] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-22 12:48:48,579] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-22 12:48:48,579] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-22 12:48:48,590] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2025-08-22 12:48:48,590] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2307
+[2025-08-22 13:41:33,316] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-22 13:41:33,509] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 13:44:20,336] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 13:44:20,337] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 13:47:51,679] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 13:48:28,565] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 13:48:28,565] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 13:48:31,704] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 13:49:13,442] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 13:49:13,443] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 13:49:16,221] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 13:54:03,218] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 13:54:03,218] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 13:56:20,938] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 13:58:12,279] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 13:58:12,279] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 13:58:16,789] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 13:59:31,273] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 13:59:31,273] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 13:59:35,175] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 13:59:53,197] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 13:59:53,197] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 14:01:26,632] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 14:03:05,637] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 14:03:05,638] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 14:03:11,935] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 14:03:38,339] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119

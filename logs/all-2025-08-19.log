@@ -1,0 +1,125 @@
+[2025-08-19 11:20:11,371] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-19 11:20:11,389] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-19 11:20:11,390] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-19 11:20:11,390] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-19 11:20:16,436] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-19 11:20:25,168] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/ HTTP/1.1" 200 8575
+[2025-08-19 11:20:25,198] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-19 11:20:25,202] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2025-08-19 11:53:19,173] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-19 11:53:19,245] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-19 12:35:04,458] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:35:04,458] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:37:38,079] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:37:38,080] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:38:58,716] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:38:58,717] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:39:42,471] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:39:42,472] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:40:27,346] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:40:27,347] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:41:32,235] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:41:32,235] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:42:10,886] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:42:10,886] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:43:34,131] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:43:34,132] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:50:24,112] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:50:24,113] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 58
+[2025-08-19 12:51:34,601] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:51:34,602] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 401 8793
+[2025-08-19 12:51:45,257] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-19 12:51:45,258] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 401 8793
+[2025-08-19 12:53:58,149] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/login/
+[2025-08-19 12:53:58,149] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 405 12029
+[2025-08-19 12:54:03,409] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-19 12:54:03,603] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\backend01\views.py", line 47, in post
+    'user': serializer.data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 1905, in to_representation
+    return method(value)
+  File "C:\djangoproject\pyvue\backend01\serializer.py", line 48, in get_menu_tree
+    menu_tree = obj.get_menu_tree(use_cache=True)
+TypeError: get_menu_tree() got an unexpected keyword argument 'use_cache'
+[2025-08-19 12:54:03,606] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 20003
+[2025-08-19 12:55:00,504] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-19 12:55:00,512] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/userinfo/ HTTP/1.1" 200 0
+[2025-08-19 12:55:00,549] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-19 12:59:17,972] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-19 12:59:18,058] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:15:54,480] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-20 08:15:54,722] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-20 08:15:54,737] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/userinfo/ HTTP/1.1" 200 0
+[2025-08-20 08:15:54,768] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:16:10,349] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-20 08:16:10,373] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:22:26,540] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /admin/backend01/userinfo/1/change/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 703, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Python372\mecheck\lib\site-packages\django\forms\models.py", line 551, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\django\forms\models.py", line 256, in __new__
+    apply_limit_choices_to=False,
+  File "C:\Python372\mecheck\lib\site-packages\django\forms\models.py", line 149, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for UserInfo model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 604, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 1640, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 1525, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 1554, in _changeform_view
+    ModelForm = self.get_form(request, obj, change=not add)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\auth\admin.py", line 79, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\admin\options.py", line 707, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: 'date_joined' cannot be specified for UserInfo model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+[2025-08-20 08:22:26,543] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /admin/backend01/userinfo/1/change/ HTTP/1.1" 500 156484

@@ -1,0 +1,326 @@
+[2025-08-20 08:25:29,836] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-20 08:25:29,853] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-20 08:25:29,853] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-20 08:25:29,853] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-20 08:25:33,922] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/login/
+[2025-08-20 08:25:33,923] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 405 12029
+[2025-08-20 08:25:36,610] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/ HTTP/1.1" 200 8575
+[2025-08-20 08:25:36,665] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:25:41,729] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/1/change/ HTTP/1.1" 200 17054
+[2025-08-20 08:25:41,772] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:25:59,891] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/ HTTP/1.1" 200 8575
+[2025-08-20 08:26:01,686] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:26:04,084] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/ HTTP/1.1" 200 5714
+[2025-08-20 08:26:04,130] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:26:05,734] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/1/change/ HTTP/1.1" 200 5511
+[2025-08-20 08:26:05,762] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:26:12,144] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4735
+[2025-08-20 08:26:12,172] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:26:14,959] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/ HTTP/1.1" 200 5714
+[2025-08-20 08:26:16,220] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:26:20,361] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-20 08:26:20,387] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:26:24,370] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/3/change/ HTTP/1.1" 200 5443
+[2025-08-20 08:26:24,404] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:26:27,939] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-20 08:26:29,963] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/2/change/ HTTP/1.1" 200 5443
+[2025-08-20 08:26:29,992] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:26:32,291] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-20 08:26:33,186] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:26:37,329] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/books/ HTTP/1.1" 200 3501
+[2025-08-20 08:26:37,393] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:26:38,850] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:26:40,452] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-20 08:26:40,490] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:26:41,416] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:26:42,308] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-08-20 08:26:42,349] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:28:20,017] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-20 08:28:20,082] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:29:32,877] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-20 08:29:32,923] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:31:55,337] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-20 08:31:55,380] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:34:40,289] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-20 08:34:40,311] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:41:27,094] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-20 08:41:27,139] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:45:15,575] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 868
+[2025-08-20 08:45:15,609] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 377
+[2025-08-20 08:47:09,994] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-20 08:47:10,050] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:47:11,836] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:47:27,854] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 6606
+[2025-08-20 08:47:27,898] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:47:32,300] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/1/change/ HTTP/1.1" 200 6016
+[2025-08-20 08:47:32,349] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:47:36,466] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 6606
+[2025-08-20 08:47:36,502] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:47:37,224] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/logout/ HTTP/1.1" 200 1207
+[2025-08-20 08:47:39,141] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2025-08-20 08:47:39,161] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1818
+[2025-08-20 08:47:41,476] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-08-20 08:47:41,495] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:48:39,372] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-20 08:48:39,427] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:49:36,772] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/1/change/ HTTP/1.1" 200 5430
+[2025-08-20 08:49:36,796] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:49:38,144] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6047
+[2025-08-20 08:51:05,014] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5096
+[2025-08-20 08:51:07,736] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 6606
+[2025-08-20 08:51:07,781] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-20 08:57:09,442] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-20 08:57:09,460] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-20 08:57:09,460] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-20 08:57:09,460] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-20 08:57:16,583] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\backend01\views.py", line 47, in post
+    'user': serializer.data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 1905, in to_representation
+    return method(value)
+  File "C:\djangoproject\pyvue\backend01\serializer.py", line 44, in get_menu_tree
+    return MenuTreeSerializer(obj.get_menu_tree(), many=True).data
+  File "C:\djangoproject\pyvue\backend01\models.py", line 174, in get_menu_tree
+    all_menus = accessible_menus | parent_menus
+  File "C:\Python372\mecheck\lib\site-packages\django\db\models\query.py", line 324, in __or__
+    combined.query.combine(other.query, sql.OR)
+  File "C:\Python372\mecheck\lib\site-packages\django\db\models\sql\query.py", line 540, in combine
+    "Cannot combine a unique query with a non-unique query."
+AssertionError: Cannot combine a unique query with a non-unique query.
+[2025-08-20 08:57:16,609] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 20447
+[2025-08-20 08:59:36,959] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1036
+[2025-08-20 08:59:36,987] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 545
+[2025-08-20 09:05:26,897] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/login/
+[2025-08-20 09:05:26,897] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 405 12029
+[2025-08-20 09:05:30,917] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 09:05:30,953] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 628
+[2025-08-20 09:09:41,543] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 09:09:41,565] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 628
+[2025-08-20 12:09:23,209] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-20 12:09:23,690] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 12:09:23,706] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/userinfo/ HTTP/1.1" 200 0
+[2025-08-20 12:09:23,760] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 628
+[2025-08-20 13:06:22,251] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\backend01\views.py", line 47, in post
+    'user': serializer.data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 1905, in to_representation
+    return method(value)
+  File "C:\djangoproject\pyvue\backend01\serializer.py", line 44, in get_menu_tree
+    return MenuTreeSerializer(obj.get_menu_tree(), many=True).data
+  File "C:\djangoproject\pyvue\backend01\models.py", line 210, in get_menu_tree
+    print([build_tree(root.id) for root in root_menus])
+NameError: name 'pri' is not defined
+[2025-08-20 13:06:22,268] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 20081
+[2025-08-20 13:06:29,246] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\backend01\views.py", line 47, in post
+    'user': serializer.data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 1905, in to_representation
+    return method(value)
+  File "C:\djangoproject\pyvue\backend01\serializer.py", line 44, in get_menu_tree
+    return MenuTreeSerializer(obj.get_menu_tree(), many=True).data
+  File "C:\djangoproject\pyvue\backend01\models.py", line 210, in get_menu_tree
+    print([build_tree(root.id) for root in root_menus])
+NameError: name 'pri' is not defined
+[2025-08-20 13:06:29,252] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 20081
+[2025-08-20 13:07:13,239] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-20 13:07:13,253] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-20 13:07:13,257] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-20 13:07:13,257] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-20 13:07:19,753] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/login/
+[2025-08-20 13:07:19,754] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 405 12029
+[2025-08-20 13:07:24,432] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 13:07:24,467] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 628
+[2025-08-20 13:11:45,922] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 13:11:45,960] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 628
+[2025-08-20 13:32:04,681] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 13:32:04,730] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 628
+[2025-08-20 14:49:33,563] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-20 14:49:34,132] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 14:54:00,555] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/login/
+[2025-08-20 14:54:00,558] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 405 12029
+[2025-08-20 14:54:00,609] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 6606
+[2025-08-20 14:54:33,290] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 14:55:53,597] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 15:25:05,357] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 15:27:30,143] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 15:36:37,495] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 15:37:29,466] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 15:44:40,028] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 15:57:00,684] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 16:07:38,139] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 16:13:12,027] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 16:21:09,315] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/login/
+[2025-08-20 16:21:09,317] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 405 12029
+[2025-08-20 16:21:21,261] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 16:36:46,750] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 17:03:48,968] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-20 17:03:49,167] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 17:04:26,929] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 17:20:59,807] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/userinfo/ HTTP/1.1" 200 0
+[2025-08-20 17:20:59,910] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /api/userinfo/ HTTP/1.1" 200 628
+[2025-08-20 17:27:28,513] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-20 17:35:39,988] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 08:04:33,288] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-21 08:04:33,853] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 08:15:43,772] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/login/
+[2025-08-21 08:15:43,775] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 405 12029
+[2025-08-21 08:15:55,648] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 08:23:18,357] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 08:23:43,518] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 13:29:43,171] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 302 0
+[2025-08-21 13:29:43,202] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/backend01/permission/ HTTP/1.1" 200 1860
+[2025-08-21 13:39:35,054] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-21 13:39:35,280] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 13:42:34,043] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 13:45:25,399] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 13:47:03,360] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 13:48:16,742] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 13:53:01,682] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 13:57:13,472] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 13:58:23,351] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:01:39,494] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:03:12,721] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:09:06,921] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:12:05,108] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:12:20,347] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:18:37,141] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:20:15,608] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:20:26,353] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:20:45,203] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:21:58,739] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:33:02,413] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:33:18,442] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:33:26,660] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:34:36,599] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:37:12,877] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:40:33,510] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-21 14:40:33,725] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:42:32,325] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 14:42:52,940] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:05:57,840] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-21 15:05:58,200] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:15:43,516] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:31:13,532] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:32:05,975] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2025-08-21 15:32:06,047] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1818
+[2025-08-21 15:32:06,200] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2025-08-21 15:32:06,201] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2307
+[2025-08-21 15:33:00,607] [log.py:228] [log:log_response] [WARNING]- Not Found: /backend01/userinfo
+[2025-08-21 15:33:00,608] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /backend01/userinfo HTTP/1.1" 404 2328
+[2025-08-21 15:33:59,857] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/userinfo/
+[2025-08-21 15:33:59,859] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/userinfo/ HTTP/1.1" 401 10116
+[2025-08-21 15:34:22,431] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:40:16,305] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:40:51,406] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:41:02,870] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:41:47,436] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:42:09,707] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:45:41,617] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:47:27,011] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:50:20,088] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 15:50:28,616] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-21 15:50:28,616] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-21 16:13:25,339] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 16:13:31,302] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-21 16:13:31,303] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-21 16:13:36,233] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 16:22:58,311] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 16:23:08,419] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-21 16:23:08,419] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-21 16:32:12,793] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 16:35:09,589] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 16:38:10,141] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-21 16:42:21,731] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 07:59:05,086] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-22 07:59:05,547] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 07:59:07,995] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 07:59:09,518] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 08:00:52,955] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 08:01:55,694] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 08:01:55,695] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 08:02:00,605] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 08:02:57,254] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 08:02:57,255] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 08:03:02,401] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 08:16:53,508] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/userinfo/
+[2025-08-22 08:16:53,510] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/userinfo/ HTTP/1.1" 401 10116
+[2025-08-22 08:21:14,752] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 08:21:14,753] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2025-08-22 08:21:18,187] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1119
+[2025-08-22 08:26:46,815] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2025-08-22 08:26:46,816] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33

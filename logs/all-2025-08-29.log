@@ -1,0 +1,892 @@
+[2025-08-29 08:03:31,720] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:03:31: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:03:31,726] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 08:03:31,726] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-29 08:04:18,467] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:04:18: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:04:18,473] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 08:04:18,473] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-29 08:04:56,924] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:04:56: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:04:56,928] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 08:04:56,929] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-29 08:07:55,115] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:07:55: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:07:55,121] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 08:07:55,121] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-29 08:08:32,255] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:08:32: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:08:32,262] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 08:08:32,263] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-29 08:10:17,353] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:10:17: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:10:17,359] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 08:10:17,360] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 75
+[2025-08-29 08:17:28,970] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 29, in post
+    cabinet = serializer.save()
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\serializer.py", line 88, in create
+    creator=self.context['request'].session.get('account_pyvue', '')
+KeyError: 'request'
+[2025-08-29 08:17:28,972] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:17:28,973] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 20359
+[2025-08-29 08:20:23,526] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:20:23: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 08:20:23,530] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 201 161
+[2025-08-29 08:21:02,570] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-29 08:21:02,589] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-29 08:21:02,590] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-29 08:21:02,590] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-29 08:21:30,657] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/1/change/ HTTP/1.1" 302 0
+[2025-08-29 08:21:30,731] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/backend01/role/1/change/ HTTP/1.1" 200 1866
+[2025-08-29 08:21:32,588] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:21:32,594] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/backend01/role/1/change/ HTTP/1.1" 302 0
+[2025-08-29 08:21:32,702] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/1/change/ HTTP/1.1" 200 5597
+[2025-08-29 08:21:32,738] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 08:21:39,765] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 08:21:39,773] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/backend01/role/1/change/ HTTP/1.1" 302 0
+[2025-08-29 08:21:39,876] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/role/ HTTP/1.1" 200 5917
+[2025-08-29 08:21:39,931] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 08:21:43,150] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9386
+[2025-08-29 08:21:54,137] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 08:21:54,144] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 500 59
+[2025-08-29 08:21:54,212] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 08:21:54,253] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 08:21:56,198] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9386
+[2025-08-29 08:21:57,249] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 58311
+[2025-08-29 08:21:57,277] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 08:21:59,894] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9386
+[2025-08-29 08:22:00,912] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/gridrecord/ HTTP/1.1" 200 6509
+[2025-08-29 08:22:00,941] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 08:22:02,914] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9386
+[2025-08-29 08:34:10,678] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 1139, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'Cabinet' was declared on serializer CabinetGridSerializer, but has not been included in the 'fields' option.
+[2025-08-29 08:34:10,680] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21519
+[2025-08-29 08:34:55,908] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-29 08:34:55,921] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-29 08:34:55,923] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-29 08:34:55,925] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-29 08:41:56,854] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 1139, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'Cabinet' was declared on serializer CabinetGridSerializer, but has not been included in the 'fields' option.
+[2025-08-29 08:41:56,862] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21519
+[2025-08-29 08:46:20,695] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CabinetGrid' object has no attribute 'Cabinet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `Cabinet` on serializer `CabinetGridSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CabinetGrid` instance.
+Original exception text was: 'CabinetGrid' object has no attribute 'Cabinet'.
+[2025-08-29 08:46:20,697] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21678
+[2025-08-29 08:46:55,037] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CabinetGrid' object has no attribute 'Cabinet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `Cabinet` on serializer `CabinetGridSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CabinetGrid` instance.
+Original exception text was: 'CabinetGrid' object has no attribute 'Cabinet'.
+[2025-08-29 08:46:55,041] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21678
+[2025-08-29 08:47:02,135] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 08:47:02: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 08:47:02,142] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 08:47:09,110] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CabinetGrid' object has no attribute 'Cabinet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 233, in get
+    rows[grid.row].append(CabinetGridSerializer(grid).data)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 562, in data
+    ret = super().data
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `Cabinet` on serializer `CabinetGridSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CabinetGrid` instance.
+Original exception text was: 'CabinetGrid' object has no attribute 'Cabinet'.
+[2025-08-29 08:47:09,114] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 500 21678
+[2025-08-29 08:55:25,176] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14610
+[2025-08-29 08:56:32,191] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14610
+[2025-08-29 09:03:28,889] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:03:48,338] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:11:24,814] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:11:46,060] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:11:56,698] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:19:35,677] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:19:44,938] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:20:44,184] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:29:45,815] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:35:19,983] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:35:23,068] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:39:24,947] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:40:30,072] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 09:40:31,938] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14606
+[2025-08-29 10:19:02,905] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-08-29 10:19:02,911] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:19:02,912] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:27:48,103] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:27:48,105] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:28:00,201] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:28:00,201] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:28:38,247] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:28:38,247] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:28:56,576] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:28:56,577] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:29:08,309] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:29:08,309] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:29:09,731] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:29:09,731] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:29:56,504] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:29:56,504] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:30:02,394] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:30:02,395] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:31:01,212] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 10:31:01,213] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 10:31:04,192] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-29 10:31:04,325] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:31:04: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 10:31:04,334] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 10:31:08,618] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14610
+[2025-08-29 10:32:20,131] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/ HTTP/1.1" 200 0
+[2025-08-29 10:32:20,147] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:32:20: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:32:20,151] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 10:32:20,152] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 58
+[2025-08-29 10:36:39,157] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14610
+[2025-08-29 10:42:20,065] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 10:42:26,919] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:42:26: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:42:26,924] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 10:42:26,924] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 58
+[2025-08-29 10:43:03,480] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 10:43:09,106] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:43:09: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:43:09,116] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 10:43:09,118] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 58
+[2025-08-29 10:55:45,245] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 10:55:52,197] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:55:52: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:55:52,204] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 10:55:52,205] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 58
+[2025-08-29 10:59:28,762] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 10:59:32,204] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 10:59:32: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 10:59:32,205] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 10:59:32,206] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 11:01:45,857] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 11:01:49,761] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 11:01:52,788] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 11:01:52: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 11:01:52,789] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 11:01:52,790] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 11:02:57,953] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 11:03:00,294] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 11:03:03,882] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 11:03:03: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 11:03:03,882] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 11:03:03,883] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 11:12:05,086] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 11:12:07,990] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 11:12:11,634] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 11:12:11: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 11:12:11,635] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 11:12:11,636] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 11:18:49,350] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 11:18:49: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 11:18:49,351] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 11:18:49,351] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 173
+[2025-08-29 12:05:49,145] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:05:49: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:05:49,149] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 12:05:49,150] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 183
+[2025-08-29 12:05:50,898] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:05:50: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:05:50,902] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 12:05:53,225] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:05:56,657] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:05:56: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:05:56,658] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 12:05:56,659] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 173
+[2025-08-29 12:06:26,923] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:06:26: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:06:26,929] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 12:06:26,930] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 191
+[2025-08-29 12:07:17,123] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:07:20,720] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:07:20: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:07:20,728] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 12:07:20,730] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 191
+[2025-08-29 12:08:26,656] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:08:29,189] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:08:32,865] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:08:32: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:08:32,871] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 12:08:32,871] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 191
+[2025-08-29 12:08:51,166] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:08:53,375] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:09:05,353] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:09:05: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:09:05,359] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 12:09:05,360] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 191
+[2025-08-29 12:36:29,428] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-08-29 12:36:29,521] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:36:57,536] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:37:04,882] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:37:08,304] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:37:12,659] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/ HTTP/1.1" 200 0
+[2025-08-29 12:37:12,677] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:37:12: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:37:12,684] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 12:37:12,686] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 191
+[2025-08-29 12:38:05,838] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:38:08,280] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:38:11,294] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:38:11: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:38:11,300] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 12:38:11,300] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 191
+[2025-08-29 12:39:22,921] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:39:24,764] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:39:30,590] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:39:30: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:39:30,599] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/
+[2025-08-29 12:39:30,599] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 400 191
+[2025-08-29 12:47:57,944] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:48:02,414] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:48:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:48:02,422] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 200 191
+[2025-08-29 12:48:02,435] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 0
+[2025-08-29 12:48:02,575] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 14622
+[2025-08-29 12:50:53,864] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:50:57,340] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:51:02,209] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:51:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:51:02,215] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 200 191
+[2025-08-29 12:51:02,338] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 14622
+[2025-08-29 12:51:21,996] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:51:23,516] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:51:28,219] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:51:28: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:51:28,228] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 200 191
+[2025-08-29 12:51:28,491] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 14622
+[2025-08-29 12:52:12,585] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:52:16,063] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:52:16: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:52:16,068] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 200 191
+[2025-08-29 12:53:07,274] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:53:22,939] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:53:26,678] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:53:26: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:53:26,704] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 200 191
+[2025-08-29 12:54:11,941] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:54:11: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:54:11,945] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 200 163
+[2025-08-29 12:54:20,239] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2025-08-29 12:54:20,278] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1818
+[2025-08-29 12:54:21,639] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:54:21,643] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-08-29 12:54:21,681] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9386
+[2025-08-29 12:54:23,828] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 7900
+[2025-08-29 12:54:23,854] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:54:27,312] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9386
+[2025-08-29 12:54:30,011] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 109631
+[2025-08-29 12:54:30,050] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:54:45,336] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29024
+[2025-08-29 12:54:54,541] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2025-08-29 12:54:54,550] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1818
+[2025-08-29 12:54:55,928] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:54:55,932] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-08-29 12:54:55,953] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9386
+[2025-08-29 12:54:58,584] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 7900
+[2025-08-29 12:54:58,606] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:55:06,790] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:55:06,796] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6292
+[2025-08-29 12:55:06,816] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/cancel.js HTTP/1.1" 200 410
+[2025-08-29 12:55:08,856] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 12:55:08,860] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 302 0
+[2025-08-29 12:55:08,915] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 7100
+[2025-08-29 12:55:08,940] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:55:13,130] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 12:55:14,900] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 12:55:14,940] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:55:19,446] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14615
+[2025-08-29 12:55:30,850] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14615
+[2025-08-29 12:56:15,111] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14615
+[2025-08-29 12:56:19,557] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14615
+[2025-08-29 12:56:35,630] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14615
+[2025-08-29 12:56:53,531] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-08-29 12:56:53,931] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:56:53: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:56:53,939] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 12:56:56,005] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:57:02,840] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:57:09,668] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:57:10,761] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:57:24,671] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:57:24: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:57:24,675] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 12:57:24,675] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 12:57:35,225] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:57:35: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:57:35,231] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 12:57:37,744] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:57:47,656] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:57:47: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:57:47,661] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 12:57:47,662] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 12:58:06,315] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:58:06: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:58:06,320] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 12:58:26,271] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 12:58:26,302] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:58:27,363] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 12:58:27,394] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:58:27,550] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 12:58:27,581] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:58:27,726] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 12:58:27,766] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 12:59:05,859] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:59:09,767] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:09: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:59:09,773] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 12:59:09,773] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 12:59:21,936] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:21: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:59:21,941] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 12:59:24,398] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:59:28,835] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:59:28,841] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 12:59:28,841] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 12:59:32,461] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:32: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 12:59:32,467] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 12:59:34,231] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 12:59:41,596] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 12:59:41: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 12:59:41,601] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 12:59:41,602] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 13:00:10,279] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:00:10: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:00:10,284] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:00:13,069] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:00:16,407] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:00:16: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:00:16,415] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 13:00:16,415] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 13:03:57,896] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:03:57: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:03:57,901] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:03:59,482] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:04:02,657] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:04:02: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:04:02,663] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 13:04:02,664] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 13:04:38,589] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:04:38: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:04:38,593] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:04:40,060] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:04:43,395] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:04:43: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:04:43,403] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 13:04:43,403] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 13:05:30,071] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:05:30: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:05:30,077] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:05:33,739] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:06:10,335] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:06:10: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:06:10,341] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 13:06:10,342] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 13:09:33,837] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-08-29 13:09:33,854] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.0179fbc4091f048c6e4e.js HTTP/1.1" 404 1723
+[2025-08-29 13:09:33,855] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.53bb2e684e0e03110cf783ef15232e52.css HTTP/1.1" 404 1756
+[2025-08-29 13:09:33,856] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.57ed0479d9c68ee60b3b.js HTTP/1.1" 404 1714
+[2025-08-29 13:09:41,087] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:09:41: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:09:41,093] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:09:42,866] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:09:50,761] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:09:50: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:09:50,767] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 13:09:50,767] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 13:13:22,723] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:13:22: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:13:22,728] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:13:24,276] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:13:27,355] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:13:27: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:13:27,363] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 13:13:27,364] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 13:15:42,815] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:15:42: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:15:42,820] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:15:45,195] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:15:47,708] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:15:47: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:15:47,716] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/
+[2025-08-29 13:15:47,717] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 403 58
+[2025-08-29 13:28:37,996] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:28:50,069] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:28:50: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:28:50,077] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 200 191
+[2025-08-29 13:29:02,161] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:29:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:29:02,162] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/cabinets/
+[2025-08-29 13:29:02,163] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 500 163
+[2025-08-29 13:31:49,229] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 302 0
+[2025-08-29 13:31:49,281] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 1872
+[2025-08-29 13:31:50,911] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:31:50,916] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/IntelligentCabinet/cabinet/ HTTP/1.1" 302 0
+[2025-08-29 13:31:51,039] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 7898
+[2025-08-29 13:31:51,073] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 13:31:57,312] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:31:57,320] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6292
+[2025-08-29 13:31:59,090] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 13:31:59,094] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 302 0
+[2025-08-29 13:31:59,195] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 7100
+[2025-08-29 13:31:59,249] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 13:32:14,065] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14618
+[2025-08-29 13:33:14,614] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14618
+[2025-08-29 13:33:26,425] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:33:26: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:33:26,431] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:33:28,038] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:33:42,173] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:33:42: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:33:42,181] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 201 299
+[2025-08-29 13:33:42,366] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29182
+[2025-08-29 13:37:04,001] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29182
+[2025-08-29 13:38:07,558] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29182
+[2025-08-29 13:39:28,102] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29182
+[2025-08-29 13:39:31,666] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/5/ HTTP/1.1" 200 0
+[2025-08-29 13:39:31,680] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/5/
+[2025-08-29 13:39:31,681] [basehttp.py:154] [basehttp:log_message] [WARNING]- "DELETE /IntelligentCabinet/cabinets/5/ HTTP/1.1" 403 58
+[2025-08-29 13:41:58,055] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29182
+[2025-08-29 13:42:03,132] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/cabinets/5/
+[2025-08-29 13:42:03,132] [basehttp.py:154] [basehttp:log_message] [WARNING]- "DELETE /IntelligentCabinet/cabinets/5/ HTTP/1.1" 403 58
+[2025-08-29 13:42:31,544] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29182
+[2025-08-29 13:43:11,978] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29182
+[2025-08-29 13:43:15,230] [basehttp.py:154] [basehttp:log_message] [INFO]- "DELETE /IntelligentCabinet/cabinets/5/ HTTP/1.1" 204 0
+[2025-08-29 13:44:23,208] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 13:44:23,230] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 13:44:24,467] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 13:44:24,494] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 13:44:24,666] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 13:44:24,724] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 13:44:24,910] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 6978
+[2025-08-29 13:44:24,944] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 13:46:08,066] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:46:17,910] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:46:29,055] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:46:29: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:46:29,061] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 201 299
+[2025-08-29 13:46:29,254] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29210
+[2025-08-29 13:46:35,100] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 7898
+[2025-08-29 13:46:35,136] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 13:46:40,603] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/6/ HTTP/1.1" 200 0
+[2025-08-29 13:46:40,656] [basehttp.py:154] [basehttp:log_message] [INFO]- "DELETE /IntelligentCabinet/cabinets/6/ HTTP/1.1" 204 0
+[2025-08-29 13:46:40,918] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 14622
+[2025-08-29 13:48:12,140] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:48:14,697] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 14622
+[2025-08-29 13:48:27,433] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:48:27: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:48:27,439] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 201 299
+[2025-08-29 13:48:27,622] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29210
+[2025-08-29 13:48:34,777] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/7/ HTTP/1.1" 200 0
+[2025-08-29 13:48:34,822] [basehttp.py:154] [basehttp:log_message] [INFO]- "DELETE /IntelligentCabinet/cabinets/7/ HTTP/1.1" 204 0
+[2025-08-29 13:48:34,969] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 14622
+[2025-08-29 13:48:56,818] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:48:56: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/cabinets/'>
+[2025-08-29 13:48:56,822] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/cabinets/ HTTP/1.1" 201 296
+[2025-08-29 13:48:57,036] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29117
+[2025-08-29 13:49:48,935] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29113
+[2025-08-29 13:51:14,901] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29113
+[2025-08-29 13:51:58,210] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 13:51:58: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 13:51:58,216] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 13:51:59,952] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 13:53:54,500] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 13:55:50,435] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:01:44,870] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:03:32,557] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:13:43,852] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:14:48,696] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/[object%20Object]/ HTTP/1.1" 200 0
+[2025-08-29 14:14:48,716] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/grids/[object Object]/
+[2025-08-29 14:14:48,717] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PUT /IntelligentCabinet/grids/[object%20Object]/ HTTP/1.1" 404 3737
+[2025-08-29 14:16:18,659] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:16:30,910] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:16:38,031] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/grids/[object Object]/
+[2025-08-29 14:16:38,031] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PUT /IntelligentCabinet/grids/[object%20Object]/ HTTP/1.1" 404 3737
+[2025-08-29 14:18:55,455] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:19:01,336] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:23:49,569] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:26:54,399] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:28:30,126] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:28:32,396] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:28:37,700] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/8/ HTTP/1.1" 200 0
+[2025-08-29 14:28:37,724] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/grids/8/
+[2025-08-29 14:28:37,725] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PUT /IntelligentCabinet/grids/8/ HTTP/1.1" 404 3689
+[2025-08-29 14:31:20,328] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:31:29,218] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 0
+[2025-08-29 14:31:29,239] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /IntelligentCabinet/grids/8/update/
+[2025-08-29 14:31:29,241] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PUT /IntelligentCabinet/grids/8/update/ HTTP/1.1" 405 40
+[2025-08-29 14:33:20,793] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:33:27,321] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 475
+[2025-08-29 14:34:58,689] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:35:17,363] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:35:31,155] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 475
+[2025-08-29 14:35:31,379] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29117
+[2025-08-29 14:37:18,228] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-08-29 14:37:18,309] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:37:26,619] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 475
+[2025-08-29 14:37:26,813] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29117
+[2025-08-29 14:39:20,541] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 475
+[2025-08-29 14:39:20,616] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29117
+[2025-08-29 14:41:46,290] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:41:50,616] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 158, in patch
+    serializer = CabinetGridUpdateSerializer(grid, data=request.data.gridinfo, partial=True)
+AttributeError: 'dict' object has no attribute 'gridinfo'
+[2025-08-29 14:41:50,618] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20679
+[2025-08-29 14:47:34,977] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 154, in patch
+    print('grid', pk, request.data.gridinfo)
+AttributeError: 'dict' object has no attribute 'gridinfo'
+[2025-08-29 14:47:34,979] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20631
+[2025-08-29 14:48:01,137] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 158, in patch
+    serializer = CabinetGridUpdateSerializer(grid, data=request.data.gridinfo, partial=True)
+AttributeError: 'dict' object has no attribute 'gridinfo'
+[2025-08-29 14:48:01,139] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20679
+[2025-08-29 14:54:16,735] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 14:54:16,736] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 14:54:21,013] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 14:54:21,013] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 14:55:18,951] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-08-29 14:55:18,951] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-08-29 14:55:28,689] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 14:55:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 14:55:28,694] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-08-29 14:55:35,162] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 14:55:43,040] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 158, in patch
+    serializer = CabinetGridUpdateSerializer(grid, data=request.data.gridinfo, partial=True)
+AttributeError: 'dict' object has no attribute 'gridinfo'
+[2025-08-29 14:55:43,050] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20679
+[2025-08-29 15:03:14,496] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/grids/8/update/
+[2025-08-29 15:03:14,497] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 400 108
+[2025-08-29 15:04:24,624] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/grids/8/update/
+[2025-08-29 15:04:24,624] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 400 108
+[2025-08-29 15:05:25,478] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/grids/8/update/
+[2025-08-29 15:05:25,480] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 400 108
+[2025-08-29 15:14:43,403] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29117
+[2025-08-29 15:14:50,357] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/grids/8/update/
+[2025-08-29 15:14:50,359] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 400 44
+[2025-08-29 15:14:50,434] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/grids/8/update/
+[2025-08-29 15:14:50,435] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 400 44
+[2025-08-29 15:17:41,346] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 483
+[2025-08-29 15:17:41,374] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 0
+[2025-08-29 15:17:41,463] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29125
+[2025-08-29 15:17:50,904] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 516
+[2025-08-29 15:17:51,129] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29158
+[2025-08-29 15:18:43,756] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/[object%20Object]/update/ HTTP/1.1" 200 0
+[2025-08-29 15:18:43,772] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/grids/[object Object]/update/
+[2025-08-29 15:18:43,773] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/[object%20Object]/update/ HTTP/1.1" 404 3760
+[2025-08-29 15:23:00,213] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29158
+[2025-08-29 15:28:57,648] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29158
+[2025-08-29 15:31:04,366] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29158
+[2025-08-29 15:31:10,771] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29158
+[2025-08-29 15:31:27,970] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 0
+[2025-08-29 15:31:28,031] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:31:28: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-08-29 15:31:28,038] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 480
+[2025-08-29 15:34:42,742] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:34:42: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-08-29 15:34:42,748] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 480
+[2025-08-29 15:39:32,954] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:39:32: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-08-29 15:39:32,962] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/grids/182/reserve/
+[2025-08-29 15:39:32,963] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 400 65
+[2025-08-29 15:45:05,782] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/182/reserve/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 217, in post
+    grid = self.get_grid(gridinfo['gridId'])
+KeyError: 'gridId'
+[2025-08-29 15:45:05,784] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 15:45:05,785] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 500 20562
+[2025-08-29 15:45:59,953] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:45:59: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-08-29 15:45:59,957] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 505
+[2025-08-29 15:46:32,526] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 302 0
+[2025-08-29 15:46:32,555] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 1872
+[2025-08-29 15:46:34,659] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 15:46:34,665] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/IntelligentCabinet/cabinet/ HTTP/1.1" 302 0
+[2025-08-29 15:46:34,771] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinet/ HTTP/1.1" 200 7901
+[2025-08-29 15:46:34,810] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 15:46:36,144] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9872
+[2025-08-29 15:46:36,163] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[2025-08-29 15:46:38,570] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 110100
+[2025-08-29 15:46:38,602] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 15:51:09,889] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29188
+[2025-08-29 15:51:23,298] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29188
+[2025-08-29 15:51:42,528] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/181/reserve/ HTTP/1.1" 200 0
+[2025-08-29 15:51:42,584] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 15:51:42: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/reserve/'>
+[2025-08-29 15:51:42,591] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/reserve/ HTTP/1.1" 200 551
+[2025-08-29 15:51:42,788] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29223
+[2025-08-29 15:52:25,677] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/grids/[object Object]/update/
+[2025-08-29 15:52:25,678] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/[object%20Object]/update/ HTTP/1.1" 404 3760
+[2025-08-29 15:54:14,013] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29223
+[2025-08-29 15:54:46,739] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29223
+[2025-08-29 15:56:14,542] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29223
+[2025-08-29 15:56:41,846] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29223
+[2025-08-29 15:59:05,236] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29223
+[2025-08-29 15:59:07,163] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29223
+[2025-08-29 15:59:11,044] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/181/borrow/ HTTP/1.1" 200 0
+[2025-08-29 15:59:11,053] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-08-29 15:59:11,068] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/grids/181/borrow/
+[2025-08-29 15:59:11,069] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /IntelligentCabinet/grids/181/borrow/ HTTP/1.1" 404 3717
+[2025-08-29 16:01:00,718] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29223
+[2025-08-29 16:01:13,115] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29223
+[2025-08-29 16:01:16,604] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/181/confirm-borrow/ HTTP/1.1" 200 0
+[2025-08-29 16:01:16,643] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:01:16: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
+[2025-08-29 16:01:16,653] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/confirm-borrow/ HTTP/1.1" 200 575
+[2025-08-29 16:01:16,949] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29247
+[2025-08-29 16:01:33,425] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 110125
+[2025-08-29 16:01:33,469] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-08-29 16:03:02,568] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:03:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
+[2025-08-29 16:03:02,572] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/confirm-borrow/ HTTP/1.1" 200 575
+[2025-08-29 16:03:02,655] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29247

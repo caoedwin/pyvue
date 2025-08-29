@@ -1,0 +1,72 @@
+[2025-08-28 10:11:58,622] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\sessions\middleware.py", line 72, in process_response
+    samesite=settings.SESSION_COOKIE_SAMESITE,
+  File "C:\Python372\mecheck\lib\site-packages\django\http\response.py", line 201, in set_cookie
+    raise ValueError('samesite must be "lax" or "strict".')
+ValueError: samesite must be "lax" or "strict".
+[2025-08-28 10:11:58,629] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 71905
+[2025-08-28 10:12:03,399] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "C:\Python372\mecheck\lib\site-packages\django\contrib\sessions\middleware.py", line 72, in process_response
+    samesite=settings.SESSION_COOKIE_SAMESITE,
+  File "C:\Python372\mecheck\lib\site-packages\django\http\response.py", line 201, in set_cookie
+    raise ValueError('samesite must be "lax" or "strict".')
+ValueError: samesite must be "lax" or "strict".
+[2025-08-28 10:12:03,402] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 71905
+[2025-08-28 13:50:50,210] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 226, in get
+    print(f"Session Exists: {request.session.exists()}")
+TypeError: exists() missing 1 required positional argument: 'session_key'
+[2025-08-28 13:50:50,216] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 500 19766
+[2025-08-28 14:57:51,364] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/init-data/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 212, in get
+    print(f"Session user: {online_user}", dict(request))
+TypeError: 'Request' object is not iterable
+[2025-08-28 14:57:51,371] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /IntelligentCabinet/init-data/ HTTP/1.1" 500 19824
