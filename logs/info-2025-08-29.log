@@ -86,3 +86,5 @@
 [2025-08-29 16:01:16,643] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:01:16: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
 [2025-08-29 16:03:02,568] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:03:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
 [2025-08-29 16:05:55,642] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:05:55: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
+[2025-08-29 17:03:10,167] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 17:03:10: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-08-29 17:03:28,143] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 17:03:28: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/cancel-reserve/'>

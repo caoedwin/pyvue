@@ -238,7 +238,8 @@ class UserReserveView(CabinetGridView):
             return Response(CabinetGridSerializer(grid).data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-
+#用户取消预约
+@method_decorator(csrf_exempt, name='dispatch')
 class UserCancelReserveView(CabinetGridView):
     """用户取消预约"""
 

@@ -2,81 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050417aa-da66-48cc-9932-421bceb54677" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IntelligentCabinet/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntelligentCabinet/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend01/backends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend01/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend01/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend01/management/commands/initdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend01/views202508251610.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/App202508251610.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/api/cabinet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/assets/login-bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/AppMain202508251610.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/AppMain202508261500.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/Breadcrumb.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/Breadcrumb202508251610.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/Breadcrumb202508261500.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/index202508251610.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/index202508261500.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/main202508221240.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/main202508251610.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/router/rougter202508261500.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/router/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/router/router202508211432.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/router/router202508211620.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/router/router202508251610.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/store/index202508211620.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/store/index202508251610.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/store/index202508261500.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/store/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/store/modules/app202508261500.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/store/modules/cabinet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/Dashboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/EmptyPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/Login202508211620.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/Login202508251610.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/NestedContainer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/NestedContainer202508251610.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/src/views/RouteLoading.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend01/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/UserIP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend01/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend01/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend01/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend01/migrations/0002_menu_permission_role_userinfo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend01/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend01/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend01/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntelligentCabinet/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IntelligentCabinet/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend01/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/src/api/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/src/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyvue/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyvue/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyvue/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyvue/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend01/src/api/cabinet.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/api/cabinet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2025-08-29.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2025-08-29.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info-2025-08-29.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info-2025-08-29.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +42,7 @@
               <entry file="file://$PROJECT_DIR$/frontend01/src/store/modules/cabinet.js">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="57">
-                    <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+                    <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
                     <folding>
                       <element signature="e#0#62#0" expanded="true" />
                     </folding>
@@ -168,7 +100,7 @@
           <entry key="js" value="548" />
           <entry key="json" value="8" />
           <entry key="py" value="1419" />
-          <entry key="vue" value="520" />
+          <entry key="vue" value="551" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -177,7 +109,7 @@
           <entry key="JavaScript" value="548" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="Python" value="1419" />
-          <entry key="XML" value="499" />
+          <entry key="XML" value="530" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -204,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IntelligentCabinet/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="277" column="44" selection-start-line="277" selection-start-column="44" selection-end-line="277" selection-end-column="44" />
+            <state relative-caret-position="95">
+              <caret line="250" column="22" lean-forward="true" selection-start-line="250" selection-start-column="22" selection-end-line="250" selection-end-column="22" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#766#5094#0" />
@@ -213,7 +145,6 @@
                 <element signature="e#2842#3011#0" />
                 <element signature="e#7751#7880#0" />
                 <element signature="e#4247#4847#0" />
-                <element signature="e#4900#5635#0" />
                 <element signature="e#6985#8305#0" />
               </folding>
             </state>
@@ -236,7 +167,7 @@
         <entry file="file://$PROJECT_DIR$/IntelligentCabinet/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="39" />
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -247,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="928" column="22" lean-forward="true" selection-start-line="928" selection-start-column="22" selection-end-line="928" selection-end-column="22" />
+            <state relative-caret-position="171">
+              <caret line="620" column="68" selection-start-line="620" selection-start-column="68" selection-end-line="620" selection-end-column="68" />
               <folding>
                 <element signature="e#8984#10068#0#XML" />
                 <element signature="e#10131#13382#0#XML" />
@@ -260,20 +191,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend01/src/api/cabinet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
+            <state relative-caret-position="105">
+              <caret line="72" column="33" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="33" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyvue/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="144" column="48" lean-forward="true" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -290,12 +212,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>res</find>
-      <find>gridData</find>
-      <find>online_user</find>
-      <find>Serializer</find>
-      <find>CabinetCreateSerializer</find>
-      <find>addCabinet</find>
       <find>isAdmin</find>
       <find>this.errMsg</find>
       <find>validated_data</find>
@@ -319,7 +235,13 @@
       <find>handleBorrow</find>
       <find>currentCell</find>
       <find>confirm</find>
+      <find>confirmCancelReserve</find>
+      <find>cancelReservation</find>
+      <find>cancelR</find>
+      <find>cell.id</find>
       <find>CabinetGridUpdateSerializer</find>
+      <find>取消预约</find>
+      <find>cancelReserve</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -376,8 +298,8 @@
         <option value="$PROJECT_DIR$/frontend01/src/store/modules/cabinet.js" />
         <option value="$PROJECT_DIR$/IntelligentCabinet/serializer.py" />
         <option value="$PROJECT_DIR$/IntelligentCabinet/models.py" />
-        <option value="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" />
         <option value="$PROJECT_DIR$/frontend01/src/api/cabinet.js" />
+        <option value="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" />
         <option value="$PROJECT_DIR$/IntelligentCabinet/views.py" />
       </list>
     </option>
@@ -966,7 +888,7 @@
     <entry file="file://$PROJECT_DIR$/frontend01/src/store/modules/cabinet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
@@ -983,33 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyvue/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="144" column="48" lean-forward="true" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IntelligentCabinet/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/api/cabinet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IntelligentCabinet/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1020,13 +915,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue">
+    <entry file="file://$PROJECT_DIR$/pyvue/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="928" column="22" lean-forward="true" selection-start-line="928" selection-start-column="22" selection-end-line="928" selection-end-column="22" />
+        <state relative-caret-position="95">
+          <caret line="144" column="48" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntelligentCabinet/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="39" />
           <folding>
-            <element signature="e#8984#10068#0#XML" />
-            <element signature="e#10131#13382#0#XML" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1041,10 +942,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="620" column="68" selection-start-line="620" selection-start-column="68" selection-end-line="620" selection-end-column="68" />
+          <folding>
+            <element signature="e#8984#10068#0#XML" />
+            <element signature="e#10131#13382#0#XML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend01/src/api/cabinet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="72" column="33" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IntelligentCabinet/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="277" column="44" selection-start-line="277" selection-start-column="44" selection-end-line="277" selection-end-column="44" />
+        <state relative-caret-position="95">
+          <caret line="250" column="22" lean-forward="true" selection-start-line="250" selection-start-column="22" selection-end-line="250" selection-end-column="22" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#766#5094#0" />
@@ -1052,7 +974,6 @@
             <element signature="e#2842#3011#0" />
             <element signature="e#7751#7880#0" />
             <element signature="e#4247#4847#0" />
-            <element signature="e#4900#5635#0" />
             <element signature="e#6985#8305#0" />
           </folding>
         </state>

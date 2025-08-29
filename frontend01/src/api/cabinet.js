@@ -70,7 +70,7 @@ export function reserveCell(gridId, data) {
 }
 
 // 取消预约
-export function cancelReservation(gridId) {
+export function cancelReservation(gridId, data) {
   return request({
     url: `/IntelligentCabinet/grids/${gridId}/cancel-reserve/`,
     method: 'post',

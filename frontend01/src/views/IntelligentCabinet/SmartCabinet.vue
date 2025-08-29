@@ -605,11 +605,11 @@ export default {
         cancelButtonText: '取消',
         type: 'warning'
       }).then(() => {
-        this.cancelReserve(cabinetId, rowIndex, colIndex);
+        this.cancelReserve(cabinetId, cell.id, rowIndex, colIndex);
       }).catch(() => {});
     },
 
-    async cancelReserve(cabinetId, rowIndex, colIndex) {
+    async cancelReserve(cabinetId, gridid, rowIndex, colIndex) {
       const cabinetIndex = this.cabinets.findIndex(cab => cab.id === cabinetId);
       if (cabinetIndex === -1) return;
 
@@ -618,10 +618,11 @@ export default {
 
       if (cell.status === 2) {
         try {
-          const response = await cabinetApi.updateGrid({
+          const response = await cabinetApi.cancelReservation(gridid,{
             cabinetId,
             rowIndex,
             colIndex,
+            gridId: gridid,
             cellData: {
               ...cell,
               status: 0,
@@ -639,6 +640,8 @@ export default {
             },
             action: "cancelReserve"
           });
+        // 选项2：重新获取所有数据（确保数据最新）
+        await this.getdata("update");
           this.$message.success(`柜格 ${cell.position} 的预约已取消`);
         } catch (error) {
           console.error('取消预约失败:', error);
