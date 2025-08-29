@@ -890,3 +890,6 @@ KeyError: 'gridId'
 [2025-08-29 16:03:02,568] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:03:02: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
 [2025-08-29 16:03:02,572] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/confirm-borrow/ HTTP/1.1" 200 575
 [2025-08-29 16:03:02,655] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29247
+[2025-08-29 16:05:55,642] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 16:05:55: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
+[2025-08-29 16:05:55,646] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/confirm-borrow/ HTTP/1.1" 200 575
+[2025-08-29 16:05:55,756] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29247
