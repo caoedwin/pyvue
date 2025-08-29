@@ -1,0 +1,1 @@
+node_modules应该放在front01下，只是不知道为什么没有同步到git，压缩到云端时就直接删除根目录，保留front01下node_modules
