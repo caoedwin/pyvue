@@ -1,0 +1,233 @@
+[2025-09-01 08:33:03,629] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29250
+[2025-09-01 08:33:49,546] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29250
+[2025-09-01 08:34:11,892] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29250
+[2025-09-01 08:34:20,437] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 08:34:20: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 08:34:20,443] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 08:34:24,649] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29250
+[2025-09-01 08:36:48,072] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29250
+[2025-09-01 08:40:30,872] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30576
+[2025-09-01 08:43:25,898] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/182/confirm-borrow/ HTTP/1.1" 200 0
+[2025-09-01 08:43:25,939] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 08:43:25: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/confirm-borrow/'>
+[2025-09-01 08:43:25,946] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/confirm-borrow/ HTTP/1.1" 200 557
+[2025-09-01 08:43:26,200] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30600
+[2025-09-01 08:43:42,394] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/183/reserve/ HTTP/1.1" 200 0
+[2025-09-01 08:43:42,434] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 08:43:42: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/183/reserve/'>
+[2025-09-01 08:43:42,442] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/183/reserve/ HTTP/1.1" 200 532
+[2025-09-01 08:43:42,786] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30635
+[2025-09-01 08:43:51,641] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/183/cancel-reserve/ HTTP/1.1" 200 0
+[2025-09-01 08:43:51,672] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 08:43:51: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/183/cancel-reserve/'>
+[2025-09-01 08:43:51,679] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/183/cancel-reserve/ HTTP/1.1" 200 497
+[2025-09-01 08:43:51,898] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30600
+[2025-09-01 08:44:31,686] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/[object%20Object]/update/ HTTP/1.1" 200 0
+[2025-09-01 08:44:31,708] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/grids/[object Object]/update/
+[2025-09-01 08:44:31,710] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/[object%20Object]/update/ HTTP/1.1" 404 3760
+[2025-09-01 08:52:35,475] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30600
+[2025-09-01 08:52:41,103] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30600
+[2025-09-01 09:05:17,546] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30600
+[2025-09-01 09:05:42,733] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 160, in patch
+    grid = self.get_grid(gridinfo['id'])
+KeyError: 'id'
+[2025-09-01 09:05:42,741] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20540
+[2025-09-01 09:08:47,404] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 605
+[2025-09-01 09:08:47,577] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30605
+[2025-09-01 09:20:01,096] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30605
+[2025-09-01 09:20:32,836] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30605
+[2025-09-01 09:20:42,997] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30605
+[2025-09-01 09:20:44,190] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30605
+[2025-09-01 09:21:04,995] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /IntelligentCabinet/grids/8/update/
+Traceback (most recent call last):
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python372\mecheck\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Python372\mecheck\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\djangoproject\pyvue\IntelligentCabinet\views.py", line 160, in patch
+    grid = self.get_grid(gridinfo['id'])
+KeyError: 'id'
+[2025-09-01 09:21:04,999] [basehttp.py:154] [basehttp:log_message] [ERROR]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 500 20540
+[2025-09-01 09:21:36,026] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30605
+[2025-09-01 09:22:10,350] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 0
+[2025-09-01 09:22:10,407] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 605
+[2025-09-01 09:22:10,520] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30605
+[2025-09-01 09:22:17,528] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 605
+[2025-09-01 09:22:17,817] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30605
+[2025-09-01 09:24:02,676] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30605
+[2025-09-01 09:24:08,562] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 608
+[2025-09-01 09:24:08,765] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30608
+[2025-09-01 09:25:04,201] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30608
+[2025-09-01 09:25:17,826] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30608
+[2025-09-01 09:25:34,935] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 622
+[2025-09-01 09:25:48,602] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 302 0
+[2025-09-01 09:25:48,687] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 1880
+[2025-09-01 09:25:50,354] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-09-01 09:25:50,359] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 302 0
+[2025-09-01 09:25:50,793] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 110156
+[2025-09-01 09:25:50,826] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-01 09:27:20,159] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30622
+[2025-09-01 09:27:46,242] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30622
+[2025-09-01 09:27:59,833] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 0
+[2025-09-01 09:27:59,857] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 576
+[2025-09-01 09:27:59,956] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30641
+[2025-09-01 09:28:09,602] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/grids/[object Object]/update/
+[2025-09-01 09:28:09,604] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/[object%20Object]/update/ HTTP/1.1" 404 3760
+[2025-09-01 09:28:44,896] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30641
+[2025-09-01 09:29:43,533] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30641
+[2025-09-01 09:29:47,907] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30641
+[2025-09-01 09:29:52,748] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 570
+[2025-09-01 09:29:52,945] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30635
+[2025-09-01 09:30:05,915] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 616
+[2025-09-01 09:30:06,145] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30629
+[2025-09-01 09:31:04,344] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30629
+[2025-09-01 09:31:40,847] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30629
+[2025-09-01 09:38:51,563] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30629
+[2025-09-01 09:40:45,655] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30629
+[2025-09-01 09:44:35,654] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30629
+[2025-09-01 09:46:36,869] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 521
+[2025-09-01 09:55:28,671] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 521
+[2025-09-01 09:55:41,623] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30580
+[2025-09-01 09:56:42,471] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 521
+[2025-09-01 09:59:31,369] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30485
+[2025-09-01 10:03:23,817] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30485
+[2025-09-01 10:03:33,063] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 536
+[2025-09-01 10:03:33,286] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30500
+[2025-09-01 10:03:55,316] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/181/reserve/ HTTP/1.1" 200 0
+[2025-09-01 10:03:55,358] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:03:55: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/reserve/'>
+[2025-09-01 10:03:55,363] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/reserve/ HTTP/1.1" 200 581
+[2025-09-01 10:03:55,549] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30545
+[2025-09-01 10:04:22,610] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:04:22: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-09-01 10:04:22,639] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 567
+[2025-09-01 10:04:22,880] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30591
+[2025-09-01 10:04:28,760] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/181/confirm-borrow/ HTTP/1.1" 200 0
+[2025-09-01 10:04:28,797] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:04:28: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
+[2025-09-01 10:04:28,804] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/confirm-borrow/ HTTP/1.1" 200 581
+[2025-09-01 10:04:29,270] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30591
+[2025-09-01 10:04:35,156] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/182/cancel-reserve/ HTTP/1.1" 200 0
+[2025-09-01 10:04:35,183] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:04:35: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/cancel-reserve/'>
+[2025-09-01 10:04:35,189] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/cancel-reserve/ HTTP/1.1" 200 497
+[2025-09-01 10:04:35,413] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30521
+[2025-09-01 10:04:52,017] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 602
+[2025-09-01 10:04:52,275] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30542
+[2025-09-01 10:05:04,219] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 596
+[2025-09-01 10:05:04,532] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30536
+[2025-09-01 10:05:25,299] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 602
+[2025-09-01 10:05:25,477] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30542
+[2025-09-01 10:06:02,605] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 596
+[2025-09-01 10:06:02,814] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30536
+[2025-09-01 10:06:18,061] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 602
+[2025-09-01 10:06:18,291] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30542
+[2025-09-01 10:07:10,844] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 596
+[2025-09-01 10:07:11,208] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30536
+[2025-09-01 10:07:34,680] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 602
+[2025-09-01 10:07:34,904] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30542
+[2025-09-01 10:09:45,688] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 596
+[2025-09-01 10:09:45,703] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 0
+[2025-09-01 10:09:45,873] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30536
+[2025-09-01 10:09:51,739] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 521
+[2025-09-01 10:09:52,108] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30461
+[2025-09-01 10:10:53,143] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:10:53: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/reserve/'>
+[2025-09-01 10:10:53,149] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/reserve/ HTTP/1.1" 200 563
+[2025-09-01 10:10:53,361] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30503
+[2025-09-01 10:11:17,939] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 110092
+[2025-09-01 10:11:17,986] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-01 10:11:22,899] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/181/change/ HTTP/1.1" 200 13698
+[2025-09-01 10:11:22,930] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-01 10:11:26,772] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 110092
+[2025-09-01 10:12:23,000] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/181/change/ HTTP/1.1" 200 13698
+[2025-09-01 10:12:23,026] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-01 10:12:28,965] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/ HTTP/1.1" 200 110092
+[2025-09-01 10:14:29,685] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-09-01 10:14:29,781] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30503
+[2025-09-01 10:14:33,460] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30503
+[2025-09-01 10:15:12,650] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/181/cancel-reserve/ HTTP/1.1" 200 0
+[2025-09-01 10:15:12,690] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:15:12: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/cancel-reserve/'>
+[2025-09-01 10:15:12,695] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/cancel-reserve/ HTTP/1.1" 200 497
+[2025-09-01 10:15:12,914] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30437
+[2025-09-01 10:15:38,236] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:15:38: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/reserve/'>
+[2025-09-01 10:15:38,241] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/reserve/ HTTP/1.1" 200 540
+[2025-09-01 10:15:38,488] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30480
+[2025-09-01 10:15:53,357] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:15:53: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/confirm-borrow/'>
+[2025-09-01 10:15:53,362] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/confirm-borrow/ HTTP/1.1" 200 564
+[2025-09-01 10:15:53,686] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30504
+[2025-09-01 10:16:26,196] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 588
+[2025-09-01 10:16:26,449] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30528
+[2025-09-01 10:17:28,194] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 0
+[2025-09-01 10:17:28,239] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:17:28: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-09-01 10:17:28,244] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 530
+[2025-09-01 10:17:28,445] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30561
+[2025-09-01 10:17:30,469] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:17:30: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/confirm-borrow/'>
+[2025-09-01 10:17:30,474] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/confirm-borrow/ HTTP/1.1" 200 554
+[2025-09-01 10:17:30,713] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30585
+[2025-09-01 10:18:29,882] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/IntelligentCabinet/cabinetgrid/181/change/ HTTP/1.1" 200 13726
+[2025-09-01 10:18:29,923] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-01 10:19:00,636] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30585
+[2025-09-01 10:20:16,222] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30585
+[2025-09-01 10:20:19,615] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30585
+[2025-09-01 10:20:35,095] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/grids/182/update/
+[2025-09-01 10:20:35,095] [basehttp.py:154] [basehttp:log_message] [WARNING]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 400 249
+[2025-09-01 10:32:13,059] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30585
+[2025-09-01 10:34:29,930] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30585
+[2025-09-01 10:34:31,919] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30585
+[2025-09-01 10:34:47,226] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 612
+[2025-09-01 10:34:47,451] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30643
+[2025-09-01 10:35:23,294] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:35:23: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/183/reserve/'>
+[2025-09-01 10:35:23,302] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/183/reserve/ HTTP/1.1" 200 536
+[2025-09-01 10:35:23,689] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30682
+[2025-09-01 10:35:35,207] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/183/confirm-borrow/ HTTP/1.1" 200 0
+[2025-09-01 10:35:35,237] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 10:35:35: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/183/confirm-borrow/'>
+[2025-09-01 10:35:35,244] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/183/confirm-borrow/ HTTP/1.1" 200 560
+[2025-09-01 10:35:35,478] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30706
+[2025-09-01 10:36:08,190] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/183/update/ HTTP/1.1" 200 0
+[2025-09-01 10:36:08,243] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/183/update/ HTTP/1.1" 200 618
+[2025-09-01 10:36:08,470] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30764
+[2025-09-01 10:36:28,929] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 582
+[2025-09-01 10:36:29,159] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30758
+[2025-09-01 10:36:56,633] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/8/ HTTP/1.1" 200 0
+[2025-09-01 10:36:56,655] [log.py:228] [log:log_response] [WARNING]- Bad Request: /IntelligentCabinet/cabinets/8/
+[2025-09-01 10:36:56,655] [basehttp.py:154] [basehttp:log_message] [WARNING]- "DELETE /IntelligentCabinet/cabinets/8/ HTTP/1.1" 400 57
+[2025-09-01 10:38:11,758] [basehttp.py:154] [basehttp:log_message] [INFO]- "DELETE /IntelligentCabinet/cabinets/8/ HTTP/1.1" 200 57
+[2025-09-01 10:38:11,863] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30758
+[2025-09-01 10:44:00,980] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30758
+[2025-09-01 10:44:40,618] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30758
+[2025-09-01 10:44:43,587] [basehttp.py:154] [basehttp:log_message] [INFO]- "DELETE /IntelligentCabinet/cabinets/8/ HTTP/1.1" 200 58
+[2025-09-01 10:44:43,688] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30758

@@ -18,6 +18,7 @@ class CabinetGridUpdateSerializer(serializers.ModelSerializer):
         required=False,
         allow_null=True
     )
+
     class Meta:
         model = CabinetGrid
         fields = '__all__'
@@ -27,6 +28,7 @@ class CabinetGridUpdateSerializer(serializers.ModelSerializer):
             'row': {'read_only': True},  # 行创建后不可修改
             'col': {'read_only': True}  # 列创建后不可修改
         }
+
 
 
 class CabinetCreateSerializer(serializers.ModelSerializer):
@@ -111,11 +113,23 @@ class CabinetGridSerializer(serializers.ModelSerializer):
     # 保留原始字段名 perms
     cabinet = CabinetSerializer()
 
+    # 新增 statusText 字段返回中文状态
+    statusText = serializers.SerializerMethodField(
+        read_only=True)  # 该字段完全只读，不会参与反序列化（更新操作）模型中的 STATUS_CHOICES如有修改会自动同步到该字段
+
     class Meta:
         model = CabinetGrid
         fields = '__all__'
         # fields = ('id', 'cabinet', 'row', 'col', 'position', 'status', 'Customer', 'ProCode', 'CampalCode', 'Brow_at', 'BrowReson', 'Take_at', 'TakeReson', 'Back_at', 'user', 'phone', 'notes', 'creator', 'created_at', 'updated_at')
 
+
+    # 获取状态中文文本的方法
+    # get_statusText函数名称不是随便命名的，它必须与新增的 statusText字段保持严格的命名关联。这是 Django REST Framework 中 SerializerMethodField的命名约定机制
+    #在Django REST Framework中，当使用SerializerMethodField时，字段的名称和对应的获取方法的名称是有关联的。具体规则是：方法名由get_加上字段名（使用下划线命名法）组成
+    def get_statusText(self, obj):
+        """将状态码映射为中文文本"""
+        status_mapping = dict(CabinetGrid.STATUS_CHOICES)
+        return status_mapping.get(obj.status, "未知状态")
 
 class GridRecordSerializer(serializers.ModelSerializer):
     # 保留原始字段名 role

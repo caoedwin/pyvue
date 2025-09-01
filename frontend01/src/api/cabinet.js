@@ -41,7 +41,7 @@ export function deleteCabinetAction(cabinetId) {
   })
 }
 
-// 更新柜格信息
+// 更新柜格信息，包括管理员编辑柜格信息，取出保留，取消保留，归还柜格。其实其他涉及柜格信息变更的动作也可以用这个接口，包括用户预约柜格，取消预约，确认借出
 export function updateGrid(cabinet, data) {
   return request({
     url: `/IntelligentCabinet/grids/${cabinet}/update/`,
@@ -90,31 +90,6 @@ export function confirmBorrow(gridId, data) {
       'X-CSRFToken': Cookies.get('csrftoken')  // 关键：添加CSRF token，Django默认要求所有非安全的HTTP方法（如POST、PUT、PATCH、DELETE）都需要提供CSRF token
     },
     data
-  })
-}
-
-// 取出保留
-export function takeOutCell(gridId, data) {
-  return request({
-    url: `/IntelligentCabinet/grids/${gridId}/take-out/`,
-    method: 'post',
-    data
-  })
-}
-
-// 取消保留
-export function cancelTakenReserve(gridId) {
-  return request({
-    url: `/IntelligentCabinet/grids/${gridId}/cancel-taken/`,
-    method: 'post'
-  })
-}
-
-// 归还柜格
-export function returnCell(gridId) {
-  return request({
-    url: `/IntelligentCabinet/grids/${gridId}/return/`,
-    method: 'post'
   })
 }
 

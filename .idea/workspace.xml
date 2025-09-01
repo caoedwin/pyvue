@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050417aa-da66-48cc-9932-421bceb54677" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend01/src/layout/index20250901_TopMenu_no_zhankai.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntelligentCabinet/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/IntelligentCabinet/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntelligentCabinet/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IntelligentCabinet/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend01/src/api/cabinet.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/api/cabinet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend01/src/layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend01/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend01/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/views/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all-2025-08-29.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2025-08-29.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info-2025-08-29.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info-2025-08-29.log" afterDir="false" />
     </list>
@@ -33,28 +37,6 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/frontend01/src/store/modules/cabinet.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="57">
-                    <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-                    <folding>
-                      <element signature="e#0#62#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="393780224">
       <usages-collector id="statistics.lifecycle.project">
@@ -73,48 +55,48 @@
         <counts>
           <entry key="babelrc" value="1" />
           <entry key="html" value="9" />
-          <entry key="js" value="184" />
+          <entry key="js" value="188" />
           <entry key="json" value="8" />
           <entry key="lock" value="1" />
-          <entry key="py" value="215" />
+          <entry key="py" value="218" />
           <entry key="svg" value="2" />
-          <entry key="ts" value="1" />
-          <entry key="vue" value="188" />
+          <entry key="ts" value="2" />
+          <entry key="vue" value="191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="9" />
           <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="184" />
+          <entry key="JavaScript" value="188" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="215" />
+          <entry key="Python" value="218" />
           <entry key="SVG" value="2" />
-          <entry key="TypeScript" value="1" />
-          <entry key="XML" value="174" />
+          <entry key="TypeScript" value="2" />
+          <entry key="XML" value="177" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="548" />
+          <entry key="js" value="631" />
           <entry key="json" value="8" />
-          <entry key="py" value="1419" />
-          <entry key="vue" value="551" />
+          <entry key="py" value="1441" />
+          <entry key="vue" value="1010" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="548" />
+          <entry key="JavaScript" value="631" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="1419" />
-          <entry key="XML" value="530" />
+          <entry key="Python" value="1441" />
+          <entry key="XML" value="989" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -124,40 +106,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend01/src/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1177">
-              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+            <state relative-caret-position="-1300">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IntelligentCabinet/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="250" column="22" lean-forward="true" selection-start-line="250" selection-start-column="22" selection-end-line="250" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#766#5094#0" />
-                <element signature="e#2288#2803#0" />
-                <element signature="e#2842#3011#0" />
-                <element signature="e#7751#7880#0" />
-                <element signature="e#4247#4847#0" />
-                <element signature="e#6985#8305#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IntelligentCabinet/serializer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IntelligentCabinet/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="162">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -178,11 +130,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="620" column="68" selection-start-line="620" selection-start-column="68" selection-end-line="620" selection-end-column="68" />
+            <state relative-caret-position="381">
+              <caret line="1163" column="28" lean-forward="true" selection-start-line="1163" selection-start-column="28" selection-end-line="1163" selection-end-column="28" />
               <folding>
                 <element signature="e#8984#10068#0#XML" />
-                <element signature="e#10131#13382#0#XML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend01/src/layout/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="508" column="8" selection-start-line="508" selection-start-column="8" selection-end-line="508" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend01/src/views/Login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend01/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="99" column="9" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntelligentCabinet/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="53" column="82" lean-forward="true" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend01/src/api/cabinet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="72" column="33" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="33" />
+            <state relative-caret-position="112">
+              <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -212,36 +205,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isAdmin</find>
-      <find>this.errMsg</find>
-      <find>validated_data</find>
-      <find>SESSION_COOKIE_SAMESITE</find>
-      <find>CabinetGrid</find>
-      <find>SET_CABINETS</find>
-      <find>is_admin</find>
-      <find>deleteCabinetAction</find>
-      <find>CsrfViewMiddleware</find>
-      <find>deleteCabinet</find>
-      <find>updateGrid</find>
-      <find>updateCellAction</find>
-      <find>addCabinetAction</find>
-      <find>this.currentCell</find>
-      <find>update</find>
-      <find>saveCellInfo</find>
-      <find>redirectToLogin</find>
-      <find>reserve</find>
-      <find>确认借出</find>
-      <find>handle</find>
-      <find>handleBorrow</find>
-      <find>currentCell</find>
-      <find>confirm</find>
-      <find>confirmCancelReserve</find>
-      <find>cancelReservation</find>
-      <find>cancelR</find>
-      <find>cell.id</find>
-      <find>CabinetGridUpdateSerializer</find>
-      <find>取消预约</find>
-      <find>cancelReserve</find>
+      <find>cell.position</find>
+      <find>this.currentCell.id</find>
+      <find>borrowDate</find>
+      <find>reserveDate</find>
+      <find>取出日期</find>
+      <find>takeoutDate</find>
+      <find>Brow_at</find>
+      <find>confirmTakeOut</find>
+      <find>Back_at</find>
+      <find>Take_at</find>
+      <find>confirmRemoveCabinet</find>
+      <find>response</find>
+      <find>CabinetGridView</find>
+      <find>response.data.errMsg</find>
+      <find>response.data</find>
+      <find>errMsg</find>
+      <find>取消保留</find>
+      <find>cancelTakenReserve</find>
+      <find>class=&quot;grid-cell&quot;</find>
+      <find>formatCompactDate</find>
+      <find>用户</find>
+      <find>userName</find>
+      <find>menuPosition</find>
+      <find>mapGetters</find>
+      <find>menuTree</find>
+      <find>.navbar</find>
+      <find>.right-menu</find>
+      <find>.sidebar-container</find>
+      <find>.main-container-top</find>
+      <find>.top-menu-container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -271,7 +264,6 @@
         <option value="$PROJECT_DIR$/frontend01/vue.config.js" />
         <option value="$PROJECT_DIR$/frontend01/src/layout/Breadcrumb202508251610.vue" />
         <option value="$PROJECT_DIR$/frontend01/src/views/NestedContainer.vue" />
-        <option value="$PROJECT_DIR$/frontend01/src/views/Login.vue" />
         <option value="$PROJECT_DIR$/frontend01/src/main.js" />
         <option value="$PROJECT_DIR$/frontend01/src/App.vue" />
         <option value="$PROJECT_DIR$/frontend01/src/layout/AppMain.vue" />
@@ -283,24 +275,25 @@
         <option value="$PROJECT_DIR$/pyvue/urls.py" />
         <option value="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinetDetail.vue" />
         <option value="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinetList.vue" />
-        <option value="$PROJECT_DIR$/frontend01/src/store/index.js" />
-        <option value="$PROJECT_DIR$/IntelligentCabinet/urls.py" />
         <option value="$PROJECT_DIR$/frontend01/src/router/rougter202508261500.js" />
         <option value="$PROJECT_DIR$/backend01/admin.py" />
         <option value="$PROJECT_DIR$/backend01/models.py" />
         <option value="$PROJECT_DIR$/backend01/views.py" />
-        <option value="$PROJECT_DIR$/frontend01/src/layout/index.vue" />
         <option value="$PROJECT_DIR$/frontend01/src/router/router.js" />
         <option value="$PROJECT_DIR$/middleware/session_fix.py" />
         <option value="$PROJECT_DIR$/middleware/UserIP.py" />
         <option value="$PROJECT_DIR$/pyvue/settings.py" />
         <option value="$PROJECT_DIR$/frontend01/src/utils/request.js" />
         <option value="$PROJECT_DIR$/frontend01/src/store/modules/cabinet.js" />
-        <option value="$PROJECT_DIR$/IntelligentCabinet/serializer.py" />
         <option value="$PROJECT_DIR$/IntelligentCabinet/models.py" />
+        <option value="$PROJECT_DIR$/IntelligentCabinet/serializer.py" />
         <option value="$PROJECT_DIR$/frontend01/src/api/cabinet.js" />
-        <option value="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" />
+        <option value="$PROJECT_DIR$/IntelligentCabinet/urls.py" />
         <option value="$PROJECT_DIR$/IntelligentCabinet/views.py" />
+        <option value="$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue" />
+        <option value="$PROJECT_DIR$/frontend01/src/store/index.js" />
+        <option value="$PROJECT_DIR$/frontend01/src/views/Login.vue" />
+        <option value="$PROJECT_DIR$/frontend01/src/layout/index.vue" />
       </list>
     </option>
   </component>
@@ -364,13 +357,6 @@
               <item name="pyvue" type="462c0819:PsiDirectoryNode" />
               <item name="frontend01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyvue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyvue" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,14 +394,6 @@
               <item name="frontend01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyvue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyvue" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="IntelligentCabinet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyvue" type="b2602c69:ProjectViewProjectNode" />
@@ -471,11 +449,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\djangoproject\pyvue\frontend01\src\layout" />
       <recent name="C:\djangoproject\pyvue\middleware" />
       <recent name="C:\djangoproject\pyvue\frontend01\src\api" />
       <recent name="C:\djangoproject\pyvue\frontend01\src\store\modules" />
       <recent name="C:\djangoproject\pyvue\frontend01\src\views\IntelligentCabinet" />
-      <recent name="C:\djangoproject\pyvue\IntelligentCabinet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\djangoproject\pyvue\frontend01\src\layout" />
@@ -583,7 +561,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50516284" side_tool="true" weight="0.34640524" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.4995958" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49483716" visible="true" weight="0.3120915" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49483716" weight="0.21405229" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4995958" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -625,15 +603,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend01/src/layout/Breadcrumb202508261500.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/layout/AppMain202508261500.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/store/index202508261500.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/IntelligentCabinet/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="778">
@@ -650,13 +619,6 @@
     </entry>
     <entry file="file://C:/Python372/mecheck/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python372/mecheck/Lib/site-packages/rest_framework/fields.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="1884" column="8" selection-start-line="1884" selection-start-column="8" selection-end-line="1884" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend01/src/store/modules/app.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -698,16 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -842,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/layout/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-878">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend01/serializer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -871,23 +816,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/views/Login.vue">
+    <entry file="file://$PROJECT_DIR$/pyvue/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="95">
+          <caret line="144" column="48" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python372/mecheck/Lib/site-packages/rest_framework/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="1884" column="8" selection-start-line="1884" selection-start-column="8" selection-end-line="1884" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntelligentCabinet/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#936#3757#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend01/src/api/cabinet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntelligentCabinet/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#766#5094#0" />
+            <element signature="e#2842#3011#0" />
+            <element signature="e#7751#7880#0" />
+            <element signature="e#4247#4847#0" />
+            <element signature="e#4900#5635#0" />
+            <element signature="e#5684#6843#0" />
+            <element signature="e#6985#8305#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntelligentCabinet/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="1163" column="28" lean-forward="true" selection-start-line="1163" selection-start-column="28" selection-end-line="1163" selection-end-column="28" />
+          <folding>
+            <element signature="e#8984#10068#0#XML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend01/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend01/node_modules/vuex/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend01/src/utils/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        <state relative-caret-position="410">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend01/src/store/modules/cabinet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="-513">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
@@ -897,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend01/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1177">
-          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        <state relative-caret-position="-1300">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -907,75 +927,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IntelligentCabinet/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        <state relative-caret-position="110">
+          <caret line="53" column="82" lean-forward="true" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyvue/settings.py">
+    <entry file="file://$PROJECT_DIR$/frontend01/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="144" column="48" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IntelligentCabinet/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="99" column="9" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="9" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IntelligentCabinet/serializer.py">
+    <entry file="file://$PROJECT_DIR$/frontend01/src/views/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="722">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue">
+    <entry file="file://$PROJECT_DIR$/frontend01/src/layout/index20250901_TopMenu_no_zhankai.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="620" column="68" selection-start-line="620" selection-start-column="68" selection-end-line="620" selection-end-column="68" />
-          <folding>
-            <element signature="e#8984#10068#0#XML" />
-            <element signature="e#10131#13382#0#XML" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend01/src/api/cabinet.js">
+    <entry file="file://$PROJECT_DIR$/frontend01/src/layout/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IntelligentCabinet/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="250" column="22" lean-forward="true" selection-start-line="250" selection-start-column="22" selection-end-line="250" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#766#5094#0" />
-            <element signature="e#2288#2803#0" />
-            <element signature="e#2842#3011#0" />
-            <element signature="e#7751#7880#0" />
-            <element signature="e#4247#4847#0" />
-            <element signature="e#6985#8305#0" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="508" column="8" selection-start-line="508" selection-start-column="8" selection-end-line="508" selection-end-column="8" />
         </state>
       </provider>
     </entry>

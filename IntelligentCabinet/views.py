@@ -126,8 +126,8 @@ class CabinetDetailView(APIView):
             cabinet = Cabinet.objects.get(pk=pk)
             if cabinet.grids.exclude(status=0).exists():
                 return Response(
-                    {"error": "柜体中存在非空闲柜格，无法删除"},
-                    status=status.HTTP_400_BAD_REQUEST
+                    {"errMsg": "柜体中存在非空闲柜格，无法删除"},
+                    # status=status.HTTP_400_BAD_REQUEST
                 )
             cabinet.delete()
             return Response(status=status.HTTP_204_NO_CONTENT)
@@ -150,14 +150,10 @@ class GridUpdateView(CabinetGridView):
     """更新柜格信息（管理员操作）"""
 
     def patch(self, request, pk):
-        gridinfo = request.data['gridinfo']
-
-        # 提取 cabinet ID 而不是整个对象
-        if 'cabinet' in gridinfo and isinstance(gridinfo['cabinet'], dict):
-            gridinfo['cabinet'] = gridinfo['cabinet']['id']
+        gridinfo = request.data['gridinfo']['cellData']
 
         # 获取柜格实例
-        grid = self.get_grid(gridinfo['id'])
+        grid = self.get_grid(pk)
         if not grid:
             return Response(status=status.HTTP_404_NOT_FOUND)
 
@@ -360,7 +356,7 @@ class CabinetGridListView(APIView):
         except Exception as e:
             errMsg = str(e)
 
-        # print(data)
+        print(data)
         return Response({
             "errMsg": errMsg,
             'cabinets': data,

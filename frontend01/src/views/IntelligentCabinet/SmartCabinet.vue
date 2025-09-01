@@ -69,75 +69,78 @@
                           placement="top"
                           popper-class="cell-tooltip"
                           :disabled="!hoverCell">
-                    <div
-                      class="grid-cell"
-                      :class="[
-                          getStatusClass(scope.row.cells[colIndex].status),
-                          {'status-overdue': isOverdue(scope.row.cells[colIndex])}
-                      ]"
-                      @mouseover="hoverCell = scope.row.cells[colIndex]"
-                      @mouseleave="hoverCell = null"
-                      @click="handleCellClick(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
+                      <!-- 只修改柜格单元格内部结构 -->
+                      <div class="grid-cell" :class="[getStatusClass(scope.row.cells[colIndex].status), {'status-overdue': isOverdue(scope.row.cells[colIndex])}]"
+                           @mouseover="hoverCell = scope.row.cells[colIndex]"
+                           @mouseleave="hoverCell = null"
+                           @click="handleCellClick(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
 
-                      <div class="cell-content">
-                        <div class="position-id">{{ scope.row.cells[colIndex].position }}</div>
-                        <div class="status-text" :class="{'overdue-date': isReserveOverdue(scope.row.cells[colIndex])}">
-                          {{ scope.row.cells[colIndex].statusText }}
-                        </div>
-                        <div v-if="scope.row.cells[colIndex].user" class="user-info">{{ scope.row.cells[colIndex].user }}</div>
+                        <div class="cell-content-container">
+                          <!-- 位置ID -->
+                          <div class="position-id">{{ scope.row.cells[colIndex].position }}</div>
 
-                        <!-- 日期信息 -->
-                        <div v-if="scope.row.cells[colIndex].borrowDate" class="date-info" :class="{'overdue-date': isOverdue(scope.row.cells[colIndex])}">
-                          借用: {{ formatDate(scope.row.cells[colIndex].borrowDate) }}
-                        </div>
-                        <div v-if="scope.row.cells[colIndex].reserveDate" class="date-info" :class="{'overdue-date': isReserveOverdue(scope.row.cells[colIndex])}">
-                          保留: {{ formatDate(scope.row.cells[colIndex].reserveDate) }}
-                        </div>
-                        <div v-if="scope.row.cells[colIndex].takeoutDate" class="date-info">
-                          取出: {{ formatDate(scope.row.cells[colIndex].takeoutDate) }}
-                        </div>
+                          <!-- 操作按钮区域（右上角） -->
+                          <div class="cell-actions">
+                            <!-- 取消预约按钮 -->
+                            <div v-if="!isAdmin && scope.row.cells[colIndex].status === 2 && scope.row.cells[colIndex].user === currentUser.name"
+                                 class="action-button cancel-reserve-btn"
+                                 @click.stop="confirmCancelReserve(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
+                              ×
+                            </div>
 
-                        <!-- 取消预约按钮（只对预约用户显示） -->
-                        <div
-                          v-if="!isAdmin && scope.row.cells[colIndex].status === 2 && scope.row.cells[colIndex].user === currentUser.name"
-                          class="cancel-reserve-btn"
-                          @click.stop="confirmCancelReserve(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
-                          取消预约
-                        </div>
+                            <!-- 取出按钮 -->
+                            <div v-if="!isAdmin && scope.row.cells[colIndex].status === 1 && scope.row.cells[colIndex].user === currentUser.name"
+                                 class="action-button take-out-btn"
+                                 @click.stop="takeOutCell(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
+                              →
+                            </div>
 
-                        <!-- 取出按钮（只对借用用户显示） -->
-                        <div
-                          v-if="!isAdmin && scope.row.cells[colIndex].status === 1 && scope.row.cells[colIndex].user === currentUser.name"
-                          class="take-out-btn"
-                          @click.stop="takeOutCell(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
-                          取出保留
-                        </div>
+                            <!-- 归还按钮 -->
+                            <div v-if="!isAdmin && scope.row.cells[colIndex].status === 1 && scope.row.cells[colIndex].user === currentUser.name"
+                                 class="action-button return-btn"
+                                 @click.stop="confirmReturnCell(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
+                              ↻
+                            </div>
 
-                        <!-- 归还按钮（只对借用用户显示） -->
-                        <div
-                          v-if="!isAdmin && scope.row.cells[colIndex].status === 1 && scope.row.cells[colIndex].user === currentUser.name"
-                          class="return-btn"
-                          @click.stop="confirmReturnCell(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
-                          归还
-                        </div>
+                            <!-- 取消保留按钮 -->
+                            <div v-if="!isAdmin && scope.row.cells[colIndex].status === 3 && scope.row.cells[colIndex].user === currentUser.name"
+                                 class="action-button cancel-taken-btn"
+                                 @click.stop="cancelTakenReserve(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
+                              ×
+                            </div>
 
-                        <!-- 取消保留按钮（只对取出保留用户显示） -->
-                        <div
-                          v-if="!isAdmin && scope.row.cells[colIndex].status === 3 && scope.row.cells[colIndex].user === currentUser.name"
-                          class="cancel-taken-btn"
-                          @click.stop="cancelTakenReserve(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
-                          取消保留
-                        </div>
-                        <!-- 管理员确认借出按钮（只对预定中状态显示） -->
-                        <div
-                          v-if="isAdmin && scope.row.cells[colIndex].status === 2"
-                          class="confirm-borrow-btn"
-                          @click.stop="confirmBorrow(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
-                          确认借出
+                            <!-- 管理员确认借出按钮 -->
+                            <div v-if="isAdmin && scope.row.cells[colIndex].status === 2"
+                                 class="action-button confirm-borrow-btn"
+                                 @click.stop="confirmBorrow(cabinet.id, scope.row.cells[colIndex], scope.$index, colIndex)">
+                              ✓
+                            </div>
+                          </div>
+
+                          <!-- 状态和用户信息 -->
+                          <div class="status-user-row">
+                            <div class="status-text" :class="{'overdue-date': isReserveOverdue(scope.row.cells[colIndex])}">
+                              {{ scope.row.cells[colIndex].statusText }}
+                            </div>
+                            <div v-if="scope.row.cells[colIndex].user" class="user-info">
+                              {{ scope.row.cells[colIndex].user }}
+                            </div>
+                          </div>
+
+                          <!-- 日期信息 -->
+                          <div class="date-row">
+                            <div v-if="scope.row.cells[colIndex].Brow_at" class="date-info" :class="{'overdue-date': isOverdue(scope.row.cells[colIndex])}">
+                              借: {{ formatCompactDate(scope.row.cells[colIndex].Brow_at) }}
+                            </div>
+                            <div v-if="scope.row.cells[colIndex].Back_at" class="date-info" :class="{'overdue-date': isReserveOverdue(scope.row.cells[colIndex])}">
+                              保: {{ formatCompactDate(scope.row.cells[colIndex].Back_at) }}
+                            </div>
+                            <div v-if="scope.row.cells[colIndex].Take_at" class="date-info">
+                              取: {{ formatCompactDate(scope.row.cells[colIndex].Take_at) }}
+                            </div>
+                          </div>
                         </div>
                       </div>
-
-                    </div>
                   </el-tooltip>
                 </template>
               </el-table-column>
@@ -263,7 +266,7 @@
           </el-form-item>
           <el-form-item label="留样日期(放回)">
             <el-date-picker
-              v-model="currentCell.borrowDate"
+              v-model="currentCell.Brow_at"
               type="date"
               format="yyyy-MM-dd"
               value-format="yyyy-MM-dd"
@@ -275,7 +278,7 @@
           </el-form-item>
           <el-form-item label="取出日期">
             <el-date-picker
-              v-model="currentCell.takeoutDate"
+              v-model="currentCell.Take_at"
               type="date"
               format="yyyy-MM-dd"
               value-format="yyyy-MM-dd"
@@ -287,7 +290,7 @@
           </el-form-item>
           <el-form-item label="保留日期">
             <el-date-picker
-              v-model="currentCell.reserveDate"
+              v-model="currentCell.Back_at"
               type="date"
               format="yyyy-MM-dd"
               value-format="yyyy-MM-dd"
@@ -352,11 +355,11 @@
           </el-form-item>
           <el-form-item label="保留日期（放回）">
             <el-date-picker
-              v-model="takeoutForm.reserveDate"
+              v-model="takeoutForm.Back_at"
               type="date"
               format="yyyy-MM-dd"
               value-format="yyyy-MM-dd"
-              :picker-options="reserveDateOptions"
+              :picker-options="Back_atOptions"
               placeholder="选择日期">
             </el-date-picker>
           </el-form-item>
@@ -412,7 +415,7 @@ export default {
       // 取出保留表单
       takeoutForm: {
         TakeReson: '',
-        reserveDate: '',
+        Back_at: '',
       },
 
       // 添加柜体表单
@@ -435,7 +438,7 @@ export default {
       nextCabinetId: 1,
 
       // 保留日期选择限制
-      reserveDateOptions: {
+      Back_atOptions: {
         disabledDate(time) {
           const maxDate = new Date();
           maxDate.setFullYear(maxDate.getFullYear() + 2);
@@ -591,8 +594,14 @@ export default {
       try {
         const response = await cabinetApi.deleteCabinetAction(cabinetId)
         // 选项2：重新获取所有数据（确保数据最新）
-        await this.getdata("update");
-        this.$message.success('删除成功');
+        this.errMsg = response.data.errMsg
+        if(this.errMsg){
+          this.$alert(this.errMsg, '提示', { type: 'warning' });
+        }else{
+          await this.getdata("update");
+          this.$message.success('删除成功');
+        }
+
       } catch (error) {
         console.error('删除柜体失败:', error);
         this.$message.error('删除柜体失败');
@@ -632,10 +641,10 @@ export default {
               ProCode: '',
               CampalCode: '',
               notes: '',
-              borrowDate: null,
+              Brow_at: null,
               BrowReson: '',
-              reserveDate: null,
-              takeoutDate: null,
+              Back_at: null,
+              Take_at: null,
               TakeReson: '',
             },
             action: "cancelReserve"
@@ -654,16 +663,21 @@ export default {
 
     async cancelTakenReserve(cabinetId, cell, rowIndex, colIndex) {
       try {
-        const response = await cabinetApi.updateGrid({
+        const response = await cabinetApi.updateGrid(cell.id, {
           cabinetId,
           rowIndex,
           colIndex,
           cellData: {
             ...cell,
+            Back_at: null,
+            Take_at: null,
+            TakeReson: '',
             status: 1
           },
           action: "cancelTakenReserve"
         });
+        // 选项2：重新获取所有数据（确保数据最新）
+        await this.getdata("update");
         this.$message.success(`柜格 ${cell.position} 的保留状态已取消`);
       } catch (error) {
         console.error('取消保留失败:', error);
@@ -683,7 +697,7 @@ export default {
 
     async returnCell(cabinetId, cell, rowIndex, colIndex) {
       try {
-        const response = await cabinetApi.updateGrid({
+        const response = await cabinetApi.updateGrid(cell.id, {
           cabinetId,
           rowIndex,
           colIndex,
@@ -696,52 +710,57 @@ export default {
             ProCode: '',
             CampalCode: '',
             notes: '',
-            borrowDate: null,
+            Brow_at: null,
             BrowReson: '',
-            reserveDate: null,
-            takeoutDate: null,
+            Back_at: null,
+            Take_at: null,
             TakeReson: '',
           },
           action: "returnCell"
         });
-        this.$message.success(`柜格 ${this.currentCell.position} 已成功归还`);
+        this.$message.success(`柜格 ${cell.position} 已成功归还`);
+        // 选项2：重新获取所有数据（确保数据最新）
+        await this.getdata("update");
       } catch (error) {
         console.error('归还柜格失败:', error);
         this.$message.error('归还柜格失败');
       }
     },
 
+    //取出保留，普通用户
     takeOutCell(cabinetId, cell, rowIndex, colIndex) {
       this.currentCabinetIdInDialog = cabinetId;
       this.currentCell = {...cell};
       this.currentRowIndex = rowIndex;
       this.currentColIndex = colIndex;
       this.dialogTakeOutVisible = true;
-      this.takeoutForm.reserveDate = '';
+      this.takeoutForm.Back_at = '';
     },
 
     async confirmTakeOut() {
-      if (!this.takeoutForm.reserveDate) {
+      if (!this.takeoutForm.Back_at) {
         this.$message.warning('请选择保留日期');
         return;
       }
 
       try {
-        const response = await cabinetApi.updateGrid({
+        const response = await cabinetApi.updateGrid(this.currentCell.id, {
           cabinetId: this.currentCabinetIdInDialog,
           rowIndex: this.currentRowIndex,
           colIndex: this.currentColIndex,
           cellData: {
             ...this.currentCell,
             status: 3,
-            reserveDate: this.takeoutForm.reserveDate,
-            takeoutDate: new Date().toISOString().split('T')[0],
+            Back_at: this.formatDateToISO(this.takeoutForm.Back_at),
+            Take_at: this.formatDateToISO(new Date().toISOString().split('T')[0]),
             TakeReson: this.takeoutForm.TakeReson
           },
           action: 'confirmTakeOut'
         });
 
         this.dialogTakeOutVisible = false;
+        // 选项2：重新获取所有数据（确保数据最新）
+        await this.getdata("update");
         this.$message.success(`柜格 ${this.currentCell.position} 已设为取出保留状态`);
       } catch (error) {
         console.error('取出保留操作失败:', error);
@@ -775,10 +794,10 @@ export default {
             CampalCode: '',
             phone: '',
             notes: '',
-            borrowDate: null,
+            Brow_at: null,
             BrowReson: '',
-            reserveDate: null,
-            takeoutDate: null,
+            Back_at: null,
+            Take_at: null,
             TakeReson: '',
           };
           row.push(cell);
@@ -829,6 +848,7 @@ export default {
       }
     },
 
+    //普通用户点击，借用
     async handleBorrow() {
       if (!this.dialogUserBorrowVisible || !this.currentCell) return;
 
@@ -885,7 +905,7 @@ export default {
 
       // 如果状态从预定中(2)变为使用中(1)，设置借用日期
       if (this.originalCellStatus === 2 && this.currentCell.status === 1) {
-        this.currentCell.borrowDate = new Date().toISOString().split('T')[0];
+        this.currentCell.Brow_at = new Date().toISOString().split('T')[0];
       }
 
       // 如果状态从使用中(1)变为空闲(0)，清除所有信息
@@ -896,15 +916,17 @@ export default {
         this.currentCell.ProCode = '';
         this.currentCell.CampalCode = '';
         this.currentCell.notes = '';
-        this.currentCell.borrowDate = null;
+        this.currentCell.Brow_at = null;
         this.currentCell.BrowReson = '';
-        this.currentCell.takeoutDate = null;
+        this.currentCell.Take_at = null;
         this.currentCell.TakeReson = '';
-        this.currentCell.reserveDate = null;
+        this.currentCell.Back_at = null;
       }
 
+
       try {
-        const response = await cabinetApi.updateGrid(this.currentCabinetIdInDialog, this.currentCell);
+        const response = await cabinetApi.updateGrid(this.currentCell.id, {cellData: {
+            ...this.currentCell}});
 
         this.dialogAdminVisible = false;
         this.$message.success('柜格信息已更新');
@@ -944,23 +966,39 @@ export default {
       }).catch(() => {});
     },
 
-    isOverdue(cell) {
-      if (!cell.borrowDate) return false;
+    formatCompactDate(dateString) {
+      if (!dateString) return '';
+      const date = new Date(dateString);
+      return `${date.getMonth()+1}/${date.getDate()}`; // 简化为 月/日 格式
+    },
 
-      const borrowDate = new Date(cell.borrowDate);
+    formatDateToISO(dateString) {
+      if (!dateString) return null;
+      // 如果已经是ISO格式（包含T），则直接返回
+      if (dateString.includes('T')) {
+        return dateString;
+      }
+      // 否则，假设是YYYY-MM-DD格式，转换为ISO格式
+      return dateString + 'T00:00:00';
+    },
+
+    isOverdue(cell) {
+      if (!cell.Brow_at) return false;
+
+      const Brow_at = new Date(cell.Brow_at);
       const now = new Date();
       const twoYearsAgo = new Date();
       twoYearsAgo.setFullYear(now.getFullYear() - 2);
 
-      return borrowDate < twoYearsAgo;
+      return Brow_at < twoYearsAgo;
     },
 
     isReserveOverdue(cell) {
-      if (!cell.reserveDate) return false;
+      if (!cell.Back_at) return false;
 
-      const reserveDate = new Date(cell.reserveDate);
+      const Back_at = new Date(cell.Back_at);
       const now = new Date();
-      return reserveDate < now;
+      return Back_at < now;
     },
 
     formatDate(dateString) {
@@ -976,22 +1014,22 @@ export default {
       if (cell.user) content += `借用人: ${cell.user}\n`;
       if (cell.phone) content += `电话: ${cell.phone}\n`;
 
-      if (cell.borrowDate) {
+      if (cell.Brow_at) {
         const overdue = this.isOverdue(cell);
-        content += `借用日期: ${this.formatDate(cell.borrowDate)}`;
+        content += `借用日期: ${this.formatDate(cell.Brow_at)}`;
         if (overdue) content += ` (超期)`;
         content += `\n`;
       }
 
-      if (cell.reserveDate) {
+      if (cell.Back_at) {
         const overdue = this.isReserveOverdue(cell);
-        content += `保留日期: ${this.formatDate(cell.reserveDate)}`;
+        content += `保留日期: ${this.formatDate(cell.Back_at)}`;
         if (overdue) content += ` (超期)`;
         content += `\n`;
       }
 
-      if (cell.takeoutDate) {
-        content += `取出日期: ${this.formatDate(cell.takeoutDate)}\n`;
+      if (cell.Take_at) {
+        content += `取出日期: ${this.formatDate(cell.Take_at)}\n`;
       }
 
       if (this.isOverdue(cell)) {
@@ -1641,4 +1679,447 @@ export default {
     font-size: 1.6rem;
   }
 }
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+            color: #333;
+            line-height: 1.35;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 12px;
+        }
+
+        h1 {
+            font-size: 1.7rem;
+            margin-bottom: 6px;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            color: #5a6a7f;
+            font-size: 0.9rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .device-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+            padding: 14px;
+            margin-bottom: 16px;
+            transition: transform 0.2s ease;
+        }
+
+        .device-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .device-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #3498db;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 70%;
+        }
+
+        .device-id {
+            background: #f1f5f9;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: #5a6a7f;
+            white-space: nowrap;
+        }
+
+        .info-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .status-row {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 7px;
+            padding: 6px 0;
+            flex-wrap: wrap;
+        }
+
+        .date-row {
+            display: flex;
+            gap: 10px;
+            padding: 6px 0;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .status-text {
+            font-weight: 600;
+            font-size: 0.82rem;
+            padding: 3px 8px;
+            border-radius: 3px;
+            background: #eaf6ff;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        .status-text i {
+            margin-right: 4px;
+            font-size: 0.75rem;
+        }
+
+        .overdue-date {
+            color: #e74c3c !important;
+            background: #fdeded !important;
+        }
+
+        .user-info {
+            padding: 3px 8px;
+            border-radius: 3px;
+            background: #e8f4ea;
+            color: #27ae60;
+            font-size: 0.82rem;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        .user-info i {
+            margin-right: 4px;
+            font-size: 0.75rem;
+        }
+
+        .date-info {
+            padding: 3px 8px;
+            border-radius: 3px;
+            background: rgba(52, 152, 219, 0.08);
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            min-width: 140px;
+        }
+
+        .date-info i {
+            margin-right: 5px;
+            font-size: 0.7rem;
+            color: #5a6a7f;
+        }
+
+        .date-label {
+            font-weight: 500;
+            color: #5a6a7f;
+            margin-right: 3px;
+            font-size: 0.8rem;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin: 25px 0;
+        }
+
+        .btn {
+            padding: 7px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background: #3498db;
+            color: white;
+            box-shadow: 0 2px 4px rgba(52, 152, 219, 0.2);
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        .btn i {
+            margin-right: 5px;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 3px 6px rgba(52, 152, 219, 0.25);
+        }
+
+        .btn-today {
+            background: #2ecc71;
+            box-shadow: 0 2px 4px rgba(46, 204, 113, 0.2);
+        }
+
+        .btn-full-width {
+            width: 100%;
+            justify-content: center;
+            padding: 8px;
+        }
+
+        .explanation {
+            background: white;
+            padding: 16px;
+            border-radius: 6px;
+            margin-top: 25px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+        }
+
+        .explanation h2 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .explanation h2 i {
+            margin-right: 8px;
+        }
+
+        .code-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 12px;
+            border-radius: 5px;
+            margin: 12px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.82rem;
+            overflow-x: auto;
+        }
+
+        @media (max-width: 600px) {
+            .date-info {
+                min-width: calc(50% - 15px);
+                font-size: 0.78rem;
+            }
+
+            .status-text, .user-info {
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .date-info {
+                min-width: 100%;
+            }
+
+            .status-row, .date-row {
+                flex-direction: column;
+                gap: 6px;
+            }
+
+            .device-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+            }
+
+            .device-name, .device-id {
+                max-width: 100%;
+            }
+        }
+
+        .date-value {
+            white-space: nowrap;
+        }
+
+        .action-button {
+            margin-top: 5px;
+            padding: 4px 8px;
+            font-size: 0.75rem;
+            background: #e67e22;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-note {
+            text-align: center;
+            font-size: 0.78rem;
+            color: #7f8c8d;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+    /* 保持原有样式不变 */
+    .grid-cell {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      transition: all 0.25s ease;
+      border-radius: 4px;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      padding: 8px;
+      overflow: hidden;
+    }
+
+    /* 新增/修改的样式 */
+    .cell-content-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .position-id {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+      text-align: center;
+      margin-bottom: 6px;
+    }
+
+    .status-user-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+
+    .status-text {
+      font-size: 12px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.05);
+      white-space: nowrap;
+    }
+
+    .user-info {
+      font-size: 11px;
+      color: #5a5e66;
+      background: rgba(255, 255, 255, 0.4);
+      padding: 2px 6px;
+      border-radius: 3px;
+      white-space: nowrap;
+    }
+
+    .date-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      justify-content: center;
+    }
+
+    .date-info {
+      font-size: 10px;
+      padding: 2px 4px;
+      border-radius: 2px;
+      background: rgba(0, 0, 0, 0.05);
+      white-space: nowrap;
+    }
+
+    .cell-actions {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      display: flex;
+      gap: 4px;
+      z-index: 10;
+    }
+
+    .action-button {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      border: none;
+    }
+
+    .cancel-reserve-btn {
+      background: #f56c6c;
+      color: white;
+    }
+
+    .take-out-btn {
+      background: #ff9d00;
+      color: white;
+    }
+
+    .return-btn {
+      background: #1a73e8;
+      color: white;
+    }
+
+    .cancel-taken-btn {
+      background: #ff9d00;
+      color: white;
+    }
+
+    .confirm-borrow-btn {
+      background: #4caf50;
+      color: white;
+    }
+
+    .overdue-date {
+      color: #ff4d4f !important;
+      font-weight: 600;
+    }
+
+    /* 原有样式保留 */
+    .status-free {
+      background-color: #f5f7fa;
+      border: 1px solid #e0e6ed !important;
+    }
+
+    .status-in-use {
+      background-color: #e1f3e1;
+      background: linear-gradient(145deg, #d8f3d9, #e1f3e1);
+      border: none !important;
+    }
+
+    .status-reserved {
+      background-color: #fff8e1;
+      background: linear-gradient(145deg, #ffecb3, #fff8e1);
+      border: none !important;
+    }
+
+    .status-taken-reserved {
+      background-color: #ffecd5;
+      background: linear-gradient(145deg, #ffe2c0, #ffecd5);
+      border: none !important;
+    }
 </style>

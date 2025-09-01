@@ -906,3 +906,21 @@ KeyError: 'gridId'
 [2025-08-29 17:03:28,143] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-08-29 17:03:28: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/cancel-reserve/'>
 [2025-08-29 17:03:28,149] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/cancel-reserve/ HTTP/1.1" 200 475
 [2025-08-29 17:03:28,368] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29217
+[2025-09-01 08:08:30,534] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-09-01 08:08:30,601] [log.py:228] [log:log_response] [WARNING]- Forbidden: /IntelligentCabinet/init-data/
+[2025-09-01 08:08:30,606] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 403 183
+[2025-09-01 08:08:40,755] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-09-01 08:08:41,063] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 08:08:41: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 08:08:41,072] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 08:08:44,592] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29217
+[2025-09-01 08:09:03,391] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 0
+[2025-09-01 08:09:03,427] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/8/update/ HTTP/1.1" 200 478
+[2025-09-01 08:09:03,444] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 0
+[2025-09-01 08:09:03,626] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29220
+[2025-09-01 08:09:21,687] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 0
+[2025-09-01 08:09:21,727] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 08:09:21: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-09-01 08:09:21,734] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 508
+[2025-09-01 08:09:22,093] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 29250
+[2025-09-01 08:15:40,088] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29250
+[2025-09-01 08:21:39,362] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29250
+[2025-09-01 08:21:59,586] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 29250

@@ -1,7 +1,7 @@
 <template>
   <div class="app-wrapper" :class="menuPositionClass">
     <!-- 顶部菜单模式 -->
-    <div v-if="menuPosition === 'top'" class="top-menu-container" ref="topMenu">
+    <div v-if="menuPosition === 'top'" class="top-menu-container">
       <el-menu
         :default-active="activeMenu"
         class="el-menu-demo"
@@ -186,6 +186,11 @@ import RouteLoading from '@/views/RouteLoading'
 export default {
   name: 'Layout',
   components: { Breadcrumb, AppMain, RouteLoading },
+  data() {
+    return {
+      topMenuHeight: 60 // 默认高度
+    }
+  },
   computed: {
     // mapGetters(['user'])从 Vuex store 中获取数据,对应store/index.js里面的getters里面的
     ...mapGetters(['menuTree', 'isCollapse', 'menuPosition', 'currentUser']),
@@ -203,16 +208,70 @@ export default {
     userName() {
       //console.log("this.user", this.user)
       return this.currentUser ?.username || '用户';
+    },
+    mainContainerStyle() {
+      if (this.menuPosition === 'top') {
+        return {
+          marginTop: `${this.topMenuHeight}px`,
+          height: `calc(100vh - ${this.topMenuHeight}px)`
+        }
+      }
+      return {}
     }
+  },
+  mounted() {
+    this.updateTopMenuHeight();
+    window.addEventListener('resize', this.updateTopMenuHeight);
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.updateTopMenuHeight);
   },
   methods: {
     ...mapActions(['setCollapse', 'setRouteLoading']),
+    updateTopMenuHeight() {
+      if (this.menuPosition === 'top' && this.$refs.topMenu) {
+        // 获取菜单的实际高度
+        this.topMenuHeight = this.$refs.topMenu.$el.clientHeight;
+      }
+    },
     toggleMenuPosition() {
       const newPosition = this.menuPosition === 'left' ? 'top' : 'left'
       this.$store.dispatch('setMenuPosition', newPosition)
       if (newPosition === 'left' && this.isCollapse) {
         this.setCollapse(false)
       }
+      // 菜单位置切换后更新高度
+      this.$nextTick(() => {
+        this.updateTopMenuHeight();
+      });
+    },
+
+    handleMenuSelect(path) {
+      // 排除注销项
+      if (path === 'logout') return;
+
+      // 关闭所有展开的子菜单
+      if (this.$refs.topMenu) {
+        this.$refs.topMenu.closeMenu();
+      }
+
+      this.navigate(path);
+    },
+    navigate(path) {
+      if (this.$route.path === path) return;
+
+      if (this.$router.resolve(path).route.matched.length) {
+        this.$router.push(path).catch(err => {
+          if (err.name !== 'NavigationDuplicated') console.error(err);
+        });
+      } else {
+        console.warn(`路由 ${path} 不存在`);
+        this.setRouteLoading(true);
+        setTimeout(() => this.$router.push('/dashboard'), 1000);
+      }
+
+      // 导航后更新菜单高度
+      this.$nextTick(this.updateTopMenuHeight);
     },
 
     handleSelect(path) {
@@ -273,31 +332,21 @@ export default {
 </script>
 
 <style scoped>
-/* 全局重置 */
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
-}
-
 .app-wrapper {
   display: flex;
   height: 100vh;
   flex-direction: column;
 }
 
-/* 顶部菜单样式 - 修复留白问题 */
 .top-menu-container {
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1001;
   background-color: #545c64;
-  position: sticky; /* 使用粘性定位 */
-  top: 0; /* 固定在顶部 */
-  transition: height 0.3s ease; /* 添加高度过渡效果 */
 }
 
-/* 侧边菜单样式保持不变 */
 .sidebar-container {
   width: 210px;
   background: #304156;
@@ -327,7 +376,6 @@ body, html {
   transition: margin-left 0.3s;
   margin-left: 210px;
   position: relative;
-  height: calc(100vh - 50px); /* 确保高度计算正确 */
 }
 
 .route-loading-overlay {
@@ -349,7 +397,8 @@ body, html {
 
 .main-container-top {
   margin-left: 0 !important;
-  margin-top: 0 !important; /* 移除固定间距 */
+  margin-top: 60px;
+  height: calc(100vh - 60px);
 }
 
 .app-wrapper.menu-top {
@@ -357,20 +406,17 @@ body, html {
 }
 
 .navbar {
+  padding: 0 20px;
   height: 50px;
-  border-bottom: 1px solid #e6e6e6;
   display: flex;
   align-items: center;
-  padding: 0 20px;
-  position: relative;
-  z-index: 10;
-  background-color: #fff; /* 添加背景色 */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 添加轻微阴影 */
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .right-menu {
   margin-left: auto;
-  margin-right: 20px;
 }
 
 .el-menu-vertical-demo {
@@ -397,6 +443,25 @@ body, html {
   width: 100%;
 }
 
+/* 顶部菜单样式 */
+.top-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+  background-color: #545c64;
+  overflow: visible; /* 允许子菜单显示 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: height 0.3s ease;
+}
+
+
+.top-menu {
+  display: flex;
+  align-items: center;
+}
+
 /* 修复顶部菜单右侧区域 */
 .top-menu-right {
   margin-left: auto;
@@ -412,7 +477,7 @@ body, html {
 }
 
 .logout-button {
-  color: #409EFF !important;
+  color: #409EFF !important; /* 蓝色文字，与图片一致 */
   padding: 0 10px;
   font-size: 14px;
 }
@@ -497,13 +562,63 @@ body, html {
   position: relative;
 }
 
+/* 修复主内容区域 */
+.main-container-top {
+  margin-top: 60px; /* 初始值 */
+  height: calc(100vh - 60px); /* 初始值 */
+  transition: margin-top 0.3s ease;
+}
+
+/* 修复菜单项样式 */
+.el-menu--horizontal .el-submenu .el-submenu__title {
+  height: 60px; /* 固定高度 */
+  line-height: 60px; /* 垂直居中 */
+}
+
+.el-menu--horizontal > .el-menu-item {
+  height: 60px; /* 固定高度 */
+  line-height: 60px; /* 垂直居中 */
+}
+
+/* 菜单项活动状态修复 */
+.el-menu-item.is-active {
+  border-bottom: 3px solid #ffd04b !important;
+}
+
+/* 子菜单样式优化 */
+.el-menu--horizontal .el-menu--popup {
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.el-menu--horizontal .el-menu--popup .el-menu-item {
+  min-width: 160px;
+  height: 48px;
+  line-height: 48px;
+}
+
+/* 修复用户菜单位置 */
+.user-submenu {
+  float: right !important;
+  margin-right: 20px;
+}
+
+
 .sidebar-container.collapsed + .main-container {
   margin-left: 64px;
 }
 
-/* 修复顶部菜单留白 */
-.menu-top .main-container {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+/* 响应式调整 */
+@media (max-width: 992px) {
+  .top-menu-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .el-menu--horizontal {
+    display: inline-block;
+    min-width: 100%;
+  }
 }
 </style>

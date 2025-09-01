@@ -25,6 +25,7 @@ export default new Vuex.Store({
     },
     SET_USER(state, user) {
       state.user = user
+      localStorage.setItem('user', JSON.stringify(user));
     },
     SET_MENU_TREE(state, menuTree) {
       state.menuTree = menuTree
@@ -90,6 +91,10 @@ export default new Vuex.Store({
     },
     setRouteLoading({ commit }, loading) {
       commit('SET_ROUTE_LOADING', loading)
+    },
+    // 更新用户信息的 action
+    setUser({ commit }, user) {
+      commit('SET_USER', user)
     }
   },
   getters: {

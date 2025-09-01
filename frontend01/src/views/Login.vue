@@ -68,7 +68,8 @@ export default {
 
         // 4. 保存用户信息到 Vuex
         if (response.data) {
-          this.$store.commit('SET_USER', response.data);
+          //console.log('response.data.user', response.data.user)
+          this.$store.commit('SET_USER', response.data.user);
         }
 
         // 5. 保存菜单数据并动态添加路由
