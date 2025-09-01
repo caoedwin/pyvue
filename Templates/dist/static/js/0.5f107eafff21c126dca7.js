@@ -1,0 +1,2 @@
+webpackJsonp([0],{"+H76":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r={render:function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"not-found"},[n("h1",[t._v("404")]),t._v(" "),n("p",[t._v("页面不存在")]),t._v(" "),n("el-button",{attrs:{type:"primary"},on:{click:function(e){return t.$router.push("/")}}},[t._v("返回首页")])],1)},staticRenderFns:[]};var u=n("VU/8")({name:"NotFound"},r,!1,function(t){n("Tr3H")},null,null);e.default=u.exports},Tr3H:function(t,e){}});
+//# sourceMappingURL=0.5f107eafff21c126dca7.js.map

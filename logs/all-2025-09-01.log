@@ -231,3 +231,229 @@ KeyError: 'id'
 [2025-09-01 10:44:40,618] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30758
 [2025-09-01 10:44:43,587] [basehttp.py:154] [basehttp:log_message] [INFO]- "DELETE /IntelligentCabinet/cabinets/8/ HTTP/1.1" 200 58
 [2025-09-01 10:44:43,688] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 30758
+[2025-09-01 10:45:51,855] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30758
+[2025-09-01 10:47:15,657] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30758
+[2025-09-01 10:47:20,829] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 30758
+[2025-09-01 10:47:24,214] [basehttp.py:154] [basehttp:log_message] [INFO]- "DELETE /IntelligentCabinet/cabinets/8/ HTTP/1.1" 200 58
+[2025-09-01 10:47:38,461] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/cabinets/2/ HTTP/1.1" 200 0
+[2025-09-01 10:47:38,511] [basehttp.py:154] [basehttp:log_message] [INFO]- "DELETE /IntelligentCabinet/cabinets/2/ HTTP/1.1" 204 0
+[2025-09-01 10:47:38,635] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15612
+[2025-09-01 10:48:09,602] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 606
+[2025-09-01 10:48:09,748] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15606
+[2025-09-01 10:50:59,667] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15606
+[2025-09-01 10:51:03,445] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15606
+[2025-09-01 10:51:18,394] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 612
+[2025-09-01 10:51:18,527] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15612
+[2025-09-01 10:51:26,759] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 554
+[2025-09-01 10:51:26,893] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15554
+[2025-09-01 10:51:42,295] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/183/update/ HTTP/1.1" 200 560
+[2025-09-01 10:51:42,443] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15496
+[2025-09-01 10:51:51,760] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 497
+[2025-09-01 10:51:51,900] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15411
+[2025-09-01 10:52:00,095] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/182/update/ HTTP/1.1" 200 497
+[2025-09-01 10:52:00,241] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15354
+[2025-09-01 10:58:35,431] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:00:01,594] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:00:07,527] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:03:58,482] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:05:03,293] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:05:05,366] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:05:21,795] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:08:49,298] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:15:26,867] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:37:38,933] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 11:37:41,273] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 12:02:37,193] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15354
+[2025-09-01 12:03:09,868] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/183/update/ HTTP/1.1" 200 615
+[2025-09-01 12:03:09,996] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15409
+[2025-09-01 12:03:19,240] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/183/update/ HTTP/1.1" 200 560
+[2025-09-01 12:03:19,394] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15354
+[2025-09-01 12:03:34,235] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/183/update/ HTTP/1.1" 200 497
+[2025-09-01 12:03:34,380] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15291
+[2025-09-01 12:03:52,290] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/183/reserve/ HTTP/1.1" 200 0
+[2025-09-01 12:03:52,329] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 12:03:52: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/183/reserve/'>
+[2025-09-01 12:03:52,337] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/183/reserve/ HTTP/1.1" 200 543
+[2025-09-01 12:03:52,687] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15337
+[2025-09-01 12:04:04,603] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 12:04:04: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/183/confirm-borrow/'>
+[2025-09-01 12:04:04,609] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/183/confirm-borrow/ HTTP/1.1" 200 567
+[2025-09-01 12:04:04,743] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15361
+[2025-09-01 13:09:48,409] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-09-01 13:09:48,461] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 13:10:27,692] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 13:10:43,401] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 13:10:50,956] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 13:11:44,835] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 13:11:49,022] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 13:11:52,096] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/userinfo/ HTTP/1.1" 200 0
+[2025-09-01 13:11:52,143] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/userinfo/
+[2025-09-01 13:11:52,144] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/userinfo/ HTTP/1.1" 401 183
+[2025-09-01 13:11:57,857] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-09-01 13:11:58,204] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:11:58: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:11:58,210] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:12:04,418] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/userinfo/
+[2025-09-01 13:12:04,420] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/userinfo/ HTTP/1.1" 401 183
+[2025-09-01 13:12:08,734] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:12:08: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:12:08,740] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:13:02,822] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:13:02: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:13:02,828] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:13:07,636] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:13:07: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:13:07,642] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:21:27,280] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:21:27: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:21:27,291] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:28:48,839] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/userinfo/
+[2025-09-01 13:28:48,840] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/userinfo/ HTTP/1.1" 401 183
+[2025-09-01 13:28:51,333] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:28:51: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:28:51,342] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:28:57,334] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:28:57: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:28:57,341] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:29:01,200] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:29:01: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:29:01,206] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:35:28,999] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:35:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:35:29,008] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:44:46,757] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:44:46: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:44:46,763] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 13:53:49,212] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 13:53:49: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 13:53:49,217] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:06:18,657] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:06:18: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:06:18,661] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:08:17,437] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:08:17: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:08:17,443] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:10:41,678] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:10:41: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:10:41,686] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:11:31,931] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:11:31: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:11:31,941] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:13:42,764] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:13:42: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:13:42,772] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:21:28,827] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:21:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:21:28,834] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:21:53,170] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:21:53: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:21:53,177] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:22:08,470] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:22:08: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:22:08,480] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:22:17,643] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:22:17: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:22:17,648] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:22:24,989] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:23:39,261] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:23:43,146] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:23:57,801] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:24:05,502] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:24:07,619] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:24:14,245] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:24:59,866] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:24:59: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:24:59,873] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:25:05,492] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:25:12,254] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:25:22,356] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:26:16,101] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:26:39,629] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:26:39: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:26:39,642] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:26:50,494] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:26:54,087] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:31:40,984] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:34:08,867] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:34:21,447] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:44:36,178] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:44:39,071] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 14:44:55,645] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:44:55: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:44:55,653] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:45:19,024] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:45:19: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:45:19,031] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:48:33,858] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:48:33: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:48:33,865] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:54:54,411] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:54:54: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:54:54,418] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:55:44,183] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 14:55:44: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 14:55:44,196] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 14:55:48,843] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:02:25,520] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:03:30,167] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:05:05,765] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:07:28,959] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:08:38,636] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:08:42,113] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:13:34,786] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-09-01 15:13:34,872] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:41:23,519] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:41:51,942] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:47:11,455] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:53:18,974] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 15:53:22,385] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-01 16:09:07,068] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:09:07,094] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:09:07,094] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:09:07,094] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:09:07,094] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:09:23,023] [log.py:228] [log:log_response] [WARNING]- Not Found: /lo
+[2025-09-01 16:09:23,023] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /lo HTTP/1.1" 404 2399
+[2025-09-01 16:09:34,576] [log.py:228] [log:log_response] [WARNING]- Not Found: /IntelligentCabinet/
+[2025-09-01 16:09:34,576] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /IntelligentCabinet/ HTTP/1.1" 404 3665
+[2025-09-01 16:10:18,239] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:10:18,255] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:10:18,263] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:10:18,264] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:10:18,264] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:10:22,753] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:10:22,779] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:10:22,780] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:10:22,780] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:10:22,784] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:10:25,665] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:10:25,680] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:10:25,681] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:14:03,523] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:14:03,542] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:14:03,554] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:14:03,558] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:14:03,560] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:14:08,276] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:14:08,294] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:14:08,295] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2639
+[2025-09-01 16:18:55,409] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:18:55,445] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:18:55,445] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:18:55,461] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:18:55,462] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:18:55,473] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:18:55,473] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:18:56,283] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:18:56,330] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:18:56,344] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:18:56,347] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:18:56,350] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:18:56,350] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:18:56,351] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:18:56,476] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:18:56,516] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:18:56,523] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:18:56,524] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:18:56,527] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:18:56,531] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:18:56,532] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:18:56,682] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:18:56,719] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:18:56,720] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:18:56,720] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:18:56,722] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:18:56,727] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:18:56,728] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:18:56,886] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:18:56,927] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:18:56,936] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:18:56,939] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:18:56,939] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:18:56,941] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:18:56,943] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:18:57,099] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:18:57,134] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:18:57,145] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:18:57,146] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:18:57,149] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:18:57,149] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:18:57,150] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:18:57,388] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:18:57,433] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 404 1756
+[2025-09-01 16:18:57,435] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 404 1729
+[2025-09-01 16:18:57,438] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 404 1723
+[2025-09-01 16:18:57,439] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
+[2025-09-01 16:18:57,440] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:18:57,440] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537

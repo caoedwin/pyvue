@@ -1,0 +1,2 @@
+webpackJsonp([2],{IFSQ:function(t,e){},npFY:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var s={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"dashboard-container"},[e("h1",[this._v("控制面板")]),this._v(" "),e("p",[this._v("欢迎使用系统管理平台")])])}]};var i=n("VU/8")({name:"Dashboard"},s,!1,function(t){n("IFSQ")},null,null);e.default=i.exports}});
+//# sourceMappingURL=2.caae714a695c32ffe083.js.map

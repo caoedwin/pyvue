@@ -294,7 +294,7 @@ CSRF_TRUSTED_ORIGINS = CORS_ALLOWED_ORIGINS  # 防止CSRF错误
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, '/Templates/dist/static'),
+    os.path.join(BASE_DIR, 'Templates/dist/static'),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # 生产环境收集静态文件
 
