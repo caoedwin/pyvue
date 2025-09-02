@@ -457,3 +457,21 @@ KeyError: 'id'
 [2025-09-01 16:18:57,439] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 404 1714
 [2025-09-01 16:18:57,440] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
 [2025-09-01 16:18:57,440] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:55:16,650] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-01 16:55:16,686] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 200 269769
+[2025-09-01 16:55:16,696] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 200 1712
+[2025-09-01 16:55:16,696] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-01 16:55:16,697] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-01 16:55:16,697] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 200 24161
+[2025-09-01 16:55:16,703] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 200 1181037
+[2025-09-01 16:55:16,714] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js.map HTTP/1.1" 200 8233
+[2025-09-01 16:55:16,714] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css.map HTTP/1.1" 200 402643
+[2025-09-01 16:55:16,751] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js.map HTTP/1.1" 200 5325820
+[2025-09-01 16:55:16,815] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/3.df4876b276769bd5353e.js HTTP/1.1" 200 2517
+[2025-09-01 16:55:16,816] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.527c3904ee1a58ca324d.js.map HTTP/1.1" 200 86660
+[2025-09-01 16:55:16,857] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/fonts/element-icons.535877f.woff HTTP/1.1" 200 28200
+[2025-09-01 16:55:16,960] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/3.df4876b276769bd5353e.js.map HTTP/1.1" 200 10620
+[2025-09-01 16:55:18,843] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-01 16:55:18: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-01 16:55:18,851] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-01 16:55:19,060] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/2.caae714a695c32ffe083.js HTTP/1.1" 200 576
+[2025-09-01 16:55:19,083] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/2.caae714a695c32ffe083.js.map HTTP/1.1" 200 3952

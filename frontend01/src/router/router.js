@@ -175,6 +175,12 @@ router.beforeEach(async (to, from, next) => {
     }
   }
 
+  // 在用户信息恢复后添加用户信息恢复逻辑
+  if (!store.state.user && localStorage.getItem('user')) {
+    const user = JSON.parse(localStorage.getItem('user'));
+    store.commit('SET_USER', user);
+  }
+
   if (to.matched.length === 0) {
     console.warn(`路由未匹配: ${to.path}`)
     return next('/404')

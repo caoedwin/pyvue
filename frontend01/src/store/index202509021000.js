@@ -11,7 +11,7 @@ export default new Vuex.Store({
   },
   state: {
     token: localStorage.getItem('token') || '',
-    user: JSON.parse(localStorage.getItem('user') || 'null'), // 修复点：初始化时读取用户信息,
+    user: null,
     menuTree: [], // 用于存储菜单数据
     isCollapse: false, // 导航栏是否折叠
     menuPosition: 'left', // 菜单位置，left（左侧）或top（顶部）
@@ -53,7 +53,6 @@ export default new Vuex.Store({
       state.routeLoading = false // 重置路由加载状态
       localStorage.removeItem('token')
       localStorage.removeItem('menuTree')
-      localStorage.removeItem('user'); // 修复点：登出时清除
     }
   },
   actions: {

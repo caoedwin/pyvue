@@ -1,0 +1,82 @@
+[2025-09-02 08:27:51,467] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-02 08:27:51,486] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 304 0
+[2025-09-02 08:27:51,487] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 304 0
+[2025-09-02 08:27:51,488] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 304 0
+[2025-09-02 08:27:51,488] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 304 0
+[2025-09-02 08:27:51,790] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/2.caae714a695c32ffe083.js HTTP/1.1" 304 0
+[2025-09-02 08:27:51,882] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/fonts/element-icons.535877f.woff HTTP/1.1" 304 0
+[2025-09-02 08:28:10,711] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/1.eb848338375696cc459c.js HTTP/1.1" 200 1105
+[2025-09-02 08:28:10,721] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/7.7d86268764cdfd86b9e7.js HTTP/1.1" 200 32721
+[2025-09-02 08:28:10,927] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15361
+[2025-09-02 08:28:54,436] [basehttp.py:154] [basehttp:log_message] [INFO]- "PATCH /IntelligentCabinet/grids/181/update/ HTTP/1.1" 200 501
+[2025-09-02 08:28:54,568] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15365
+[2025-09-02 08:30:41,202] [log.py:228] [log:log_response] [WARNING]- Not Found: /login
+[2025-09-02 08:30:41,203] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /login HTTP/1.1" 404 2408
+[2025-09-02 08:30:47,251] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-02 08:37:46,628] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-02 08:37:46,628] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-02 08:37:46,674] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js.map HTTP/1.1" 304 0
+[2025-09-02 08:37:46,689] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.527c3904ee1a58ca324d.js.map HTTP/1.1" 304 0
+[2025-09-02 08:37:46,689] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js.map HTTP/1.1" 304 0
+[2025-09-02 08:37:46,693] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/2.caae714a695c32ffe083.js.map HTTP/1.1" 304 0
+[2025-09-02 08:37:46,698] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css.map HTTP/1.1" 304 0
+[2025-09-02 08:37:50,180] [log.py:228] [log:log_response] [WARNING]- Not Found: /dashboard
+[2025-09-02 08:37:50,181] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /dashboard HTTP/1.1" 404 2420
+[2025-09-02 08:37:50,243] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-02 08:37:50,244] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-02 08:37:58,538] [log.py:228] [log:log_response] [WARNING]- Not Found: /dashboard
+[2025-09-02 08:37:58,539] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /dashboard HTTP/1.1" 404 2420
+[2025-09-02 08:37:58,588] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-02 08:37:58,589] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-02 08:38:13,151] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-02 08:38:15,667] [log.py:228] [log:log_response] [WARNING]- Not Found: /dashboard
+[2025-09-02 08:38:15,667] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /dashboard HTTP/1.1" 404 2420
+[2025-09-02 08:46:17,215] [log.py:228] [log:log_response] [WARNING]- Not Found: /dashboard
+[2025-09-02 08:46:17,215] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /dashboard HTTP/1.1" 404 2420
+[2025-09-02 08:50:59,807] [log.py:228] [log:log_response] [WARNING]- Not Found: /books/lofin
+[2025-09-02 08:50:59,807] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /books/lofin HTTP/1.1" 404 2426
+[2025-09-02 08:51:05,148] [log.py:228] [log:log_response] [WARNING]- Not Found: /books/login
+[2025-09-02 08:51:05,149] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /books/login HTTP/1.1" 404 2426
+[2025-09-02 08:54:28,212] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 301 0
+[2025-09-02 08:54:28,349] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /login/
+[2025-09-02 08:54:28,349] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /login/ HTTP/1.1" 405 11904
+[2025-09-02 08:55:05,929] [log.py:228] [log:log_response] [WARNING]- Not Found: /login/
+[2025-09-02 08:55:05,929] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /login/ HTTP/1.1" 404 2411
+[2025-09-02 08:55:07,248] [log.py:228] [log:log_response] [WARNING]- Not Found: /login/
+[2025-09-02 08:55:07,248] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /login/ HTTP/1.1" 404 2411
+[2025-09-02 09:01:41,621] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-09-02 09:01:41,762] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:01:41: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:01:41,770] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-02 09:02:05,540] [log.py:228] [log:log_response] [WARNING]- Method Not Allowed: /api/login/
+[2025-09-02 09:02:05,540] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/login/ HTTP/1.1" 405 12029
+[2025-09-02 09:02:05,581] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-02 09:02:05,581] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-02 09:02:05,602] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1744
+[2025-09-02 09:02:23,200] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-02 09:02:23,272] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-02 09:02:23,272] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-02 09:02:31,377] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/7.7d86268764cdfd86b9e7.js.map HTTP/1.1" 200 119417
+[2025-09-02 09:02:31,395] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/1.eb848338375696cc459c.js.map HTTP/1.1" 200 6038
+[2025-09-02 09:02:31,436] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15365
+[2025-09-02 09:03:23,890] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:03:23: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
+[2025-09-02 09:03:23,904] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/reserve/ HTTP/1.1" 200 528
+[2025-09-02 09:03:24,139] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15396
+[2025-09-02 09:04:15,684] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:04:15: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:04:15,688] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-02 09:04:20,060] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-09-02 09:04:20,111] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15396
+[2025-09-02 09:08:12,823] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/userinfo/ HTTP/1.1" 200 0
+[2025-09-02 09:08:12,833] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/userinfo/
+[2025-09-02 09:08:12,834] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /api/userinfo/ HTTP/1.1" 401 183
+[2025-09-02 09:09:20,400] [log.py:228] [log:log_response] [WARNING]- Not Found: /dashboard
+[2025-09-02 09:09:20,400] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /dashboard HTTP/1.1" 404 2420
+[2025-09-02 09:09:20,468] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-02 09:09:20,468] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-02 09:09:34,257] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:09:34: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:09:34,274] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1307
+[2025-09-02 09:09:46,407] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15396
+[2025-09-02 09:10:21,176] [log.py:228] [log:log_response] [WARNING]- Not Found: /dashboard
+[2025-09-02 09:10:21,176] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /dashboard HTTP/1.1" 404 2420
+[2025-09-02 09:10:21,211] [log.py:228] [log:log_response] [WARNING]- Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-02 09:10:21,211] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2537
+[2025-09-02 09:26:06,245] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15396
