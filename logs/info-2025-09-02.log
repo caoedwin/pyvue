@@ -2,3 +2,20 @@
 [2025-09-02 09:03:23,890] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:03:23: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/reserve/'>
 [2025-09-02 09:04:15,684] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:04:15: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
 [2025-09-02 09:09:34,257] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:09:34: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:36:48,614] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:36:48: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:37:22,529] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:37:22: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:37:41,496] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:37:41: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:50:33,957] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:50:33: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:51:00,458] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:51:00: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:53:21,611] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:53:21: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:55:03,854] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:55:03: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 09:59:44,063] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 09:59:44: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 10:09:52,616] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 10:09:52: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 10:19:17,936] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-02 10:19:22,480] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-02 10:21:14,393] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-02 10:26:55,448] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 10:26:55: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 10:44:11,161] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 10:44:11: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 10:44:40,658] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 10:44:40: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 10:51:06,711] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-09-02 10:52:08,489] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 10:52:08: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
