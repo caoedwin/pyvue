@@ -466,3 +466,5 @@
 [2025-09-02 10:53:15,348] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/3/change/ HTTP/1.1" 200 6683
 [2025-09-02 10:53:15,395] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
 [2025-09-02 10:53:15,436] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 10:57:27,025] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7236
+[2025-09-02 10:57:27,066] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512

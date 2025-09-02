@@ -38,7 +38,7 @@ class Menu(models.Model):
 
 class Permission(models.Model):
     Menu_title = models.CharField(max_length=32, unique=True)
-    url = models.CharField(max_length=128, unique=True)#前端获取到的动态路由里面的url，不可以与后端的实际的url重复，甚至/IntelligentCabinet/cabinetsmanage/在后端url文件里都没有，更重要的是components跳转到哪个vue文档
+    url = models.CharField(max_length=128, unique=True)#前端获取到的动态路由里面的url，不可以与后端的实际的url重复否则可能就直接访问后端api接口而不是前端网页，甚至/IntelligentCabinet/cabinetsmanage/在后端url文件里都没有，更重要的是components跳转到哪个vue文档
     components = models.CharField(max_length=128, default='')
     menu = models.ForeignKey(Menu, null=True, blank=True, on_delete=models.CASCADE)
 
