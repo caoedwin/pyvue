@@ -19,3 +19,12 @@
 [2025-09-02 10:44:40,658] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 10:44:40: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
 [2025-09-02 10:51:06,711] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
 [2025-09-02 10:52:08,489] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 10:52:08: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 13:01:57,091] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:01:57: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 13:02:27,596] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:02:27: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:18:59,178] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:18:59: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:33:06,411] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:33:06: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:51:28,590] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:51:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:51:35,063] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:51:35: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 14:22:53,984] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 14:22:53: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 14:46:33,530] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 14:46:33: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 14:48:41,980] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 14:48:41: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>

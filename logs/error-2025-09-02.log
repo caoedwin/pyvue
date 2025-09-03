@@ -2,3 +2,7 @@
 [2025-09-02 10:19:22,480] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
 [2025-09-02 10:21:14,393] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
 [2025-09-02 10:51:06,711] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-09-02 14:46:33,531] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/send_verification_code/
+[2025-09-02 14:46:33,532] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/send_verification_code/ HTTP/1.1" 500 48
+[2025-09-02 14:48:41,981] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/send_verification_code/
+[2025-09-02 14:48:41,981] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/send_verification_code/ HTTP/1.1" 500 48

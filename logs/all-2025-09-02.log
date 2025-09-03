@@ -468,3 +468,58 @@
 [2025-09-02 10:53:15,436] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
 [2025-09-02 10:57:27,025] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/permission/ HTTP/1.1" 200 7236
 [2025-09-02 10:57:27,066] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 11:16:09,997] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/cabinetsmanage/ HTTP/1.1" 200 512
+[2025-09-02 11:16:10,052] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 11:16:10,235] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 11:16:10,242] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15396
+[2025-09-02 11:16:19,287] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/cabinetsmanage/ HTTP/1.1" 200 512
+[2025-09-02 11:16:19,323] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 11:16:19,552] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 11:16:19,576] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15396
+[2025-09-02 11:16:31,241] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 512
+[2025-09-02 11:16:31,283] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 11:16:31,352] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 11:16:33,812] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 512
+[2025-09-02 11:16:33,855] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 11:16:33,937] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 11:16:34,501] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 512
+[2025-09-02 11:16:34,548] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 11:16:34,619] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 11:16:34,785] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 512
+[2025-09-02 11:16:34,848] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 11:16:34,947] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 13:01:56,724] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-09-02 13:01:57,091] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:01:57: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 13:01:57,099] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-02 13:02:27,579] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/send_verification_code/ HTTP/1.1" 200 0
+[2025-09-02 13:02:27,596] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:02:27: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:02:27,603] [log.py:228] [log:log_response] [WARNING]- Forbidden: /api/send_verification_code/
+[2025-09-02 13:02:27,604] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/send_verification_code/ HTTP/1.1" 403 58
+[2025-09-02 13:18:59,178] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:18:59: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:18:59,185] [log.py:228] [log:log_response] [WARNING]- Forbidden: /api/send_verification_code/
+[2025-09-02 13:18:59,186] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/send_verification_code/ HTTP/1.1" 403 58
+[2025-09-02 13:33:06,411] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:33:06: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:33:06,442] [log.py:228] [log:log_response] [WARNING]- Forbidden: /api/send_verification_code/
+[2025-09-02 13:33:06,443] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/send_verification_code/ HTTP/1.1" 403 58
+[2025-09-02 13:51:28,590] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:51:28: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:51:28,597] [log.py:228] [log:log_response] [WARNING]- Forbidden: /api/send_verification_code/
+[2025-09-02 13:51:28,597] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/send_verification_code/ HTTP/1.1" 403 58
+[2025-09-02 13:51:35,063] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 13:51:35: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 13:51:35,072] [log.py:228] [log:log_response] [WARNING]- Forbidden: /api/send_verification_code/
+[2025-09-02 13:51:35,073] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/send_verification_code/ HTTP/1.1" 403 58
+[2025-09-02 14:22:53,984] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 14:22:53: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 14:22:53,989] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/send_verification_code/ HTTP/1.1" 200 32
+[2025-09-02 14:46:17,050] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-02 14:46:17,060] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css HTTP/1.1" 304 0
+[2025-09-02 14:46:17,061] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js HTTP/1.1" 304 0
+[2025-09-02 14:46:17,062] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js HTTP/1.1" 304 0
+[2025-09-02 14:46:17,062] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.527c3904ee1a58ca324d.js HTTP/1.1" 304 0
+[2025-09-02 14:46:17,186] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/2.caae714a695c32ffe083.js HTTP/1.1" 304 0
+[2025-09-02 14:46:17,300] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/fonts/element-icons.535877f.woff HTTP/1.1" 304 0
+[2025-09-02 14:46:17,342] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 14:46:33,530] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 14:46:33: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 14:46:33,531] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/send_verification_code/
+[2025-09-02 14:46:33,532] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/send_verification_code/ HTTP/1.1" 500 48
+[2025-09-02 14:48:41,980] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 14:48:41: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 14:48:41,981] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/send_verification_code/
+[2025-09-02 14:48:41,981] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/send_verification_code/ HTTP/1.1" 500 48

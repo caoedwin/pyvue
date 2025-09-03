@@ -1,0 +1,2 @@
+webpackJsonp([8],{"KdD+":function(e,t){},U29U:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var e=this.$createElement,t=this._self._c||e;return t("div",{staticClass:"empty-page"},[t("h1",[this._v("功能开发中")]),this._v(" "),t("p",[this._v("此页面正在开发中，敬请期待")])])}]};var i=n("VU/8")({name:"EmptyPage"},s,!1,function(e){n("KdD+")},null,null);t.default=i.exports}});
+//# sourceMappingURL=8.f3d9f6537cf2352d42d6.js.map

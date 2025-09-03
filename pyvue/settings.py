@@ -285,6 +285,12 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 # SESSION_COOKIE_DOMAIN = '.yourdomain.com'  # 跨子域名共享Cookie
 # Session 设置
 
+#您需要选择一个短信服务提供商（如阿里云、腾讯云、Twilio等）。以下是使用阿里云短信服务的示例：
+ALIYUN_ACCESS_KEY_ID = 'your-access-key-id'
+ALIYUN_ACCESS_KEY_SECRET = 'your-access-key-secret'
+ALIYUN_SMS_SIGN_NAME = 'your-sign-name'
+ALIYUN_SMS_TEMPLATE_CODE = 'your-template-code'
+
 SESSION_COOKIE_SAMESITE = 'Lax'  # 对于本地开发，Lax 通常足够
 SESSION_COOKIE_SECURE = False    # 本地开发不使用 HTTPS
 SESSION_COOKIE_HTTPONLY = True   # 防止 XSS 攻击

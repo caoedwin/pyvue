@@ -1790,9 +1790,9 @@
   "version" "2.1.1"
 
 "ansi-regex@^3.0.0":
-  "integrity" "sha1-7QMXwyIGT3lGbAKWa922Bas32Zg="
-  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.0.tgz"
-  "version" "3.0.0"
+  "integrity" "sha512-+O9Jct8wf++lXxxFc4hc8LsjaSq0HFzzL7cVsw8pRDIPdjKD2mT4ytDZlLuSBZ4cLKZFXIrMGO7DbQCtMJJMKw=="
+  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.1.tgz"
+  "version" "3.0.1"
 
 "ansi-regex@^5.0.1":
   "integrity" "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
@@ -9958,7 +9958,7 @@
     "use" "^3.1.0"
 
 "sockjs-client@1.1.5":
-  "integrity" "sha1-G7fA9yIsQPQq3xT0RCy9Eml3GoM="
+  "integrity" "sha512-PmPRkAYIeuRgX+ZSieViT4Z3Q23bLS2Itm/ck1tSf5P0/yVuFDiI5q9mcnpXoMdToaPSRS9MEyUx/aaBxrFzyw=="
   "resolved" "https://registry.npmjs.org/sockjs-client/-/sockjs-client-1.1.5.tgz"
   "version" "1.1.5"
   dependencies:

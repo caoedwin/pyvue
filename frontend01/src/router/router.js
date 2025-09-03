@@ -35,6 +35,27 @@ const routes = [
     meta: { hideInBreadcrumb: true }
   }//加了这两个，刷新页面后就会跳到404
 */
+  {
+    path: '/register',
+    component: () => import('@/views/Register.vue'),
+    name: 'Register',
+    hidden: true,
+    meta: { anonymous: true } // 添加匿名访问标记
+  },
+  {
+    path: '/forgot-password',
+    component: () => import('@/views/ForgotPassword.vue'),
+    name: 'ForgotPassword',
+    hidden: true,
+    meta: { anonymous: true }
+  },
+  {
+    path: '/reset-password',
+    component: () => import('@/views/ResetPassword.vue'),
+    name: 'ResetPassword',
+    hidden: true,
+    meta: { anonymous: true }
+  }
 ]
 
 const router = new VueRouter({
@@ -179,6 +200,11 @@ router.beforeEach(async (to, from, next) => {
   if (!store.state.user && localStorage.getItem('user')) {
     const user = JSON.parse(localStorage.getItem('user'));
     store.commit('SET_USER', user);
+  }
+
+  // 添加：跳过匿名访问的路由（注册/忘记密码等）
+  if (to.meta.anonymous) {
+    return next();
   }
 
   if (to.matched.length === 0) {

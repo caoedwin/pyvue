@@ -26,6 +26,12 @@
           class="login-btn"
         >登录</el-button>
       </el-form-item>
+      <!-- 添加底部链接 -->
+      <div class="auth-links">
+        <el-link type="primary" @click="goToRegister">注册账号</el-link>
+        <el-divider direction="vertical"></el-divider>
+        <el-link type="primary" @click="goToForgotPassword">忘记密码</el-link>
+      </div>
     </el-form>
   </div>
 </template>
@@ -34,6 +40,7 @@
 import request from '@/utils/request'
 import axios from 'axios'
 import { addDynamicRoutes } from '@/router/router.js'
+import Cookies from 'js-cookie';
 
 export default {
   data() {
@@ -53,7 +60,9 @@ export default {
       request.post('/api/login/', {
         account: this.loginForm.account,
         password: this.loginForm.password
-      }).then(response => {
+      },{headers: {
+      'X-CSRFToken': Cookies.get('csrftoken')  // 关键：添加CSRF token，Django默认要求所有非安全的HTTP方法（如POST、PUT、PATCH、DELETE）都需要提供CSRF token
+    }},).then(response => {
         console.log('登录响应:', response.data);
 
         // 1. 正确获取 access token
@@ -111,6 +120,13 @@ export default {
       }).finally(() => {
         this.loading = false;
       });
+    },
+    goToRegister() {
+      this.$router.push('/register');
+    },
+
+    goToForgotPassword() {
+      this.$router.push('/forgot-password');
     }
   }
 }
@@ -142,5 +158,9 @@ export default {
 
 .login-btn {
   width: 100%;
+}
+.auth-links {
+  margin-top: 20px;
+  text-align: center;
 }
 </style>
