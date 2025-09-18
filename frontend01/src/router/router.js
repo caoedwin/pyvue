@@ -169,10 +169,48 @@ router.beforeEach(async (to, from, next) => {
   console.log(`路由跳转: ${from.path} → ${to.path}`)
   console.log('路由匹配记录:', to.matched.map(r => r.path))
   console.log('路由名称:', to.matched.map(r => r.name))
-  const noAuthPages = ['/login', '/404', '/route-loading']
-  if (noAuthPages.includes(to.path)) return next()
+  const noAuthPages = ['/login', '/404', '/route-loading', '/register', '/forgot-password', '/reset-password']
 
-  if (!localStorage.getItem('token')) return next('/login')
+  // 1. 如果是无需认证的页面，直接放行
+  if (noAuthPages.includes(to.path)) {
+    return next()
+  }
+
+// 2. 检查 Token 是否过期
+  const checkTokenExpiration = () => {
+    const token = localStorage.getItem('token')
+    console.log("!token", !token)
+    if (!token) return true
+
+    try {
+      const payload = JSON.parse(atob(token.split('.')[1]))
+      const expirationTime = payload.exp * 1000
+      console.log('expirationTime', expirationTime)
+      return Date.now() >= expirationTime
+    } catch (e) {
+      console.error('Token 解析失败', e)
+      return true
+    }
+  }
+
+  // 3. 如果没有 token 或 token 已过期
+  if (!localStorage.getItem('token') || checkTokenExpiration()) {
+    // 清除认证信息
+    localStorage.removeItem('token')
+    localStorage.removeItem('user')
+    localStorage.removeItem('menuTree')
+
+    // 重置 Vuex 状态
+    store.commit('SET_USER', null)
+    store.commit('SET_MENU_TREE', [])
+
+    // 避免无限重定向
+    if (to.path !== '/login') {
+      return next('/login')
+    } else {
+      return next()
+    }
+  }
 
   if (store.state.menuTree.length === 0) {
     try {

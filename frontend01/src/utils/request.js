@@ -47,11 +47,30 @@ service.interceptors.response.use(
     console.log("error.message", error.message)
     const status = error.response?.status;
     if (status === 401 ||
-        (error.message.includes('401') ||
-         error.message.includes('Unauthorized'))) {
+      (error.message.includes('401') ||
+        error.message.includes('Unauthorized'))) {
       redirectToLogin();
+    } else if (status === 403) {
+      const errorData = response.data
+
+      // 检查是否是Token过期错误
+      if (errorData.code === 'token_not_valid' ||
+        (errorData.messages && errorData.messages.some(m => m.message === 'Token is invalid or expired'))) {
+
+        // 清除认证数据
+        localStorage.removeItem('token')
+        localStorage.removeItem('user')
+        localStorage.removeItem('menuTree')
+        store.commit('SET_USER', null)
+        store.commit('SET_MENU_TREE', [])
+
+        // 重定向到登录页
+        router.push('/login')
+
+        return Promise.reject(new Error('Token已过期，请重新登录'))
+      }
+      return Promise.reject(error);
     }
-    return Promise.reject(error);
   }
 
 );

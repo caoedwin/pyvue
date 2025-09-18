@@ -523,3 +523,74 @@
 [2025-09-02 14:48:41,980] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 14:48:41: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
 [2025-09-02 14:48:41,981] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/send_verification_code/
 [2025-09-02 14:48:41,981] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /api/send_verification_code/ HTTP/1.1" 500 48
+[2025-09-02 15:20:56,777] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/send_verification_code/ HTTP/1.1" 200 0
+[2025-09-02 15:20:56,790] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 15:20:56: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/send_verification_code/'>
+[2025-09-02 15:20:56,794] [log.py:228] [log:log_response] [WARNING]- Forbidden: /api/send_verification_code/
+[2025-09-02 15:20:56,794] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/send_verification_code/ HTTP/1.1" 403 58
+[2025-09-02 15:28:05,839] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-09-02 15:28:06,254] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 15:28:06: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 15:28:06,263] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-02 15:29:26,412] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 0
+[2025-09-02 15:29:26,553] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15396
+[2025-09-02 15:29:46,296] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/grids/182/confirm-borrow/ HTTP/1.1" 200 0
+[2025-09-02 15:29:46,329] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 15:29:46: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/182/confirm-borrow/'>
+[2025-09-02 15:29:46,334] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/182/confirm-borrow/ HTTP/1.1" 200 552
+[2025-09-02 15:29:46,353] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 0
+[2025-09-02 15:29:46,477] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15420
+[2025-09-02 15:36:48,828] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 15:36:48: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 15:36:48,836] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-02 15:36:51,016] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15420
+[2025-09-02 15:38:28,585] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15420
+[2025-09-02 15:42:26,595] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-02 15:42:26,747] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 15:42:28,754] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 15:42:28,760] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.f9968d37837b058b053a0c1d91588c8d.css.map HTTP/1.1" 304 0
+[2025-09-02 15:42:28,760] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.759d5c6e2146dfd777b2.js.map HTTP/1.1" 304 0
+[2025-09-02 15:42:28,760] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.527c3904ee1a58ca324d.js.map HTTP/1.1" 304 0
+[2025-09-02 15:42:28,760] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.2d5bea387c5f27bc314c.js.map HTTP/1.1" 304 0
+[2025-09-02 15:42:28,761] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/2.caae714a695c32ffe083.js.map HTTP/1.1" 304 0
+[2025-09-02 15:42:36,763] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 512
+[2025-09-02 15:42:36,794] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 15:42:36,805] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/3.df4876b276769bd5353e.js HTTP/1.1" 304 0
+[2025-09-02 15:42:36,834] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/3.df4876b276769bd5353e.js.map HTTP/1.1" 304 0
+[2025-09-02 15:42:36,843] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 15:43:03,528] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2025-09-02 15:43:03,877] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 15:43:03: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 15:43:03,883] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-02 15:44:53,744] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 15:44:53: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 15:44:53,751] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-02 15:46:04,649] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-02 15:46:04,758] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 16:07:16,974] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 512
+[2025-09-02 16:07:17,040] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 16:07:17,128] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-02 16:07:29,213] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-02 16:07:29: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-02 16:07:29,219] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-02 16:08:49,655] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-02 16:08:49,695] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-03 08:09:17,359] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 512
+[2025-09-03 08:09:17,403] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.27706562757206fc07fd.js HTTP/1.1" 200 1816
+[2025-09-03 08:09:17,408] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.3653f32150f30f0233bf0ae74b804f89.css HTTP/1.1" 200 272388
+[2025-09-03 08:09:17,423] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.27706562757206fc07fd.js.map HTTP/1.1" 200 8429
+[2025-09-03 08:09:17,436] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.3653f32150f30f0233bf0ae74b804f89.css.map HTTP/1.1" 200 407608
+[2025-09-03 08:09:17,437] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-03 08:09:17,470] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.230bdfb9b5c80b0ed378.js HTTP/1.1" 200 24967
+[2025-09-03 08:09:18,099] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.a961cb56b9365ac34970.js HTTP/1.1" 200 1181037
+[2025-09-03 08:09:18,178] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.230bdfb9b5c80b0ed378.js.map HTTP/1.1" 200 88726
+[2025-09-03 08:09:18,179] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/6.773d895538456b016d8d.js HTTP/1.1" 200 3009
+[2025-09-03 08:09:18,185] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.a961cb56b9365ac34970.js.map HTTP/1.1" 200 5325820
+[2025-09-03 08:09:18,193] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/fonts/element-icons.535877f.woff HTTP/1.1" 200 28200
+[2025-09-03 08:09:18,204] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/6.773d895538456b016d8d.js.map HTTP/1.1" 200 12187
+[2025-09-03 08:09:18,213] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-03 08:09:27,334] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/4.4f593f5209b8e564bd1c.js HTTP/1.1" 200 4329
+[2025-09-03 08:09:27,349] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/4.4f593f5209b8e564bd1c.js.map HTTP/1.1" 200 15922
+[2025-09-03 08:09:27,385] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-03 08:09:29,150] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-03 08:09:30,404] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/3.c0c93dc1ed79d1fb3850.js HTTP/1.1" 200 3166
+[2025-09-03 08:09:30,417] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/3.c0c93dc1ed79d1fb3850.js.map HTTP/1.1" 200 11649
+[2025-09-03 08:09:30,428] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-03 08:09:33,390] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-03 08:09:36,118] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-03 08:09:37,110] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-03 08:09:37,959] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-03 08:09:38,801] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
