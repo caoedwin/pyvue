@@ -1,0 +1,10 @@
+前端开发环境运行：
+cd djangoproject
+cd pyvue
+cd frontend01
+cd src
+npm run dev
+生产环境对前端项目进行打包：
+npm run build
+运行完前端项目中多了一个dist文件夹，这个就是前端打包的结果。然后将dist文件夹复制到后端文件夹Templates下，在settings里面的TEMPLATES变量里面加上dist路径。
+'DIRS': [os.path.join(BASE_DIR, 'Templates', 'dist')]

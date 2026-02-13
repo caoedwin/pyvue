@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="050417aa-da66-48cc-9932-421bceb54677" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/dist/static/js/manifest.27706562757206fc07fd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/dist/static/js/manifest.27706562757206fc07fd.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend01/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend01/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2025-09-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2025-09-02.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2025-09-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info-2025-09-02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2025-09-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2025-09-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info-2025-09-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info-2025-09-18.log" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,152 +32,8 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="393780224">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.0" value="8" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="babelrc" value="1" />
-          <entry key="html" value="10" />
-          <entry key="js" value="229" />
-          <entry key="json" value="8" />
-          <entry key="lock" value="1" />
-          <entry key="py" value="242" />
-          <entry key="svg" value="2" />
-          <entry key="ts" value="2" />
-          <entry key="vue" value="216" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="10" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="229" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="242" />
-          <entry key="SVG" value="2" />
-          <entry key="TypeScript" value="2" />
-          <entry key="XML" value="202" />
-          <entry key="yarn.lock" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="js" value="747" />
-          <entry key="json" value="8" />
-          <entry key="py" value="1623" />
-          <entry key="vue" value="1058" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="747" />
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="1623" />
-          <entry key="XML" value="1037" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="TypeScriptServerServiceImpl" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="pyvue" />
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend01/src/router/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="174" column="38" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend01/src/utils/request.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="73" column="3" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend01/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-              <folding>
-                <element signature="e#3030#3180#0" />
-                <element signature="e#3216#3507#0" />
-                <element signature="e#3552#4085#0" />
-                <element signature="e#4400#4808#0" />
-                <element signature="e#4858#5201#0" />
-                <element signature="e#5298#7188#0" />
-                <element signature="e#7190#7207#0" />
-                <element signature="e#9312#9972#0" />
-                <element signature="e#10060#10528#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend01/src/views/Login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1045">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend01/src/views/IntelligentCabinet/SmartCabinet.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="1307" column="9" selection-start-line="1307" selection-start-column="9" selection-end-line="1307" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend01/src/views/Dashboard.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IntelligentCabinet/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,9 +71,9 @@
       <find>短信发送失败</find>
       <find>unload</find>
       <find>beforeEach</find>
-      <find>first</find>
-      <find>403</find>
       <find>checkTokenExpiration</find>
+      <find>403</find>
+      <find>first</find>
       <find>redirectToLogin</find>
     </findStrings>
   </component>
@@ -2228,12 +2083,16 @@
       <path value="$PROJECT_DIR$/node_modules/yargs/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1944" />
     <option name="height" value="447" />
   </component>
+  <component name="ProjectId" id="33Ae0oodLO4cNcqEkajnFsOqzn7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -2314,16 +2173,26 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2018.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Django 服务器.pyvue.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/djangoproject/fastApiProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\djangoproject\pyvue\frontend01\src\layout" />
@@ -2340,24 +2209,13 @@
       <recent name="C:\djangoproject\pyvue\frontend01\src\layout" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Django server.pyvue">
-    <configuration name="Login.vue" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pyvue/frontend01/src/views/Login.vue">
+  <component name="RunManager" selected="Django 服务器.pyvue">
+    <configuration name="Login.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pyvue/frontend01/src/views/Login.vue">
       <method v="2" />
     </configuration>
     <configuration name="pyvue" type="Python.DjangoServer" factoryName="Django server">
       <module name="pyvue" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -2365,6 +2223,7 @@
         <env name="DJANGO_SETTINGS_MODULE" value="pyvue.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\Python372\mecheck\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.7 (mecheck)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -2381,15 +2240,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django server.pyvue" />
-      <item itemvalue="JavaScript Debug.Login.vue" />
+      <item itemvalue="Django 服务器.pyvue" />
+      <item itemvalue="JavaScript 调试.Login.vue" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.Login.vue" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -2406,6 +2269,12 @@
       <workItem from="1600659018147" duration="438000" />
       <workItem from="1611900636768" duration="27000" />
       <workItem from="1627548366793" duration="1658000" />
+      <workItem from="1758764085052" duration="1399000" />
+      <workItem from="1758852970026" duration="87000" />
+      <workItem from="1758865382124" duration="52000" />
+      <workItem from="1758865496673" duration="3376000" />
+      <workItem from="1758873509043" duration="33000" />
+      <workItem from="1759123109077" duration="17754000" />
     </task>
     <servers />
   </component>
@@ -2423,10 +2292,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="767" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="top" id="SciView" order="0" sideWeight="0.5067514" weight="0.32843137" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.21842733" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498366" weight="0.21842733" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
@@ -2437,7 +2305,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50516284" side_tool="true" weight="0.34640524" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.4995958" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49483716" visible="true" weight="0.23039216" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49483716" weight="0.23039216" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4995958" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -2461,7 +2329,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50516284" side_tool="true" weight="0.34640524" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.4995958" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49483716" visible="true" weight="0.23039216" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49483716" visible="true" weight="0.23039216" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4995958" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -2474,10 +2342,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend01/src/views/NestedContainer202508251610.vue">
@@ -2514,12 +2379,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python372/mecheck/Lib/site-packages/rest_framework/authentication.py">
+    <entry file="file://$PROJECT_DIR$/../../Python372/mecheck/Lib/site-packages/rest_framework/authentication.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228" />
       </provider>
     </entry>
-    <entry file="file://C:/Python372/mecheck/Lib/site-packages/rest_framework/fields.py">
+    <entry file="file://$PROJECT_DIR$/../../Python372/mecheck/Lib/site-packages/rest_framework/fields.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-95">
           <caret line="1884" column="8" selection-start-line="1884" selection-start-column="8" selection-end-line="1884" selection-end-column="8" />
@@ -2554,7 +2419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python372/mecheck/Lib/site-packages/django/views/generic/base.py">
+    <entry file="file://$PROJECT_DIR$/../../Python372/mecheck/Lib/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="143" column="6" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
@@ -2565,7 +2430,7 @@
     <entry file="file://$PROJECT_DIR$/frontend01/vue.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Python372/mecheck/Lib/site-packages/django/contrib/messages/context_processors.py">
+    <entry file="file://$PROJECT_DIR$/../../Python372/mecheck/Lib/site-packages/django/contrib/messages/context_processors.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend01/src/views/ResetPassword.vue">
@@ -2595,7 +2460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python372/mecheck/Lib/site-packages/django/views/decorators/csrf.py">
+    <entry file="file://$PROJECT_DIR$/../../Python372/mecheck/Lib/site-packages/django/views/decorators/csrf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
@@ -2720,7 +2585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python372/mecheck/Lib/site-packages/rest_framework/status.py">
+    <entry file="file://$PROJECT_DIR$/../../Python372/mecheck/Lib/site-packages/rest_framework/status.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
@@ -2789,7 +2654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend01/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="-13">
           <caret line="174" column="38" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
         </state>
       </provider>

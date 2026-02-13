@@ -1,0 +1,62 @@
+[2026-02-13 09:10:38,999] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2026-02-13 09:10:39,023] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.27706562757206fc07fd.js HTTP/1.1" 200 1816
+[2026-02-13 09:10:39,025] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.1ba323f58fa505a65f09.js HTTP/1.1" 200 26031
+[2026-02-13 09:10:39,026] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.3653f32150f30f0233bf0ae74b804f89.css HTTP/1.1" 200 272388
+[2026-02-13 09:10:39,087] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.a961cb56b9365ac34970.js HTTP/1.1" 200 1181037
+[2026-02-13 09:10:39,168] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/6.773d895538456b016d8d.js HTTP/1.1" 200 3009
+[2026-02-13 09:10:39,241] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/fonts/element-icons.535877f.woff HTTP/1.1" 200 28200
+[2026-02-13 09:10:39,280] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:10:48,573] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:10:48: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:10:48,583] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:10:48,584] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:10:48,613] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2026-02-13 09:10:48,694] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:10:53,175] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:10:53: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:10:53,182] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:10:53,183] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:10:53,212] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2026-02-13 09:10:53,276] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:11:21,626] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:11:21: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:11:21,698] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:11:21,699] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:11:21,746] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2026-02-13 09:11:21,793] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:11:23,363] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:11:23: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:11:23,389] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:11:23,389] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:11:23,429] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2026-02-13 09:11:23,478] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:11:26,967] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:11:26: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:11:26,971] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:11:26,972] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:11:26,993] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2026-02-13 09:11:27,042] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:13:03,973] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:13:03: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:13:03,980] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:13:03,980] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:13:04,026] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2026-02-13 09:13:04,089] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:13:08,381] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:13:08: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:13:08,406] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:13:08,407] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:13:08,447] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2026-02-13 09:13:08,495] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:13:12,572] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:13:12: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:13:12,602] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:13:12,603] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:13:12,644] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2026-02-13 09:13:12,719] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:13:16,882] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:13:16: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:13:16,902] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2026-02-13 09:13:17,136] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/2.caae714a695c32ffe083.js HTTP/1.1" 200 576
+[2026-02-13 09:13:17,214] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:13:33,828] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/1.eb848338375696cc459c.js HTTP/1.1" 200 1105
+[2026-02-13 09:13:33,830] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/11.e9ec2d1126e7544da099.js HTTP/1.1" 200 32723
+[2026-02-13 09:13:33,890] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2026-02-13 09:13:34,018] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15416
+[2026-02-13 09:53:57,817] [basehttp.py:154] [basehttp:log_message] [INFO]- "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2026-02-13 09:53:58,193] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:53:58: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:53:58,210] [log.py:228] [log:log_response] [WARNING]- Unauthorized: /api/login/
+[2026-02-13 09:53:58,210] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /api/login/ HTTP/1.1" 401 33
+[2026-02-13 09:54:08,311] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:54:08: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:54:08,318] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319

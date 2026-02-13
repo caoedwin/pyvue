@@ -1,0 +1,11 @@
+[2025-09-30 11:16:09,362] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-30 14:44:39,641] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/userinfo/1/change/ HTTP/1.1" 302 0
+[2025-09-30 14:44:39,736] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/backend01/userinfo/1/change/ HTTP/1.1" 200 1874
+[2025-09-30 14:44:51,026] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-10-07 09:14:50,849] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-10-08 16:13:35,052] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/csrf_test HTTP/1.1" 200 512
+[2025-10-09 10:55:12,436] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 200 512
+[2025-10-09 10:55:12,458] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/CabinetGridAdmin/create HTTP/1.1" 200 512
+[2025-10-09 10:55:12,466] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/cabinet/csrf_refresh HTTP/1.1" 200 512
+[2025-10-09 10:56:11,592] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/cabinet/csrf_refresh HTTP/1.1" 200 512
+[2025-10-09 10:57:21,521] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/cabinet/csrf_refresh HTTP/1.1" 200 512

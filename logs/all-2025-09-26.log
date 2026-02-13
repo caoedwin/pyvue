@@ -1,0 +1,82 @@
+[2025-09-26 10:16:56,469] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-26 10:16:56,510] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/manifest.27706562757206fc07fd.js HTTP/1.1" 200 1816
+[2025-09-26 10:16:56,512] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.1ba323f58fa505a65f09.js HTTP/1.1" 304 0
+[2025-09-26 10:16:56,526] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/css/app.3653f32150f30f0233bf0ae74b804f89.css HTTP/1.1" 200 272388
+[2025-09-26 10:16:56,568] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/vendor.a961cb56b9365ac34970.js HTTP/1.1" 200 1181037
+[2025-09-26 10:16:56,824] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/6.773d895538456b016d8d.js HTTP/1.1" 304 0
+[2025-09-26 10:16:56,890] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/fonts/element-icons.535877f.woff HTTP/1.1" 200 28200
+[2025-09-26 10:16:59,454] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-26 10:16:59: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-26 10:16:59,468] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-26 10:16:59,693] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/2.caae714a695c32ffe083.js HTTP/1.1" 200 576
+[2025-09-26 10:17:14,951] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/1.eb848338375696cc459c.js HTTP/1.1" 200 1105
+[2025-09-26 10:17:14,952] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/11.e9ec2d1126e7544da099.js HTTP/1.1" 200 32723
+[2025-09-26 10:17:15,103] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15416
+[2025-09-26 13:45:38,911] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-26 13:45:44,263] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-26 13:45:44: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-26 13:45:44,277] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-26 13:45:55,249] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-26 13:45:55: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-26 13:45:55,270] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-26 13:46:06,457] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2025-09-26 13:46:06,644] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1818
+[2025-09-26 13:46:08,686] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 1 column 1 (char 0)
+[2025-09-26 13:46:08,695] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-09-26 13:46:08,874] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9921
+[2025-09-26 13:46:13,223] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-09-26 13:46:13,285] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-26 13:46:18,349] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/5/change/ HTTP/1.1" 200 6968
+[2025-09-26 13:46:18,406] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-26 13:46:28,078] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-09-26 13:46:36,381] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/4/change/ HTTP/1.1" 200 6955
+[2025-09-26 13:46:36,438] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-26 13:46:40,022] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-09-26 13:46:49,992] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/5/change/ HTTP/1.1" 200 6968
+[2025-09-26 13:46:50,065] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-26 13:46:53,498] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-09-26 13:46:54,651] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/4/change/ HTTP/1.1" 200 6955
+[2025-09-26 13:46:54,703] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-26 13:46:56,798] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-09-26 13:46:59,289] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/3/change/ HTTP/1.1" 200 6986
+[2025-09-26 13:46:59,334] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3334
+[2025-09-26 13:47:02,749] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/backend01/menu/ HTTP/1.1" 200 6715
+[2025-09-26 13:47:21,498] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/MenuAdmin/item
+[2025-09-26 13:47:21,499] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:47:21,525] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/MenuAdmin/item HTTP/1.1" 403 2513
+[2025-09-26 13:47:28,332] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/MenuAdmin/item
+[2025-09-26 13:47:28,332] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:47:28,366] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/MenuAdmin/item HTTP/1.1" 403 2513
+[2025-09-26 13:47:45,743] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/MenuAdmin/item
+[2025-09-26 13:47:45,743] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:47:45,763] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/MenuAdmin/item HTTP/1.1" 403 2513
+[2025-09-26 13:47:50,528] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-26 13:47:52,605] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/MenuAdmin/item
+[2025-09-26 13:47:52,605] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:47:52,627] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/MenuAdmin/item HTTP/1.1" 403 2513
+[2025-09-26 13:48:06,891] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/MenuAdmin/item
+[2025-09-26 13:48:06,891] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:48:06,906] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/MenuAdmin/item HTTP/1.1" 403 2513
+[2025-09-26 13:48:12,692] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/MenuAdmin/item
+[2025-09-26 13:48:12,692] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:48:12,703] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/MenuAdmin/item HTTP/1.1" 403 2513
+[2025-09-26 13:49:20,552] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/MenuAdmin/item
+[2025-09-26 13:49:20,553] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:49:20,566] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/MenuAdmin/item HTTP/1.1" 403 2513
+[2025-09-26 13:53:25,333] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/?ide_webview_request_time=1758864738910 HTTP/1.1" 302 0
+[2025-09-26 13:53:25,503] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/%3Fide_webview_request_time%3D1758864738910 HTTP/1.1" 200 1900
+[2025-09-26 13:53:25,538] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[2025-09-26 13:53:25,545] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[2025-09-26 13:53:25,550] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[2025-09-26 13:53:25,574] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2025-09-26 13:53:25,641] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2025-09-26 13:53:25,643] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2025-09-26 13:53:25,669] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /@vite/client HTTP/1.1" 200 512
+[2025-09-26 13:53:59,351] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/RoleAdmin
+[2025-09-26 13:53:59,353] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:53:59,389] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/RoleAdmin?_replace=1 HTTP/1.1" 403 2513
+[2025-09-26 13:54:01,980] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/UserInfoAdmin
+[2025-09-26 13:54:01,980] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:54:01,992] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/UserInfoAdmin?_replace=1 HTTP/1.1" 403 2513
+[2025-09-26 13:54:05,865] [log.py:228] [log:log_response] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/MenuAdmin
+[2025-09-26 13:54:05,866] [UserIP.py:90] [UserIP:process_response] [CRITICAL]- 系统错误Expecting value: line 2 column 1 (char 1)
+[2025-09-26 13:54:05,897] [basehttp.py:154] [basehttp:log_message] [WARNING]- "POST /admin/MenuAdmin?_replace=1 HTTP/1.1" 403 2513
+[2025-09-26 13:54:09,583] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9921
+[2025-09-26 13:54:09,660] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512

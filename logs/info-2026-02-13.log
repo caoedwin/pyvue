@@ -1,0 +1,11 @@
+[2026-02-13 09:10:48,573] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:10:48: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:10:53,175] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:10:53: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:11:21,626] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:11:21: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:11:23,363] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:11:23: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:11:26,967] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:11:26: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:13:03,973] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:13:03: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:13:08,381] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:13:08: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:13:12,572] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:13:12: None/AnonymousUser/None> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:13:16,882] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:13:16: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:53:58,193] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:53:58: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2026-02-13 09:54:08,311] [UserIP.py:88] [UserIP:process_response] [INFO]- 2026-02-13 09:54:08: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>

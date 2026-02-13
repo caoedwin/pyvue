@@ -167,3 +167,36 @@
 [2025-09-18 14:32:32,680] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-18 14:32:32: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
 [2025-09-18 14:32:32,713] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
 [2025-09-18 14:32:38,731] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15420
+[2025-09-18 14:38:16,031] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 512
+[2025-09-18 14:38:16,064] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.1ba323f58fa505a65f09.js HTTP/1.1" 200 26031
+[2025-09-18 14:38:16,196] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/6.773d895538456b016d8d.js HTTP/1.1" 200 3009
+[2025-09-18 14:38:16,274] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-18 14:38:22,410] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/6.773d895538456b016d8d.js.map HTTP/1.1" 200 12187
+[2025-09-18 14:38:22,429] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-18 14:38:27,281] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-18 14:38:32,786] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 512
+[2025-09-18 14:38:32,836] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-18 14:38:32,930] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.1ba323f58fa505a65f09.js.map HTTP/1.1" 200 91380
+[2025-09-18 14:38:32,947] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-18 14:38:55,761] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /dashboard HTTP/1.1" 200 512
+[2025-09-18 14:38:55,790] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.1ba323f58fa505a65f09.js HTTP/1.1" 304 0
+[2025-09-18 14:38:55,797] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-18 14:38:55,868] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/6.773d895538456b016d8d.js HTTP/1.1" 304 0
+[2025-09-18 14:38:55,891] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/6.773d895538456b016d8d.js.map HTTP/1.1" 304 0
+[2025-09-18 14:38:55,903] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-18 14:39:06,809] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /dashboard/ HTTP/1.1" 200 512
+[2025-09-18 14:39:06,845] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 512
+[2025-09-18 14:39:06,864] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/js/app.1ba323f58fa505a65f09.js.map HTTP/1.1" 304 0
+[2025-09-18 14:39:06,911] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-18 14:39:13,550] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-18 14:39:13: edwin/AnonymousUser/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/api/login/'>
+[2025-09-18 14:39:13,560] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 1319
+[2025-09-18 14:39:13,798] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-18 14:39:22,518] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-18 14:39:24,143] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 200 512
+[2025-09-18 14:39:24,256] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=first HTTP/1.1" 200 15420
+[2025-09-18 14:43:55,277] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-18 14:43:55: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/reserve/'>
+[2025-09-18 14:43:55,283] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/reserve/ HTTP/1.1" 200 547
+[2025-09-18 14:43:55,366] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15466
+[2025-09-18 14:44:00,484] [UserIP.py:88] [UserIP:process_response] [INFO]- 2025-09-18 14:44:00: edwin/Admin/Admin> None/EDWIN/bxbei > 127.0.0.1/127.0.0.1 > <WSGIRequest: POST '/IntelligentCabinet/grids/181/cancel-reserve/'>
+[2025-09-18 14:44:00,489] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /IntelligentCabinet/grids/181/cancel-reserve/ HTTP/1.1" 200 497
+[2025-09-18 14:44:00,556] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /IntelligentCabinet/init-data/?isGetData=update HTTP/1.1" 200 15416
