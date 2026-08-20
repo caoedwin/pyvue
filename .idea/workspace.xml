@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050417aa-da66-48cc-9932-421bceb54677" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2025-09-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2025-09-18.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2025-09-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info-2025-09-18.log" afterDir="false" />
-    </list>
+    <list default="true" id="050417aa-da66-48cc-9932-421bceb54677" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -2183,7 +2178,8 @@
     "Django 服务器.pyvue.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/djangoproject/fastApiProject",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "last_opened_file_path": "C:/djangoproject/pyvue",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -2275,6 +2271,7 @@
       <workItem from="1758865496673" duration="3376000" />
       <workItem from="1758873509043" duration="33000" />
       <workItem from="1759123109077" duration="17754000" />
+      <workItem from="1770945030373" duration="2392000" />
     </task>
     <servers />
   </component>
